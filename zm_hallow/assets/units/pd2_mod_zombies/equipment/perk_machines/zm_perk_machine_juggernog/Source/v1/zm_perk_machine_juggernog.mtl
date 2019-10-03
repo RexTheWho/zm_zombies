@@ -1,0 +1,84 @@
+# Blender MTL File: 'zm_perk_machine_juggernog.blend'
+# Material Count: 7
+
+newmtl None
+Ns 0
+Ka 0.000000 0.000000 0.000000
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+d 1
+illum 2
+
+newmtl mtl_jugg_base
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd F:\Payday2_Mapping_2019\Zombies\pls2\pls2\_images\i_mtl_p7_zm_vending_jugg_c.png
+map_Bump F:\\Payday2_Mapping_2019\\Zombies\\pls2\\pls2\\_images\\i_mtl_p7_zm_vending_jugg_n.png
+map_Ks F:\\Payday2_Mapping_2019\\Zombies\\pls2\\pls2\\_images\\i_mtl_p7_zm_vending_jugg_s.png
+
+newmtl mtl_jugg_bottom
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd F:\Payday2_Mapping_2019\Zombies\pls2\pls2\_images\i_mtl_p7_zm_vending_jugg_bottom_c.png
+map_Bump F:\\Payday2_Mapping_2019\\Zombies\\pls2\\pls2\\_images\\i_mtl_p7_zm_vending_jugg_bottom_n.png
+map_Ks F:\\Payday2_Mapping_2019\\Zombies\\pls2\\pls2\\_images\\i_mtl_p7_zm_vending_jugg_bottom_s.png
+
+newmtl mtl_jugg_coil
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd F:\Payday2_Mapping_2019\Zombies\pls2\pls2\_images\i_mtl_p7_zm_vending_sleight_coil_c.png
+map_Bump F:\\Payday2_Mapping_2019\\Zombies\\pls2\\pls2\\_images\\i_mtl_p7_zm_vending_sleight_coil_n.png
+
+newmtl mtl_jugg_sign
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd F:\Payday2_Mapping_2019\Zombies\pls2\pls2\_images\i_mtl_p7_zm_vending_jugg_sign_c.png
+map_Bump F:\\Payday2_Mapping_2019\\Zombies\\pls2\\pls2\\_images\\i_mtl_p7_zm_vending_jugg_sign_n.png
+
+newmtl mtl_jugg_sign_il
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd F:\Payday2_Mapping_2019\Zombies\pls2\pls2\_images\i_mtl_p7_zm_vending_jugg_sign_c.png
+
+newmtl mtl_jugg_top
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd F:\Payday2_Mapping_2019\Zombies\pls2\pls2\_images\i_mtl_p7_zm_vending_jugg_top_c.png
+map_Bump F:\\Payday2_Mapping_2019\\Zombies\\pls2\\pls2\\_images\\i_mtl_p7_zm_vending_jugg_top_n.png
+map_Ks F:\\Payday2_Mapping_2019\\Zombies\\pls2\\pls2\\_images\\i_mtl_p7_zm_vending_jugg_top_s.png

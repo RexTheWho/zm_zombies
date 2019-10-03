@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<modelscript>
+    <object3d name="rp_root" mode="add">
+		<parent root="true" />
+    </object3d>
+    <object3d name="a_box_001" mode="add">
+        <parent name="rp_root" />
+		<position x="1230" y="1390" z="0" />
+		<rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+    <object3d name="a_box_002" mode="add">
+        <parent name="rp_root" />
+		<position x="2790" y="110" z="0" />
+		<rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+    <object3d name="a_box_003" mode="add">
+        <parent name="rp_root" />
+		<position x="2690" y="930" z="0" />
+		<rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+</modelscript>

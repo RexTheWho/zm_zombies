@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<unit type="item" slot="14">
+  <object file="units/pd2_mod_zombies/equipment/zom_deploy_sentry/zom_sentry_police/zom_sentry_police" />
+  <extensions>
+  </extensions>
+  <sounds>
+    <default_soundsource source="a_detect"/>
+  </sounds>
+</unit>

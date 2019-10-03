@@ -1,0 +1,177 @@
+<?xml version="1.0" ?>
+<modelscript>
+    <object3d name="rp_root" mode="add">
+        <parent root="true" />
+    </object3d>
+    <object3d name="a_box_002" mode="add">
+        <parent name="rp_root" />
+		<position x="1200" y="400" z="0" />
+		<rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+    <object3d name="a_box_003" mode="add">
+        <parent name="rp_root" />
+		<position x="1600" y="0" z="0" />
+		<rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+    <object3d name="a_box_004" mode="add">
+        <parent name="rp_root" />
+		<position x="1600" y="600" z="300" />
+		<rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+    <object3d name="a_box_005" mode="add">
+        <parent name="rp_root" />
+		<position x="2000" y="600" z="300" />
+		<rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+    <object3d name="a_box_006" mode="add">
+        <parent name="rp_root" />
+		<position x="2000" y="1200" z="300" />
+		<rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+    <object3d name="a_box_007" mode="add">
+        <parent name="rp_root" />
+		<position x="1600" y="1200" z="0" />
+		<rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+    <object3d name="a_box_008" mode="add">
+        <parent name="rp_root" />
+		<position x="0" y="1200" z="0" />
+		<rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+    <object3d name="a_box_009" mode="add">
+        <parent name="rp_root" />
+		<position x="1600" y="600" z="0" />
+		<rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+    <object3d name="a_box_010" mode="add">
+        <parent name="rp_root" />
+		<position x="2000" y="600" z="300" />
+		<rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+    <object3d name="a_box_011" mode="add">
+        <parent name="rp_root" />
+		<position x="2500" y="0" z="400" />
+		<rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+    <object3d name="a_box_012" mode="add">
+        <parent name="rp_root" />
+		<position x="2000" y="600" z="600" />
+		<rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+    <object3d name="a_box_013" mode="add">
+        <parent name="rp_root" />
+		<position x="1600" y="600" z="0" />
+		<rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+    <object3d name="a_box_014" mode="add">
+        <parent name="rp_root" />
+		<position x="2500" y="0" z="0" />
+		<rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+    <object3d name="a_box_015" mode="add">
+        <parent name="rp_root" />
+		<position x="-25" y="-25" z="0" />
+		<rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+	
+    <object3d name="a_box_017" mode="add">
+        <parent name="rp_root" />
+		<position x="1211.5" y="230.61" z="0" />
+		<rotation w="0.887" x="0" y="0" z="-0.462" />
+    </object3d>
+    <object3d name="a_box_018" mode="add">
+        <parent name="rp_root" />
+		<position x="1211.5" y="230.61" z="0" />
+		<rotation w="0.887" x="0" y="0" z="0.462" />
+    </object3d>
+    <object3d name="a_box_019" mode="add">
+        <parent name="rp_root" />
+		<position x="1288.5" y="345.61" z="0" />
+		<rotation w="0.997" x="0" y="0" z="-0.078" />
+    </object3d>
+    <object3d name="a_box_020" mode="add">
+        <parent name="rp_root" />
+		<position x="1558.5" y="305.61" z="0" />
+		<rotation w="0.643" x="0" y="0" z="-0.766" />
+    </object3d>
+    <object3d name="a_box_021" mode="add">
+        <parent name="rp_root" />
+		<position x="1311.5" y="80" z="0" />
+		<rotation w="1.311" x="0" y="0" z="-0.177" />
+    </object3d>
+    <object3d name="a_box_022" mode="add">
+        <parent name="rp_root" />
+		<position x="1200" y="0" z="0" />
+		<rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+	
+    <import file="zom_dah_rooftop.obj" type="obj" create_objects="true">
+        <rootpoint name="rp_root">
+            <default/>
+            <object name="co_culling" />
+            <object name="c_box_001" />
+            <object name="c_box_016" />
+        </rootpoint>
+        <rootpoint	name="a_box_002">
+            <object name="c_box_002" />
+        </rootpoint>
+        <rootpoint	name="a_box_003">
+            <object name="c_box_003" />
+        </rootpoint>
+        <rootpoint	name="a_box_004">
+            <object name="c_box_004" />
+        </rootpoint>
+        <rootpoint	name="a_box_005">
+            <object name="c_box_005" />
+        </rootpoint>
+        <rootpoint	name="a_box_006">
+            <object name="c_box_006" />
+        </rootpoint>
+        <rootpoint	name="a_box_007">
+            <object name="c_box_007" />
+        </rootpoint>
+        <rootpoint	name="a_box_008">
+            <object name="c_box_008" />
+        </rootpoint>
+        <rootpoint	name="a_box_009">
+            <object name="c_box_009" />
+        </rootpoint>
+        <rootpoint	name="a_box_010">
+            <object name="c_box_010" />
+        </rootpoint>
+        <rootpoint	name="a_box_011">
+            <object name="c_box_011" />
+        </rootpoint>
+        <rootpoint	name="a_box_012">
+            <object name="c_box_012" />
+        </rootpoint>
+        <rootpoint	name="a_box_013">
+            <object name="c_box_013" />
+        </rootpoint>
+        <rootpoint	name="a_box_014">
+            <object name="c_box_014" />
+        </rootpoint>
+        <rootpoint	name="a_box_015">
+            <object name="c_box_015" />
+        </rootpoint>
+        <rootpoint	name="a_box_017">
+            <object name="c_box_017" />
+        </rootpoint>
+        <rootpoint	name="a_box_018">
+            <object name="c_box_018" />
+        </rootpoint>
+        <rootpoint	name="a_box_019">
+            <object name="c_box_019" />
+        </rootpoint>
+        <rootpoint	name="a_box_020">
+            <object name="c_box_020" />
+        </rootpoint>
+        <rootpoint	name="a_box_021">
+            <object name="c_box_021" />
+        </rootpoint>
+        <rootpoint	name="a_box_022">
+            <object name="c_box_022" />
+        </rootpoint>
+    </import>
+	
+</modelscript>

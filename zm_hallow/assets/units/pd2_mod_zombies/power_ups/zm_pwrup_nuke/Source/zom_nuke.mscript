@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<modelscript>
+    <object3d name="rp_powerup" mode="add">
+		<parent root="true" />
+    </object3d>
+    <object3d name="a_animposition" mode="add">
+        <parent name="rp_powerup" />
+        <position x="0" y="0" z="150" />
+    </object3d>
+</modelscript>

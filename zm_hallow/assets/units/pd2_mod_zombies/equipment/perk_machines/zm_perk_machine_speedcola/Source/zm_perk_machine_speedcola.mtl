@@ -1,0 +1,54 @@
+# Blender MTL File: 'zm_perk_machine_speedcola.blend'
+# Material Count: 5
+
+newmtl None
+Ns 0
+Ka 0.000000 0.000000 0.000000
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+d 1
+illum 2
+
+newmtl mtl_coils
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd F:\Payday2_Mapping_2019\Zombies\pls2\pls2\_images\i_mtl_p7_zm_vending_sleight_coil_c.png
+
+newmtl mtl_perkmachine
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Program Files (x86)\Steam\steamapps\common\PAYDAY 2\Maps\zm_instances\assets\units\pd2_mod_zombies\equipment\zom_perk_machine\zm_perk_machine_speedcola\zm_perk_machine_speedcola_df.texture.dds
+
+newmtl mtl_perksign
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd F:\Payday2_Mapping_2019\Zombies\pls2\pls2\_images\i_mtl_p7_zm_vending_sleight_sign_c.png
+
+newmtl mtl_perksign_il
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd F:\Payday2_Mapping_2019\Zombies\pls2\pls2\_images\i_mtl_p7_zm_vending_sleight_sign_c.png

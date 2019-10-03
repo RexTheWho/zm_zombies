@@ -1,0 +1,54 @@
+# Blender MTL File: 'zom_dah_rooftop.blend'
+# Material Count: 5
+
+newmtl None
+Ns 0
+Ka 0.000000 0.000000 0.000000
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+d 1
+illum 2
+
+newmtl mtl_ceiling_01
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 0
+map_Kd C:\\Program Files (x86)\\Steam\\steamapps\\common\\PAYDAY 2\\assets\\extract\\units\\pd2_dlc_dah\\architecture\\dah_int_textures\\dah_office_celiling_metal_df.texture.dds
+
+newmtl mtl_floor_trim
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 0
+map_Kd C:\\Program Files (x86)\\Steam\\steamapps\\common\\PAYDAY 2\\assets\\extract\\units\\pd2_dlc_dah\\architecture\\dah_int_textures\\metallics\\dah_tiling_crome_df.texture.dds
+
+newmtl mtl_roof
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 0
+map_Kd C:\\Program Files (x86)\\Steam\\steamapps\\common\\PAYDAY 2\\assets\\extract\\units\\pd2_dlc_dah\\architecture\\dah_int_textures\\dah_int_concrete_df.texture.dds
+
+newmtl mtl_wall_ext
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 0
+map_Kd C:\\Program Files (x86)\\Steam\\steamapps\\common\\PAYDAY 2\\assets\\extract\\units\\pd2_dlc_dah\\architecture\\dah_int_textures\\dah_ext_backdrop_building_louise_vuitton_stripes_df.texture.dds

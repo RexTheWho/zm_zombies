@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<modelscript>
+    <object3d name="a_perkbuy" mode="edit">
+        <parent name="rp_perkmachine" />
+        <position x="0" y="" z=" 1" />
+    </object3d>
+</modelscript>

@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<modelscript>
+    <object3d name="rp_root" mode="add">
+        <parent root="true" />
+    </object3d>
+    <object3d name="a_box_002" mode="add">
+        <parent name="rp_root" />
+		<position x="330" y="0" z="0" />
+		<rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+    <object3d name="a_box_003" mode="add">
+        <parent name="rp_root" />
+		<position x="70" y="0" z="250" />
+		<rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+	
+    <import file="zom_dah_doorway_wide_4m.obj" type="obj" create_objects="true">
+        <rootpoint name="rp_root">
+            <default/>
+            <object name="co_culling" />
+            <object name="c_box_001" />
+        </rootpoint>
+        <rootpoint	name="a_box_002">
+            <object name="c_box_002" />
+        </rootpoint>
+        <rootpoint	name="a_box_003">
+            <object name="c_box_003" />
+        </rootpoint>
+    </import>
+	
+</modelscript>

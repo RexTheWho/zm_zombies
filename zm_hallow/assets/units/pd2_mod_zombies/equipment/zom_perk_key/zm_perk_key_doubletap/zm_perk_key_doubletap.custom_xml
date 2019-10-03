@@ -1,0 +1,14 @@
+<table>
+	<unit>
+		<!--VISIBILITY-->
+		<sequence editable_state="true" name="'show'" triggable="true">
+			<interaction enabled="true"/>
+			<object name="'g_key'" enabled="true"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'hide'" triggable="true">
+			<interaction enabled="false"/>
+			<object name="'g_key'" enabled="false"/>
+		</sequence>
+	</unit>
+</table>

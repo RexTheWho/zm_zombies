@@ -1,0 +1,138 @@
+# Blender MTL File: 'zom_room_barn.blend'
+# Material Count: 13
+
+newmtl None
+Ns 0
+Ka 0.000000 0.000000 0.000000
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+d 1
+illum 2
+
+newmtl mtl_barn
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 0
+map_Kd C:\Program Files (x86)\Steam\steamapps\common\PAYDAY 2\assets\extract\units\pd2_dlc_peta\architecture\pta_2\pta_barn_wood_01_b_df.texture.dds
+
+newmtl mtl_beam
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 0
+map_Kd C:\Program Files (x86)\Steam\steamapps\common\PAYDAY 2\assets\extract\units\pd2_dlc_peta\architecture\pta_2\pta_barn_window_frame_01_df.texture.dds
+
+newmtl mtl_dirt
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 0
+map_Kd C:\\Program Files (x86)\\Steam\\steamapps\\common\\PAYDAY 2\\assets\\extract\\units\\pd2_dlc_peta\\architecture\\pta_2\\pta_barn_ground_01_df.texture.dds
+
+newmtl mtl_glass
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.220641
+illum 0
+
+newmtl mtl_godray
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 0
+map_Kd C:\Program Files (x86)\Steam\steamapps\common\PAYDAY 2\assets\extract\units\pd2_dlc_peta\architecture\pta_2\pta_barn_metal_roof_01_b_df.texture.dds
+
+newmtl mtl_godray_NONE
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 0
+
+newmtl mtl_metal
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 0
+map_Kd C:\Program Files (x86)\Steam\steamapps\common\PAYDAY 2\assets\extract\units\pd2_dlc_peta\architecture\pta_2\pta_barn_metal_roof_01_b_df.texture.dds
+
+newmtl mtl_stone
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 0
+map_Kd C:\\Program Files (x86)\\Steam\\steamapps\\common\\PAYDAY 2\\assets\\extract\\units\\pd2_dlc_peta\\architecture\\pta_2\\pta_stone_wall_01_df.texture.dds
+
+newmtl mtl_wood
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 0
+map_Kd C:\\Program Files (x86)\\Steam\\steamapps\\common\\PAYDAY 2\\assets\\extract\\units\\pd2_dlc_peta\\architecture\\pta_2\\pta_barn_wood_01_df.texture.dds
+
+newmtl mtr_occlusion_blocker
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl shadow_caster
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 0
+map_Kd C:\Program Files (x86)\Steam\steamapps\common\PAYDAY 2\assets\extract\units\pd2_dlc_peta\architecture\pta_2\pta_barn_metal_roof_01_b_df.texture.dds
+
+newmtl shadow_caster_NONE
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 0
