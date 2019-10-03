@@ -770,15 +770,15 @@
 				<entry key="values" type="table">
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="base_time" type="number" value="0"/>
-					<entry key="effect" type="string" value="units/pd2_mod_zombies/effects/zm_power_ups/zm_powerup_glow_white"/>
+					<entry key="effect" type="string" value="units/pd2_mod_zombies/effects/zm_mystery_box/zm_mysterybox_glow"/>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="max_amount" type="number" value="0"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="3409 0 -42"/>
+					<entry key="position" type="vector3" value="1447 -1170 -85"/>
 					<entry key="random_time" type="number" value="0"/>
-					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
 					<entry key="screen_space" type="boolean" value="false"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>

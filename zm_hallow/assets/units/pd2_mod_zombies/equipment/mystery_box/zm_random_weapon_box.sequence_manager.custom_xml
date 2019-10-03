@@ -40,6 +40,8 @@
 		
 		<sequence editable_state="true" name="'test_anim'">
 			<sound action="'play'" event="'zm_box_picking'" object="'interact'"/>
+			<effect_spawner enabled="true" name="'glow_01'"/>
+			<effect_spawner enabled="false" name="'glow_01'" start_time="500/30"/>
 			<animation_group enabled="true" name="'anim_open_close'" speed="4" from="0/30" to="80/30"/>
 			<animation_group enabled="true" name="'anim_open_close'" speed="-2" from="80/30" to="0/30" start_time="500/30"/>
 			<sound action="'play'" event="'zm_box_shutting'" object="'interact'" start_time="520/30"/>

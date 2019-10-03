@@ -32,7 +32,7 @@
 			<unit_data _prev_pos="-2400 -8800 -100" _prev_rot="0 0 0 -1" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-6400 0.00106812 0" local_rot="0 -0 -0.707107 0.707107" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_64x3m" name_id="dev_nav_blocker_64x3m_004" only_exists_in_editor="true" position="-2400 4000 -100" rotation="0 0 -1 8.9407e-008" unit_id="100007"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="1247 -970 -100" _prev_rot="0 0 -0.681998 -0.731354" continent="world" disable_on_ai_graph="false" hide_on_projection_light="false" local_pos="1370 2847 0" local_rot="0 0 0.999391 0.0349" mesh_variation="enable_interaction" name="units/pd2_mod_zombies/equipment/mystery_box/zm_random_weapon_box" name_id="zm_random_weapon_box_001" position="1447 -1170 -100" rotation="0 0 -0.681998 -0.731354" unit_id="100008"/>
+			<unit_data _prev_pos="1447 -1170 -100" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_on_ai_graph="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="interact" name="units/pd2_mod_zombies/equipment/mystery_box/zm_random_weapon_box" name_id="zm_random_weapon_box_001" position="1447 -1170 -100" rotation="0 0 -0.707107 -0.707107" unit_id="100008"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-800 -800 -100" _prev_rot="-0 0 -0 -1" continent="world" local_pos="-1200 -400 0" local_rot="0 0 0 1" name="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" name_id="mkp_int_floor_4x4m_a_001" position="-800 -800 -100" rotation="-0 0 -0 -1" unit_id="100010"/>

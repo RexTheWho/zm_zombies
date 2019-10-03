@@ -3,7 +3,12 @@
     <object3d name="interact" mode="add">
         <parent name="rp_gen_interactable_sec_safe_2x05_titan" />
         <position x="0" y="0" z="50" />
-        <rotation w="0.707107" x="0" y="0" z="-0.707107" />
+        <rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+    <object3d name="e_glow" mode="add">
+        <parent name="rp_gen_interactable_sec_safe_2x05_titan" />
+        <position x="0" y="0" z="15" />
+        <rotation w="1" x="0" y="0" z="0" />
     </object3d>
     <object3d name="sp_weapon" mode="add">
         <parent name="rp_gen_interactable_sec_safe_2x05_titan" />
@@ -21,7 +26,7 @@
         <rotation w="0.5" x="-0.5" y="0.5" z="-0.5" />
     </object3d>
 	
-    <import file="mystery_box.obj" type="obj" create_objects="true">
+    <import file="zm_random_weapon_box.obj" type="obj" create_objects="true">
 	
         <rootpoint name="rp_gen_interactable_sec_safe_2x05_titan">
             <default/>
