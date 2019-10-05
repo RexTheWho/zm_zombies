@@ -609,7 +609,7 @@
 		<hook file="ContractBrokerHeistItem.lua" source_file="lib/managers/menu/items/contractbrokerheistitem"/>
 	</Hooks>
 	<Localization default="english.txt" directory="loc"/>
-	<contact assets_gui="guis/mission_briefing/preload_contact_bain" desc_id="quest_test_d" id="test" package="packages/contact_bain"/>
+	<contact assets_gui="guis/dlcs/the_bomb/guis/preload_contact_the_butcher" hidden="false" id="zombies_mode" name_id="zombies_mode_name" package="packages/contact_the_butcher"/>
 	<instance id="zm_gameplay_controller">
 		<add file="levels/zm_gameplay_controller/add.xml"/>
 		<include directory="levels/zm_gameplay_controller">
@@ -619,18 +619,18 @@
 		<packages/>
 		<script_data_mods/>
 	</instance>
-	<narrative contact="custom" id="zm_instances">
+	<narrative contact="zombies_mode" id="zm_instances">
 		<chain>
 			<table level_id="zm_cabinflesh" type="d" type_id="heist_type_assault"/>
 		</chain>
 		<contract_cost>
-			<value_node value="4000"/>
-			<value_node value="8000"/>
-			<value_node value="20000"/>
-			<value_node value="40000"/>
-			<value_node value="100000"/>
-			<value_node value="100000"/>
-			<value_node value="100000"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
 		</contract_cost>
 		<crimenet_callouts>
 			<value_node value="nothing"/>

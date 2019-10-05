@@ -776,7 +776,7 @@
 					<entry key="max_amount" type="number" value="0"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="1447 -1170 -85"/>
+					<entry key="position" type="vector3" value="1447 630 -85"/>
 					<entry key="random_time" type="number" value="0"/>
 					<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
 					<entry key="screen_space" type="boolean" value="false"/>

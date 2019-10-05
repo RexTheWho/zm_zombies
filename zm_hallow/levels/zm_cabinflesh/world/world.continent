@@ -8,16 +8,16 @@
 			<unit_data _prev_pos="0 0 0" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_zmhallow/nature/landscape_main" name_id="landscape_main_001" position="0 0 0" rotation="-0 0 -0 -1" unit_id="100009"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="900 -500 -100" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="enable_interaction" name="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_juggernog/zm_perk_machine_juggernog" name_id="zm_perk_machine_juggernog_001" position="900 -500 -100" rotation="0 0 -0.707107 -0.707107" unit_id="100000"/>
+			<unit_data _prev_pos="1425 -900 -100" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="enable_interaction" name="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_juggernog/zm_perk_machine_juggernog" name_id="zm_perk_machine_juggernog_001" position="1425 -700 -100" rotation="0 0 -0.707107 -0.707107" unit_id="100000"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="1400 -900 -100" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="enable_interaction" name="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_doubletap/zm_perk_machine_doubletap" name_id="zm_perk_machine_doubletap_001" position="1438 -900 -100" rotation="0 0 -0.707107 -0.707107" unit_id="100001"/>
+			<unit_data _prev_pos="1438 -900 -100" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="enable_interaction" name="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_doubletap/zm_perk_machine_doubletap" name_id="zm_perk_machine_doubletap_001" position="1425 -900 -100" rotation="0 0 -0.707107 -0.707107" unit_id="100001"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="3132 381 -100" _prev_rot="0 0 0 -1" continent="world" disable_on_ai_graph="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="enable_interaction" name="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_quickrevive/zm_perk_machine_quickrevive" name_id="zm_perk_machine_quickrevive_001" position="3161 349 -100" rotation="0 0 0 -1" unit_id="100002"/>
+			<unit_data _prev_pos="1450 -1100 -100" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_on_ai_graph="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="enable_interaction" name="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_quickrevive/zm_perk_machine_quickrevive" name_id="zm_perk_machine_quickrevive_001" position="1450 -1100 -100" rotation="0 0 -0.707107 -0.707107" unit_id="100002"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="850 400 0" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 2450 100" local_rot="0 0 1 0" mesh_variation="enable_interaction" name="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_speedcola/zm_perk_machine_speedcola" name_id="zm_perk_machine_speedcola_001" position="1050 200 0" rotation="0 0 -0.707107 -0.707107" unit_id="100003"/>
+			<unit_data _prev_pos="1425 -900 -100" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="enable_interaction" name="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_speedcola/zm_perk_machine_speedcola" name_id="zm_perk_machine_speedcola_001" position="1425 -500 -100" rotation="0 0 -0.707107 -0.707107" unit_id="100003"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="2400 -4000 -100" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_64x3m" name_id="dev_nav_blocker_64x3m_001" only_exists_in_editor="true" position="2400 400 -100" rotation="0 0 0 -1" unit_id="100004"/>
@@ -32,7 +32,7 @@
 			<unit_data _prev_pos="-2400 -8800 -100" _prev_rot="0 0 0 -1" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-6400 0.00106812 0" local_rot="0 -0 -0.707107 0.707107" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_64x3m" name_id="dev_nav_blocker_64x3m_004" only_exists_in_editor="true" position="-2400 4000 -100" rotation="0 0 -1 8.9407e-008" unit_id="100007"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="1447 -1170 -100" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_on_ai_graph="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="interact" name="units/pd2_mod_zombies/equipment/mystery_box/zm_random_weapon_box" name_id="zm_random_weapon_box_001" position="1447 -1170 -100" rotation="0 0 -0.707107 -0.707107" unit_id="100008"/>
+			<unit_data _prev_pos="1447 630 -100" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_on_ai_graph="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="enable_interaction" name="units/pd2_mod_zombies/equipment/mystery_box/zm_random_weapon_box" name_id="zm_random_weapon_box_001" position="1447 630 -100" rotation="0 0 -0.707107 -0.707107" unit_id="100008"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-800 -800 -100" _prev_rot="-0 0 -0 -1" continent="world" local_pos="-1200 -400 0" local_rot="0 0 0 1" name="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" name_id="mkp_int_floor_4x4m_a_001" position="-800 -800 -100" rotation="-0 0 -0 -1" unit_id="100010"/>

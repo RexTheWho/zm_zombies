@@ -1,4 +1,5 @@
 {
+	"zombies_mode_name":			"Zombies Mode",
 	"heist_zm_instances_name":		"[aaaaaaaaaa]",
 	"heist_zm_instances_brief":		"[aaaaaaaaaa]",
 	"heist_zm_cabinflesh_name":		"Hundens Grop",
