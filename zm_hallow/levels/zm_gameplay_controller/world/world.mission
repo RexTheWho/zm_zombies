@@ -584,10 +584,6 @@
 							<entry key="id" type="number" value="100021"/>
 						</entry>
 						<entry index="5" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100022"/>
-						</entry>
-						<entry index="6" type="table">
 							<entry key="delay" type="number" value="1"/>
 							<entry key="id" type="number" value="100049"/>
 						</entry>
