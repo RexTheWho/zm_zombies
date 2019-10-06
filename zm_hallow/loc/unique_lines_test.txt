@@ -1,0 +1,5 @@
+{
+    "menu_resume_game" : "WORKING",
+    "menu_resume_game_help" : "WORKING",
+    "menu_restart_game" : "WORKING"
+}

@@ -1,0 +1,12 @@
+<unit type="zom" slot="1">
+	<object file="units/pd2_mod_zombies/equipment/zom_perk_key/zm_perk_key_doubletap/zm_perk_key_doubletap" />
+	<extensions>
+		<extension name="damage" class="UnitDamage" />
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="interaction" class="SpecialEquipmentInteractionExt" >
+			<var name="_special_equipment" value="key_doubletap" />
+			<var name="_remove_on_interact" value="true" />
+			<var name="tweak_data" value="zm_key_pku_doubletap" />
+		</extension>
+	</extensions>
+</unit>

@@ -1,0 +1,18 @@
+<materials version="3">
+	<material name="mtl_decal" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE" version="2">
+		<variable value="dimlight" type="scalar" name="intensity"/>
+        <diffuse_texture file="guis/textures/pd2/blackmarket/icons/weapons/outline/mosin"/>
+    </material>
+    <material name="mtl_glow" version="2" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE:DIFFUSE0_THRESHOLD_SWEEP">
+        <diffuse_texture file="units/pd2_mod_zombies/equipment/zom_mystery_box/textures/mystery_box_il"/>
+        <variable value="match" type="scalar" name="intensity"/>
+        <variable type="vector3" name="threshold_sweep_color_s" value="0.95 0.95 .33"/>
+        <variable type="vector3" name="threshold_sweep_color_e" value="0.95 0.95 .33"/>
+        <variable value="1" type="scalar" name="threshold_sweep_op_s"/>
+        <variable value="0" type="scalar" name="threshold_sweep_op_e"/>
+        <variable value="0.3" type="scalar" name="threshold_sweep_fuzziness_s"/>
+        <variable value="0.1" type="scalar" name="threshold_sweep_fuzziness_e"/>
+        <variable value="0.01" type="scalar" name="threshold_sweep_speed"/>
+        <variable value="5" type="scalar" name="threshold_sweep_time_exp"/>
+    </material>
+</materials>

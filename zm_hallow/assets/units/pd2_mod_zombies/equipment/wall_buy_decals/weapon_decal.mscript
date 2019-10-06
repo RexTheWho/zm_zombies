@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<modelscript>
+    <object3d name="rp_root" mode="add">
+		<parent root="true" />
+    </object3d>
+    <object3d name="a_box" mode="add">
+        <parent name="rp_root" />
+        <position x="-25" y="0" z="-25" />
+        <rotation w="1" x="0" y="0" z="0" />
+    </object3d>
+</modelscript>
