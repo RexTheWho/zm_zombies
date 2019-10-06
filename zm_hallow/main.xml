@@ -76,6 +76,10 @@
 			<value_node value="levels/narratives/locke/vit/editor_only/editor_only"/>
 			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
 			<value_node value="levels/instances/unique/dah/dah_security_room5/world"/>
+			<value_node value="levels/instances/unique/pbr/pbr_mountain_lock/world/world"/>
+			<value_node value="levels/instances/unique/chew/chew_train_car/world/world"/>
+			<value_node value="levels/narratives/e_welcome_to_the_jungle/stage_1/night_only/night_only"/>
+			<value_node value="levels/narratives/h_alex_must_die/stage_3/world/world"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">

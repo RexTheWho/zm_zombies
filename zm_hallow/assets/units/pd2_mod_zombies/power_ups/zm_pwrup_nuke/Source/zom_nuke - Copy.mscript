@@ -1,7 +1,0 @@
-<?xml version="1.0" ?>
-<modelscript>
-    <object3d name="a_animposition" mode="edit">
-        <parent name="rp_powerup" />
-        <position x="0" y="0" z="150" />
-    </object3d>
-</modelscript>
