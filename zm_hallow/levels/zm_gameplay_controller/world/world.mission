@@ -587,6 +587,10 @@
 							<entry key="delay" type="number" value="1"/>
 							<entry key="id" type="number" value="100049"/>
 						</entry>
+						<entry index="6" type="table">
+							<entry key="delay" type="number" value="3"/>
+							<entry key="id" type="number" value="100022"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="0 -100 0"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
@@ -1132,67 +1136,6 @@ return true"/>
 					<entry key="trigger_times" type="number" value="0"/>
 					<entry key="use_disabled_shapes" type="boolean" value="false"/>
 					<entry key="width" type="number" value="100000"/>
-				</entry>
-			</entry>
-			<entry index="51" type="table">
-				<entry key="class" type="string" value="ElementPlayerStateTrigger"/>
-				<entry key="editor_name" type="string" value="player_state_trigger"/>
-				<entry key="id" type="number" value="100034"/>
-				<entry key="script" type="string" value="default"/>
-				<entry key="values" type="table">
-					<entry key="base_delay" type="number" value="0"/>
-					<entry key="enabled" type="boolean" value="true"/>
-					<entry key="execute_on_startup" type="boolean" value="false"/>
-					<entry key="on_executed" type="table">
-						<entry index="1" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100051"/>
-						</entry>
-						<entry index="2" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100052"/>
-						</entry>
-					</entry>
-					<entry key="position" type="vector3" value="0 -700 0"/>
-					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
-					<entry key="state" type="string" value="bleed_out"/>
-					<entry key="trigger_times" type="number" value="0"/>
-				</entry>
-			</entry>
-			<entry index="52" type="table">
-				<entry key="class" type="string" value="ElementReviveInstigator"/>
-				<entry key="editor_name" type="string" value="revive_instigator"/>
-				<entry key="id" type="number" value="100051"/>
-				<entry key="script" type="string" value="default"/>
-				<entry key="values" type="table">
-					<entry key="base_delay" type="number" value="0"/>
-					<entry key="enabled" type="boolean" value="true"/>
-					<entry key="execute_on_startup" type="boolean" value="false"/>
-					<entry key="on_executed" type="table">
-					</entry>
-					<entry key="position" type="vector3" value="100 -700 0"/>
-					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
-					<entry key="trigger_times" type="number" value="0"/>
-				</entry>
-			</entry>
-			<entry index="53" type="table">
-				<entry key="class" type="string" value="ElementDebug"/>
-				<entry key="editor_name" type="string" value="debugRevive"/>
-				<entry key="id" type="number" value="100052"/>
-				<entry key="module" type="string" value="CoreElementDebug"/>
-				<entry key="script" type="string" value="default"/>
-				<entry key="values" type="table">
-					<entry key="as_subtitle" type="boolean" value="false"/>
-					<entry key="base_delay" type="number" value="0"/>
-					<entry key="debug_string" type="string" value="Downed, Do Revive Instigator"/>
-					<entry key="enabled" type="boolean" value="true"/>
-					<entry key="execute_on_startup" type="boolean" value="false"/>
-					<entry key="on_executed" type="table">
-					</entry>
-					<entry key="position" type="vector3" value="200 -700 0"/>
-					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
-					<entry key="show_instigator" type="boolean" value="false"/>
-					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
 		</entry>

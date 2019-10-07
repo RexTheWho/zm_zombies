@@ -38,6 +38,14 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100107"/>
 						</entry>
+						<entry index="7" type="table">
+							<entry key="delay" type="number" value="3"/>
+							<entry key="id" type="number" value="100108"/>
+						</entry>
+						<entry index="8" type="table">
+							<entry key="delay" type="number" value="3"/>
+							<entry key="id" type="number" value="100106"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-1600 0 1500"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
@@ -3117,7 +3125,7 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-7200 0 4800"/>
+					<entry key="position" type="vector3" value="-7400 0 4400"/>
 					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
 					<entry key="sound_event" type="string" value="alarm_kosugi_on_slow_fade"/>
 					<entry key="trigger_times" type="number" value="0"/>
@@ -4922,6 +4930,104 @@
 							<entry key="name" type="string" value="run_sequence"/>
 							<entry key="notify_unit_id" type="number" value="100164"/>
 							<entry key="notify_unit_sequence" type="string" value="disable_interaction"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="162" type="table">
+				<entry key="class" type="string" value="ElementPlayerNumberCheck"/>
+				<entry key="editor_name" type="string" value="player_number_check"/>
+				<entry key="id" type="number" value="100106"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="num1" type="boolean" value="false"/>
+					<entry key="num2" type="boolean" value="true"/>
+					<entry key="num3" type="boolean" value="true"/>
+					<entry key="num4" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100157"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="-8773.46 -327.411 3500"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="163" type="table">
+				<entry key="class" type="string" value="ElementPlayerNumberCheck"/>
+				<entry key="editor_name" type="string" value="player_number_check"/>
+				<entry key="id" type="number" value="100108"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="num1" type="boolean" value="true"/>
+					<entry key="num2" type="boolean" value="false"/>
+					<entry key="num3" type="boolean" value="false"/>
+					<entry key="num4" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100158"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="-8773.46 -375.411 3500"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="164" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="quickCoop"/>
+				<entry key="id" type="number" value="100157"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-8747.08 -323.022 3500"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
+					<entry key="trigger_list" type="table">
+						<entry index="1" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="100164"/>
+							<entry key="notify_unit_sequence" type="string" value="set_coop"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="165" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="quickSolo"/>
+				<entry key="id" type="number" value="100158"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-8747.08 -379.022 3500"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_list" type="table">
+						<entry index="1" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="100164"/>
+							<entry key="notify_unit_sequence" type="string" value="set_solo"/>
 							<entry key="time" type="number" value="0"/>
 						</entry>
 					</entry>

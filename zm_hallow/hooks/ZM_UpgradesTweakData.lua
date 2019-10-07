@@ -6,13 +6,13 @@ Hooks:PostHook(UpgradesTweakData, "_init_pd2_values", "init_zm_upgrades", functi
 	self.values.player.body_armor = {}
 	self.values.player.body_armor = {
 		armor = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
+			10,
+			10,
+			10,
+			10,
+			10,
+			10,
+			10
 		},
 		movement = {
 			1,

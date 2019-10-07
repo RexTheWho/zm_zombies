@@ -432,20 +432,20 @@
 		<entry index="2" type="table">
 			<entry key="unit_data" type="table">
 				<entry key="_prev_pos" type="vector3" value="-8800 -1400 4500"/>
-				<entry key="_prev_rot" type="quaternion" value="0 -0.707107 0 -0.707107"/>
+				<entry key="_prev_rot" type="quaternion" value="-0.5 -0.5 -0.5 -0.5"/>
 				<entry key="continent" type="string" value="world"/>
 				<entry key="local_pos" type="vector3" value="0 0 0"/>
 				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
 				<entry key="name" type="string" value="units/wire/wire_01"/>
 				<entry key="name_id" type="string" value="wire_01_002"/>
 				<entry key="position" type="vector3" value="-8800 -1400 4500"/>
-				<entry key="rotation" type="quaternion" value="0 -0.707107 0 -0.707107"/>
+				<entry key="rotation" type="quaternion" value="0.5 0.5 0.5 0.5"/>
 				<entry key="unit_id" type="number" value="16"/>
 			</entry>
 			<entry key="wire_data" type="table">
-				<entry key="slack" type="number" value="81"/>
+				<entry key="slack" type="number" value="101"/>
 				<entry key="target_pos" type="vector3" value="-8200 -1400 4500"/>
-				<entry key="target_rot" type="quaternion" value="3.63353e-008 0.987688 -3.63353e-008 -0.156434"/>
+				<entry key="target_rot" type="quaternion" value="0 0 0 -1"/>
 			</entry>
 		</entry>
 		<entry index="3" type="table">
