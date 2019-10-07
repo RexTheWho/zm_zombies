@@ -1,9 +1,9 @@
 {
 	"zombies_mode_name":			"Zombies Mode",
-	"heist_zm_instances_name":		"[aaaaaaaaaa]",
-	"heist_zm_instances_brief":		"[aaaaaaaaaa]",
-	"heist_zm_cabinflesh_name":		"Hundens Grop",
-	"heist_zm_cabinflesh_brief":	"Hundens Grop",
+	"heist_zm_instances_name":		"Facility-Z",
+	"heist_zm_instances_brief":		"DEMO MAP",
+	"heist_zm_cabinflesh_name":		"Crash Zone",
+	"heist_zm_cabinflesh_brief":	"(DEMO FIRST ROOM)\n\n*TRAIN CRASHES*\n...",
 	
 	
 	"zm_perk_mechanics":"Perks",

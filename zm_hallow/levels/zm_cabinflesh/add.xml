@@ -29,6 +29,21 @@
 		<unit				path="units/pd2_mod_zmhallow/mkp/mkp_002" />
 		<object				path="units/pd2_mod_zmhallow/mkp/mkp_002" />
 		<model				path="units/pd2_mod_zmhallow/mkp/mkp_002" />
+		<unit				path="units/pd2_mod_zmhallow/mkp/mkp_003" />
+		<object				path="units/pd2_mod_zmhallow/mkp/mkp_003" />
+		<model				path="units/pd2_mod_zmhallow/mkp/mkp_003" />
+	</add>
+	
+	<add unload_on_restart="true">
+		<unit				path="units/pd2_mod_zmhallow/characters/ene_male_des_cyber/ene_male_des_cyber" />
+		<unit				path="units/pd2_mod_zmhallow/characters/ene_male_des_cyber/ene_male_des_cyber_husk" />
+		<object				path="units/pd2_mod_zmhallow/characters/ene_male_des_cyber/ene_male_des_cyber" />
+		<model				path="units/pd2_mod_zmhallow/characters/ene_male_des_cyber/ene_male_des_cyber" />
+		<material_config	path="units/pd2_mod_zmhallow/characters/ene_male_des_cyber/ene_male_des_cyber" />
+		<sequence_manager	path="units/pd2_mod_zmhallow/characters/ene_male_des_cyber/ene_male_des_cyber" />
+		<texture			path="units/pd2_mod_zmhallow/characters/ene_male_des_cyber/ene_male_des_cyber_body_df" />
+		<texture			path="units/pd2_mod_zmhallow/characters/ene_male_des_cyber/ene_male_des_cyber_head_df" />
+		<texture			path="units/pd2_mod_zmhallow/characters/ene_male_des_cyber/ene_male_des_cyber_head_nm" />
 	</add>
 	
 	
@@ -436,8 +451,5 @@
 		<material_config	path="units/pd2_mod_zombies/characters/ene_shadow_cloaker_2/ene_shadow_cloaker_2" />
 		<sequence_manager	path="units/pd2_mod_zombies/characters/ene_shadow_cloaker_2/ene_shadow_cloaker_2" />
 	</add>
-	
-	
-	
 	
 </table>

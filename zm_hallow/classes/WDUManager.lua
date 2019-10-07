@@ -732,8 +732,8 @@ end
 
 function WDUManager:check_ee_state()
     local keys = {
-        "finsternis_easteregg_completed",
-        "broken_arrow2_easteregg_completed"
+        "blank",
+        "blank2"
     }
 
     local secret_completed = 0

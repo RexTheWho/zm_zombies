@@ -3,5 +3,7 @@
     "hud_custody_in" : "Dead in",
     "menu_resume_game" : "Resume Carnage",
     "menu_resume_game_help" : "Get back to hell.",
-    "menu_restart_game" : "Restart Carnage"
+    "menu_restart_game" : "Restart Carnage",
+    "hud_assault_zombie" : "Zombie Assault In Progress",
+    "a":"a"
 }

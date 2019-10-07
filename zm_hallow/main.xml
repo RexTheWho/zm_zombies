@@ -1,5 +1,9 @@
 <table global_key="zm_testing" name="zm_instances">
-	<level ai_group_type="zombie" gamemode_type="3arc_zm" id="zm_cabinflesh" intro_event="" load_screen="guis/hoxton_zombout_load" max_bags="0" music="no_music" team_ai_off="true">
+	<AddFiles directory="assets">
+		<texture load="true" path="units/pd2_mod_zmhallow/gui/icons/zm_facility_icon"/>
+		<texture load="true" path="units/pd2_mod_zmhallow/gui/icons/zm_facility_load"/>
+	</AddFiles>
+	<level ai_group_type="zombie" gamemode_type="3arc_zm" id="zm_cabinflesh" intro_event="" load_screen="units/pd2_mod_zmhallow/gui/icons/zm_facility_load" max_bags="0" music="no_music" team_ai_off="true">
 		<add file="levels/zm_cabinflesh/add.xml"/>
 		<assets>
 			<asset name="perk_mechanics"/>
@@ -41,8 +45,6 @@
 			<hook file="RaycastWeaponBase.lua" source_file="lib/units/weapons/raycastweaponbase"/>
 			<hook file="SniperGrazeDamage.lua" source_file="lib/managers/player/snipergrazedamage"/>
 			<hook file="StatisticsManager.lua" source_file="lib/managers/statisticsmanager"/>
-			<hook file="WeaponFactoryTweakData.lua" source_file="lib/tweak_data/weaponfactorytweakdata"/>
-			<hook file="WeaponTweakData.lua" source_file="lib/tweak_data/weapontweakdata"/>
 			<hook file="EnemyManager.lua" source_file="lib/managers/enemymanager"/>
 			<hook file="CoreUnit.lua" source_file="core/lib/utils/coreunit"/>
 			<hook file="SentryGunMovement.lua" source_file="lib/units/equipment/sentry_gun/sentrygunmovement"/>
@@ -54,6 +56,10 @@
 			<hook file="ZM_WeaponSkins.lua" source_file="lib/tweak_data/blackmarket/weaponskinstweakdata"/>
 			<hook file="ZM_PowerUps.lua" source_file="lib/units/pickups/ammoclip"/>
 			<hook file="ZM_TweakData.lua" source_file="lib/tweak_data/tweakdata"/>
+			<hook file="ZM_WeaponFactoryTweakData.lua" source_file="lib/tweak_data/weaponfactorytweakdata"/>
+			<hook file="ZM_WeaponStatTweakData.lua" source_file="lib/tweak_data/weapontweakdata"/>
+			<hook file="ZM_SkillsTweakData.lua" source_file="lib/tweak_data/skilltreetweakdata"/>
+			<hook file="ZM_UpgradesTweakData.lua" source_file="lib/tweak_data/upgradestweakdata"/>
 		</hooks>
 		<include directory="levels/zm_cabinflesh">
 			<file file="world.world" type="generic_xml"/>
@@ -69,6 +75,7 @@
 			<file file="cover_data.cover_data" type="custom_xml"/>
 			<file file="environments/default.environment" type="custom_xml"/>
 			<file file="environments/zm_underground_ext.environment" type="custom_xml"/>
+			<file file="environments/zm_aboveground_ext.environment" type="custom_xml"/>
 		</include>
 		<packages>
 			<value_node value="packages/narr_hvh"/>
@@ -80,6 +87,10 @@
 			<value_node value="levels/instances/unique/chew/chew_train_car/world/world"/>
 			<value_node value="levels/narratives/e_welcome_to_the_jungle/stage_1/night_only/night_only"/>
 			<value_node value="levels/narratives/h_alex_must_die/stage_3/world/world"/>
+			<value_node value="levels/narratives/bain/shadow_raid/world"/>
+			<value_node value="levels/instances/unique/pbr/pbr_mountain_shaft/world/world"/>
+			<value_node value="levels/narratives/pbr/berry/world"/>
+			<value_node value="levels/narratives/vlad/ukrainian_job/world"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
@@ -606,6 +617,30 @@
 			</mod>
 		</script_data_mods>
 	</level>
+	<MissionElements>
+		<value_node value="ElementSoraCinematicCamera"/>
+		<value_node value="ElementReviveInstigator"/>
+		<value_node value="ElementWeaponSwitch"/>
+		<value_node value="ElementGunship"/>
+		<value_node value="ElementAnnouncerGift"/>
+		<value_node value="ElementDynamicEnvironment"/>
+		<value_node value="ElementSpawnSafeEnemyDummy"/>
+		<value_node value="ElementPlayVideo"/>
+		<value_node value="ElementPlayEnd"/>
+		<value_node value="ElementWave"/>
+	</MissionElements>
+	<MissionElements>
+		<value_node value="ElementSoraCinematicCamera"/>
+		<value_node value="ElementReviveInstigator"/>
+		<value_node value="ElementWeaponSwitch"/>
+		<value_node value="ElementGunship"/>
+		<value_node value="ElementAnnouncerGift"/>
+		<value_node value="ElementDynamicEnvironment"/>
+		<value_node value="ElementSpawnSafeEnemyDummy"/>
+		<value_node value="ElementPlayVideo"/>
+		<value_node value="ElementPlayEnd"/>
+		<value_node value="ElementWave"/>
+	</MissionElements>
 	<AddFiles file="dynamic_manager.xml"/>
 	<Hooks directory="hooks">
 		<hook file="UpgradesTweakData.lua" source_file="lib/tweak_data/upgradestweakdata"/>
@@ -623,7 +658,7 @@
 		<packages/>
 		<script_data_mods/>
 	</instance>
-	<narrative contact="zombies_mode" id="zm_instances">
+	<narrative contact="zombies_mode" icon="units/pd2_mod_zmhallow/gui/icons/zm_facility_icon" id="zm_instances">
 		<chain>
 			<table level_id="zm_cabinflesh" type="d" type_id="heist_type_assault"/>
 		</chain>

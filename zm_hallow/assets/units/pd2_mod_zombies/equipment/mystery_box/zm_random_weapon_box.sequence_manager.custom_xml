@@ -17,18 +17,20 @@
 		
 		<sequence name="'interact'" editable_state="true" triggable="true">
 			<interaction enabled="false"/>
-			<run_sequence name=" 'spawn_weapon' "/>
+			<!-- <run_sequence name=" 'spawn_weapon' "/> -->
 			<run_sequence name=" 'test_anim' "/>
 		</sequence>
 		
+		
 		<sequence name=" 'spawn_weapon' " >
-			<!--Pick random weapon ID-->
+			<!-- Pick random weapon ID -->
 			<set_variables v_weapon_id=" 'set_weapon_id_'..pick('temp', 'temp2')"/>
 			
-			<!--Spawn set weapon ID-->
+			<!-- Spawn set weapon ID -->
 			<run_sequence name=" 'spawn_weapon_test' " start_time="150/30"/>
 			<!-- <run_sequence filter="'filter_not_none'" name=" 'spawn_weapon_'..vars.v_weapon_id)" start_time="45/30"/> -->
 		</sequence>
+		
 		
 		<sequence name=" 'spawn_weapon_test' " editable_state="true" triggable="true">
 			<spawn_unit name=" 'units/pd2_mod_zombies/equipment/zom_mystery_box/test_weapon_pickup'" position="object_pos('sp_weapon')" rotation="object_rot('sp_weapon')"/>
@@ -43,9 +45,9 @@
 			<effect_spawner enabled="true" name="'glow_01'"/>
 			<effect_spawner enabled="false" name="'glow_01'" start_time="500/30"/>
 			<animation_group enabled="true" name="'anim_open_close'" speed="4" from="0/30" to="80/30"/>
-			<animation_group enabled="true" name="'anim_open_close'" speed="-2" from="80/30" to="0/30" start_time="500/30"/>
-			<sound action="'play'" event="'zm_box_shutting'" object="'interact'" start_time="520/30"/>
-			<interaction enabled="true" start_time="530/30"/>
+			<animation_group enabled="true" name="'anim_open_close'" speed="-2" from="80/30" to="0/30" start_time="160/30"/>
+			<sound action="'play'" event="'zm_box_shutting'" object="'interact'" start_time="160/30"/>
+			<interaction enabled="true" start_time="180/30"/>
 		</sequence>
 		
 		<sequence name="'enable_interaction'" editable_state="true" triggable="true">

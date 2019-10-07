@@ -51,6 +51,36 @@ Hooks:PostHook(InteractionTweakData, "init", "zm_init_new_interactions", functio
 	}
 	
 	
+	--WEAPON BUY INTERACTIONS
+	
+	
+	--Starter Rifle
+    self.zm_wall_buy_m14 = {
+		zm_interaction = true,
+		weapon = "M308 Rifle",
+		weapon_id = "new_m14",
+		points_cost = 500,
+		stay_active = true,
+		action_text_id = "zm_buy_weapon",
+		start_active = false,
+		sound_done = "bar_bag_money_cancel",
+		axis = "y",
+		timer = 0.5
+	}
+	
+	--Starter Shotgun
+	self.zm_wall_buy_joceline = {
+		zm_interaction = true,
+		weapon = "Joceline Shotgun",
+		weapon_id = "b682",
+		points_cost = 500,
+		stay_active = true,
+		action_text_id = "zm_buy_weapon",
+		start_active = false,
+		sound_done = "bar_bag_money_cancel",
+		axis = "y",
+		timer = 0.5
+	}
 	
     self.zm_wall_buy_ray = {
 		zm_interaction = true,
@@ -60,20 +90,7 @@ Hooks:PostHook(InteractionTweakData, "init", "zm_init_new_interactions", functio
 		stay_active = true,
 		action_text_id = "zm_buy_weapon",
 		start_active = false,
-		sound_done = "bar_rescue",
-		axis = "y",
-		timer = 0.5
-	}
-	
-    self.zm_wall_buy_m14 = {
-		zm_interaction = true,
-		weapon = "M308 Rifle",
-		weapon_id = "new_m14",
-		points_cost = 1350,
-		stay_active = true,
-		action_text_id = "zm_buy_weapon",
-		start_active = false,
-		sound_done = "bar_rescue",
+		sound_done = "bar_bag_money_cancel",
 		axis = "y",
 		timer = 0.5
 	}
@@ -85,7 +102,7 @@ Hooks:PostHook(InteractionTweakData, "init", "zm_init_new_interactions", functio
 		points_cost = 0,
 		action_text_id = "zm_buy_weapon",
 		start_active = false,
-		sound_done = "bar_rescue",
+		sound_done = "bar_bag_money_cancel",
 		axis = "y",
 		timer = 0.5
 	}
@@ -98,20 +115,7 @@ Hooks:PostHook(InteractionTweakData, "init", "zm_init_new_interactions", functio
 		stay_active = true,
 		action_text_id = "zm_buy_weapon",
 		start_active = false,
-		sound_done = "bar_rescue",
-		axis = "y",
-		timer = 0.5
-	}
-
-	self.zm_wall_buy_joceline = {
-		zm_interaction = true,
-		weapon = "Joceline Shotgun",
-		weapon_id = "b682",
-		points_cost = 500,
-		stay_active = true,
-		action_text_id = "zm_buy_weapon",
-		start_active = false,
-		sound_done = "bar_rescue",
+		sound_done = "bar_bag_money_cancel",
 		axis = "y",
 		timer = 0.5
 	}
@@ -124,7 +128,7 @@ Hooks:PostHook(InteractionTweakData, "init", "zm_init_new_interactions", functio
 		stay_active = true,
 		action_text_id = "zm_buy_weapon",
 		start_active = false,
-		sound_done = "bar_rescue",
+		sound_done = "bar_bag_money_cancel",
 		axis = "y",
 		timer = 0.5
 	}
@@ -137,7 +141,7 @@ Hooks:PostHook(InteractionTweakData, "init", "zm_init_new_interactions", functio
 		stay_active = true,
 		action_text_id = "zm_buy_weapon",
 		start_active = false,
-		sound_done = "bar_rescue",
+		sound_done = "bar_bag_money_cancel",
 		axis = "y",
 		timer = 0.5
 	}
@@ -150,7 +154,7 @@ Hooks:PostHook(InteractionTweakData, "init", "zm_init_new_interactions", functio
 		stay_active = true,
 		action_text_id = "zm_buy_weapon",
 		start_active = false,
-		sound_done = "bar_rescue",
+		sound_done = "bar_bag_money_cancel",
 		axis = "y",
 		timer = 0.5
 	}
@@ -163,7 +167,7 @@ Hooks:PostHook(InteractionTweakData, "init", "zm_init_new_interactions", functio
 		stay_active = true,
 		action_text_id = "zm_buy_weapon",
 		start_active = false,
-		sound_done = "bar_rescue",
+		sound_done = "bar_bag_money_cancel",
 		axis = "y",
 		timer = 0.5
 	}
@@ -176,7 +180,7 @@ Hooks:PostHook(InteractionTweakData, "init", "zm_init_new_interactions", functio
 		stay_active = true,
 		action_text_id = "zm_buy_weapon",
 		start_active = false,
-		sound_done = "bar_rescue",
+		sound_done = "bar_bag_money_cancel",
 		axis = "y",
 		timer = 0.5
 	}
@@ -189,7 +193,7 @@ Hooks:PostHook(InteractionTweakData, "init", "zm_init_new_interactions", functio
 		stay_active = true,
 		action_text_id = "zm_buy_weapon",
 		start_active = false,
-		sound_done = "bar_rescue",
+		sound_done = "bar_bag_money_cancel",
 		axis = "y",
 		timer = 0.5
 	}
@@ -202,7 +206,7 @@ Hooks:PostHook(InteractionTweakData, "init", "zm_init_new_interactions", functio
 		stay_active = true,
 		action_text_id = "zm_buy_weapon",
 		start_active = false,
-		sound_done = "bar_rescue",
+		sound_done = "bar_bag_money_cancel",
 		axis = "y",
 		timer = 0.5
 	}
@@ -215,7 +219,7 @@ Hooks:PostHook(InteractionTweakData, "init", "zm_init_new_interactions", functio
 		stay_active = true,
 		action_text_id = "zm_buy_weapon",
 		start_active = false,
-		sound_done = "bar_rescue",
+		sound_done = "bar_bag_money_cancel",
 		axis = "y",
 		timer = 0.5
 	}
@@ -228,7 +232,7 @@ Hooks:PostHook(InteractionTweakData, "init", "zm_init_new_interactions", functio
 		stay_active = true,
 		action_text_id = "zm_buy_weapon",
 		start_active = false,
-		sound_done = "bar_rescue",
+		sound_done = "bar_bag_money_cancel",
 		axis = "y",
 		timer = 0.5
 	}
@@ -241,7 +245,7 @@ Hooks:PostHook(InteractionTweakData, "init", "zm_init_new_interactions", functio
 		stay_active = true,
 		action_text_id = "zm_buy_weapon",
 		start_active = false,
-		sound_done = "bar_rescue",
+		sound_done = "bar_bag_money_cancel",
 		axis = "y",
 		timer = 0.5,
 	}
@@ -254,7 +258,7 @@ Hooks:PostHook(InteractionTweakData, "init", "zm_init_new_interactions", functio
 		stay_active = true,
 		action_text_id = "zm_buy_weapon",
 		start_active = false,
-		sound_done = "bar_rescue",
+		sound_done = "bar_bag_money_cancel",
 		axis = "y",
 		timer = 0.5,
 	}
@@ -267,7 +271,7 @@ Hooks:PostHook(InteractionTweakData, "init", "zm_init_new_interactions", functio
 		stay_active = true,
 		action_text_id = "zm_buy_weapon",
 		start_active = false,
-		sound_done = "bar_rescue",
+		sound_done = "bar_bag_money_cancel",
 		axis = "y",
 		timer = 0.5,
 	}
@@ -276,10 +280,9 @@ Hooks:PostHook(InteractionTweakData, "init", "zm_init_new_interactions", functio
 		zm_interaction = true,
 		pack_a_punch = true,
 		points_cost = 5000,
-		stay_active = true,
 		action_text_id = "zm_upgrade_weapon",
 		start_active = false,
-		sound_done = "bar_rescue",
+		sound_done = "bar_bag_money_cancel",
 		axis = "y",
 		timer = 4,
 	}
