@@ -850,8 +850,8 @@ Hooks:Add("NetworkReceivedData", "NetworkReceivedData_WDUManager_Sync", function
 
         managers.wdu:_element_play_sound({
             name = "play_shadow_spook",
-            custom_dir = "sound/shadowow",
-            file_name = "post_mortem.ogg",
+            custom_dir = "units/pd2_mod_zombies/zm_enemy/shadow",
+            file_name = "zm_ene_shadow_scream_01.ogg",
             is_loop = false,
             is_relative = false,
             is_3d = true,
