@@ -5,6 +5,8 @@ Hooks:PostHook(WeaponFactoryTweakData, "init", "zm_init_weapon_data_factory", fu
     self:_init_upgraded_multiplix()
 
     self:_define_sights()
+	
+	
 end)
 
 function WeaponFactoryTweakData:_init_no_weapon()
@@ -45,6 +47,8 @@ function WeaponFactoryTweakData:_init_no_weapon()
 			}
         }
     }
+	
+	
 end
 
 function WeaponFactoryTweakData:_init_multiplix()    
@@ -685,12 +689,12 @@ function WeaponFactoryTweakData:_init_upgraded_multiplix()
         "wpn_fps_ass_scar_b_long",
         "wpn_fps_ass_scar_body_standard",
         "wpn_fps_ass_scar_s_sniper",
-        "wpn_fps_upg_o_reflex",
         "wpn_fps_upg_m4_g_sniper",
         "wpn_fps_upg_vg_ass_smg_afg",
         "wpn_fps_upg_ns_ass_smg_tank",
         "wpn_fps_upg_fl_ass_laser"
     }
+	
     self.wpn_fps_ass_scar_upg_secondary = deep_clone(self.wpn_fps_ass_scar_upg_primary)
     self.wpn_fps_ass_scar_upg_secondary.unit = "units/pd2_mod_zombies/weapons/upgrade/wpn_fps_ass_scar_upg_secondary"
     self.wpn_fps_ass_scar_upg_primary_npc = deep_clone(self.wpn_fps_ass_scar_upg_primary)
@@ -1107,7 +1111,10 @@ function WeaponFactoryTweakData:_init_upgraded_multiplix()
     self.wpn_fps_pis_stryk_upg_secondary_npc = deep_clone(self.wpn_fps_pis_stryk_upg_secondary)
 	self.wpn_fps_pis_stryk_upg_secondary_npc.unit = "units/payday2/weapons/wpn_fps_pis_g18c/wpn_fps_pis_g18c_npc"
 
+	
 
+    
+	--EXPERIMENTAL SCOPE TEST
     self.wpn_fps_ass_g3_upg_primary = deep_clone(self.wpn_fps_ass_g3_primary)
     self.wpn_fps_ass_g3_upg_primary.unit = "units/pd2_mod_zombies/weapons/upgrade/wpn_fps_ass_g3_upg_primary"
     self.wpn_fps_ass_g3_upg_primary.default_blueprint = {
@@ -1120,7 +1127,7 @@ function WeaponFactoryTweakData:_init_upgraded_multiplix()
 			"wpn_fps_ass_g3_s_sniper",
 			"wpn_fps_upg_fl_ass_laser",
 			"wpn_fps_upg_i_singlefire",
-			"wpn_fps_upg_o_acog"
+			self:_choose_random_optics(opticname)
     }
     self.wpn_fps_ass_g3_upg_primary_npc = deep_clone(self.wpn_fps_ass_g3_upg_primary)
     self.wpn_fps_ass_g3_upg_primary_npc.unit = "units/pd2_dlc_gage_assault/weapons/wpn_fps_ass_g3/wpn_fps_ass_g3_npc"
@@ -1128,7 +1135,9 @@ function WeaponFactoryTweakData:_init_upgraded_multiplix()
     self.wpn_fps_ass_g3_upg_secondary.unit = "units/pd2_mod_zombies/weapons/upgrade/wpn_fps_ass_g3_upg_secondary"
     self.wpn_fps_ass_g3_upg_secondary_npc = deep_clone(self.wpn_fps_ass_g3_upg_secondary)
     self.wpn_fps_ass_g3_upg_secondary_npc.unit = "units/pd2_dlc_gage_assault/weapons/wpn_fps_ass_g3/wpn_fps_ass_g3_npc"
-
+	--EXPERIMENTAL SCOPE TEST
+	
+	
     self.wpn_fps_ass_tar21_upg_primary = deep_clone(self.wpn_fps_ass_tar21_primary)
     self.wpn_fps_ass_tar21_upg_primary.unit = "units/pd2_mod_zombies/weapons/upgrade/wpn_fps_ass_tar21_upg_primary"
     self.wpn_fps_ass_tar21_upg_primary.default_blueprint = {
@@ -1361,3 +1370,40 @@ function WeaponFactoryTweakData:_define_sights()
         translation = Vector3(0, 5, -0.65),
     }
 end
+
+function WeaponFactoryTweakData:_choose_random_optics(opticname)
+
+	--EXPERIMENTAL SCOPE TEST
+	self.table_random_scopes_main = {
+        "wpn_fps_upg_o_specter",
+        "wpn_fps_upg_o_aimpoint",
+        "wpn_fps_upg_o_docter",
+        "wpn_fps_upg_o_eotech",
+        "wpn_fps_upg_o_t1micro",
+        "wpn_fps_upg_o_shortdot",
+        "wpn_fps_upg_o_cmore",
+        "wpn_fps_upg_o_acog",
+        "wpn_fps_upg_o_rmr",
+        "wpn_fps_upg_o_eotech_xps",
+        "wpn_fps_upg_o_rx01",
+        "wpn_fps_upg_o_rx30",
+        "wpn_fps_upg_o_cs",
+        "wpn_fps_upg_o_spot"
+	}
+	
+	local oidx = math.random(#self.table_random_scopes_main)
+	local opticname = self.table_random_scopes_main[oidx]
+	
+	log('SCOPE:', opticname)
+	return opticname
+end
+
+
+
+
+
+
+
+
+
+

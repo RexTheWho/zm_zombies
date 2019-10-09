@@ -33,7 +33,11 @@ function ElementWeaponSwitch:on_executed(instigator)
     if self._values.is_mystery_box then
         factory_id = self:_get_random_weapon()
     end
-    
+	
+    --EXPERIMENTAL SCOPE TEST
+    -- Random optic if blueprints contain it
+	WeaponFactoryTweakData:_choose_random_optics()
+	
     -- Script used to get the start weapons
     local current_index_equipped = instigator:inventory():equipped_selection()
     local index_wtf = current_index_equipped == 1 and true or false
@@ -57,15 +61,18 @@ function ElementWeaponSwitch:on_executed(instigator)
     end
 
     -- Then we init the blueprint, depending if it's a string or table
-    local blueprint_fucking_ovk
+    local blueprint_vals
     local blueprint_table = managers.weapon_factory:get_default_blueprint_by_factory_id(factory_id)
     local blueprint_to_string = managers.weapon_factory:blueprint_to_string(factory_id, blueprint_table)
 
+	
+	
+	
     -- thanks ovk
     if instigator ~= managers.player:player_unit() then
-        blueprint_fucking_ovk = blueprint_to_string
+        blueprint_vals = blueprint_to_string
     else
-        blueprint_fucking_ovk = blueprint_table
+        blueprint_vals = blueprint_table
     end
 
     -- Init Skin
@@ -93,7 +100,7 @@ function ElementWeaponSwitch:on_executed(instigator)
     local new_weapon_data = {
         equip = index_wtf,
         factory_id = factory_id,
-        blueprint = blueprint_fucking_ovk,
+        blueprint = blueprint_vals,
         global_values = {},
         instant = false,
         cosmetics = cosmetics or "nil-1-0"

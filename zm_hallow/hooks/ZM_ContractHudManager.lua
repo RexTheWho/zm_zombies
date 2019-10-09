@@ -8,9 +8,9 @@ Hooks:PostHook(ContractBrokerHeistItem, "init", "zm_init_contract_eeicon", funct
 			local ee_completed = Global.mission_manager.saved_job_values[key] == 1
 			
             local xcenter = self._image_panel:w() / 2
-			log(xcenter)
+			-- log(xcenter)
             local ycenter = self._image_panel:h() / 2
-			log(ycenter)
+			-- log(ycenter)
 			
 			--EE Border
 			
