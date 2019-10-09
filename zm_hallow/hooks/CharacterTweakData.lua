@@ -149,7 +149,7 @@ Hooks:PostHook(CharacterTweakData, "_init_city_swat", "zm_disable_surrenders_6",
 	self.city_swat.weapon.is_shotgun_pump.focus_delay = 1
 end)
 
-Hooks:PostHook(CharacterTweakData, "_init_medic", "zm_med_tweak", function(self, presets)
+Hooks:PostHook(CharacterTweakData, "_init_medic", "zm_medic_tweak", function(self, presets)
 	self.medic.rescue_hostages = false
 	self.medic.suppression = nil
 	self.medic.allowed_poses = {crouch = false, stand = true}
@@ -171,12 +171,12 @@ Hooks:PostHook(CharacterTweakData, "_init_taser", "zm_taser_tweak", function(sel
 	self.taser.weapon.is_rifle.focus_delay = 1
 end)
 
-Hooks:PostHook(CharacterTweakData, "_init_spooc", "zm_cloakie_tweak", function(self, presets)
+Hooks:PostHook(CharacterTweakData, "_init_spooc", "zm_cloaker_tweak", function(self, presets)
 	self.spooc.allowed_poses = {crouch = false, stand = true}
 	self.spooc.weapon.is_smg.focus_delay = 1
 end)
 
-Hooks:PostHook(CharacterTweakData, "_init_tank", "zm_tankie_tweak", function(self, presets)
+Hooks:PostHook(CharacterTweakData, "_init_tank", "zm_bulldozer_tweak", function(self, presets)
 	self.tank.weapon.is_shotgun_mag.focus_delay = 1
 	self.tank.weapon.is_rifle.focus_delay = 1
 	self.tank.weapon.is_lmg.focus_delay = 1

@@ -8,6 +8,7 @@
 			<object name="g_g"						collision_type="mesh_mopp" />
 			<object name="g_concrete"				collision_type="mesh_mopp" />
 			<object name="g_bry_concrete_floor_01"	collision_type="mesh_mopp" />
+			<object name="g_bry_cliff"				collision_type="mesh_mopp" />
 		</body>
 	</bodies>
 	
@@ -19,6 +20,7 @@
 			<object name="g_g"							enabled="true" 	shadow_caster="true"/>
 			<object name="g_concrete"					enabled="true" 	shadow_caster="true"/>
 			<object name="g_bry_concrete_floor_01"		enabled="true" 	shadow_caster="true"/>
+			<object name="g_bry_cliff"					enabled="true" 	shadow_caster="true"/>
 		</graphic_group>
 	</graphics>
 </dynamic_object>

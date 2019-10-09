@@ -213,42 +213,6 @@
 		
 		<effect_spawner name="glow_01" enabled="true" object="spawn_glow_01" effect="units/pd2_mod_zombies/effects/zm_enemy_effects/zm_eyes" />
 		<effect_spawner name="glow_02" enabled="true" object="spawn_glow_02" effect="units/pd2_mod_zombies/effects/zm_enemy_effects/zm_eyes" />
-
-		<!-- <effect_spawner name="smoke_24" enabled="true" object="Hips" effect="effects/payday2/particles/smoke_trail/smoke_distorted" /> -->
-		<!-- <effect_spawner name="smoke_01" enabled="true" object="Spine" effect="effects/payday2/particles/smoke_trail/smoke_distorted" /> -->
-		<!-- <effect_spawner name="smoke_02" enabled="true" object="Spine1" effect="effects/payday2/particles/smoke_trail/smoke_distorted" /> -->
-		<!-- <effect_spawner name="smoke_03" enabled="true" object="Spine2" effect="effects/payday2/particles/smoke_trail/smoke_distorted" /> -->
-		<!-- <effect_spawner name="smoke_04" enabled="true" object="Neck" effect="effects/payday2/particles/smoke_trail/smoke_distorted" /> -->
-		<!-- <effect_spawner name="smoke_05" enabled="true" object="Head" effect="effects/payday2/particles/smoke_trail/smoke_distorted" /> -->
-		<!-- <effect_spawner name="smoke_06" enabled="true" object="LeftShoulder" effect="effects/payday2/particles/smoke_trail/smoke_distorted_small" /> -->
-		<!-- <effect_spawner name="smoke_07" enabled="true" object="LeftArm" effect="effects/payday2/particles/smoke_trail/smoke_distorted_small" /> -->
-		<!-- <effect_spawner name="smoke_08" enabled="true" object="LeftForeArm" effect="effects/payday2/particles/smoke_trail/smoke_distorted_small" /> -->
-		<!-- <effect_spawner name="smoke_09" enabled="true" object="LeftForeArmRoll" effect="effects/payday2/particles/smoke_trail/smoke_distorted_small" /> -->
-		<!-- <effect_spawner name="smoke_10" enabled="true" object="LeftHand" effect="effects/payday2/particles/smoke_trail/smoke_distorted_small" /> -->
-		<!-- <effect_spawner name="smoke_trail_04" enabled="true" object="LeftHand" effect="effects/payday2/particles/smoke_trail/smoke_trail_small" /> -->
-		<!-- <effect_spawner name="smoke_11" enabled="true" object="RightShoulder" effect="effects/payday2/particles/smoke_trail/smoke_distorted_small" /> -->
-		<!-- <effect_spawner name="smoke_12" enabled="true" object="RightArm" effect="effects/payday2/particles/smoke_trail/smoke_distorted_small" /> -->
-		<!-- <effect_spawner name="smoke_13" enabled="true" object="RightForeArm" effect="effects/payday2/particles/smoke_trail/smoke_distorted_small" /> -->
-		<!-- <effect_spawner name="smoke_14" enabled="true" object="RightForeArmRoll" effect="effects/payday2/particles/smoke_trail/smoke_distorted_small" /> -->
-		<!-- <effect_spawner name="smoke_15" enabled="true" object="RightHand" effect="effects/payday2/particles/smoke_trail/smoke_distorted_small" /> -->
-		<!-- <effect_spawner name="smoke_trail_03" enabled="true" object="RightHand" effect="effects/payday2/particles/smoke_trail/smoke_trail_small" /> -->
-		<!-- <effect_spawner name="smoke_16" enabled="true" object="LeftUpLeg" effect="effects/payday2/particles/smoke_trail/smoke_distorted_small" /> -->
-		<!-- <effect_spawner name="smoke_17" enabled="true" object="LeftLeg" effect="effects/payday2/particles/smoke_trail/smoke_distorted_small" /> -->
-		<!-- <effect_spawner name="smoke_18" enabled="true" object="LeftFoot" effect="effects/payday2/particles/smoke_trail/smoke_distorted_small" /> -->
-		<!-- <effect_spawner name="smoke_trail_02" enabled="true" object="LeftFoot" effect="effects/payday2/particles/smoke_trail/smoke_trail_small" /> -->
-		<!-- <effect_spawner name="smoke_19" enabled="true" object="LeftToeBase" effect="effects/payday2/particles/smoke_trail/smoke_distorted_small" /> -->
-		<!-- <effect_spawner name="smoke_20" enabled="true" object="RightUpLeg" effect="effects/payday2/particles/smoke_trail/smoke_distorted_small" /> -->
-		<!-- <effect_spawner name="smoke_21" enabled="true" object="RightLeg" effect="effects/payday2/particles/smoke_trail/smoke_distorted_small" /> -->
-		<!-- <effect_spawner name="smoke_22" enabled="true" object="RightFoot" effect="effects/payday2/particles/smoke_trail/smoke_distorted_small" /> -->
-		<!-- <effect_spawner name="smoke_trail_01" enabled="true" object="RightFoot" effect="effects/payday2/particles/smoke_trail/smoke_trail_small" /> -->
-		<!-- <effect_spawner name="smoke_23" enabled="true" object="RightToeBase" effect="effects/payday2/particles/smoke_trail/smoke_distorted_small" /> -->
-
-		<!-- <effect_spawner name="poff_01" enabled="false" object="Hips" effect="effects/payday2/particles/smoke_trail/smoke_puff" /> -->
-		<!-- <effect_spawner name="poff_02" enabled="false" object="Spine2" effect="effects/payday2/particles/smoke_trail/smoke_puff" /> -->
-		<!-- <effect_spawner name="poff_03" enabled="false" object="RightForeArm" effect="effects/payday2/particles/smoke_trail/smoke_puff" /> -->
-		<!-- <effect_spawner name="poff_04" enabled="false" object="LeftForeArm" effect="effects/payday2/particles/smoke_trail/smoke_puff" /> -->
-		<!-- <effect_spawner name="poff_05" enabled="false" object="RightUpLeg" effect="effects/payday2/particles/smoke_trail/smoke_puff" /> -->
-		<!-- <effect_spawner name="poff_06" enabled="false" object="LeftUpLeg" effect="effects/payday2/particles/smoke_trail/smoke_puff" /> -->
 	</effects>
 
 </dynamic_object>

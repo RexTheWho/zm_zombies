@@ -346,6 +346,7 @@ function WDUManager:_get_points_amount(category, unit)
 end
 
 function WDUManager:_on_wdu_map()
+
     if Global.editor_mode then
         return true
     end
@@ -353,10 +354,11 @@ function WDUManager:_on_wdu_map()
     if not managers.job then
         return false
     end
-    
-    if managers.job:current_level_id() == "zm_cabinflesh" then
+	
+    if managers.job:current_contact_id() == "zombies_mode" then
         return true
     end
+
 
     return false
 end
