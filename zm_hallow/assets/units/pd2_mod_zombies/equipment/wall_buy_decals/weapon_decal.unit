@@ -4,6 +4,7 @@
 	<extensions>
 		<extension name="unit_data" class="ScriptUnitData" />
 		<extension name="damage" class="UnitDamage" />
+		<extension name="sync_unit_data" class="SyncUnitData" />
 		<extension name="interaction" class="UseInteractionExt">
 			<var name="tweak_data" value="zm_wall_buy_mosin" />
 		</extension>	

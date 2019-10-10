@@ -40,6 +40,14 @@ Hooks:PostHook(InteractionTweakData, "init", "zm_init_new_interactions", functio
 		axis = "y"
 	}
 	
+	self.zm_free_points_dev = {
+		zm_interaction = true,
+		points_cost = -500000,
+		action_text_id = "zm_buy_weapon",
+		start_active = false,
+		axis = "y"
+	}
+	
 	self.zm_trap_sentrygun = {
 		zm_interaction = true,
 		zm_trap = true,

@@ -1046,7 +1046,7 @@ function WeaponFactoryTweakData:_init_upgraded_multiplix()
     self.wpn_fps_spe_vulcan_upg_primary = deep_clone(self.wpn_fps_lmg_shuno)
     self.wpn_fps_spe_vulcan_upg_primary.unit = "units/pd2_mod_zombies/weapons/upgrade/wpn_fps_spe_vulcan_upg_primary"
 	self.wpn_fps_spe_vulcan_upg_primary.default_blueprint = {
-        "wpn_fps_lmg_shuno_body_standard",
+			"wpn_fps_lmg_shuno_body_standard",
 			"wpn_fps_lmg_shuno_b_heat_long",
 			"wpn_fps_lmg_shuno_m_standard",
 			"wpn_fps_lmg_shuno_s_standard",

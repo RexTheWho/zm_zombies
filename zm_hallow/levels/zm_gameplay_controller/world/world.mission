@@ -5,14 +5,14 @@
 		<entry key="elements" type="table">
 			<entry index="1" type="table">
 				<entry key="class" type="string" value="MissionScriptElement"/>
-				<entry key="editor_name" type="string" value="STARTUP"/>
+				<entry key="editor_name" type="string" value="PLAYER_SPAWNED"/>
 				<entry key="id" type="number" value="100000"/>
 				<entry key="module" type="string" value="CoreMissionScriptElement"/>
 				<entry key="script" type="string" value="default"/>
 				<entry key="values" type="table">
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="enabled" type="boolean" value="true"/>
-					<entry key="execute_on_startup" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
 					<entry key="position" type="vector3" value="0 0 0"/>
@@ -82,6 +82,10 @@
 						<entry index="4" type="table">
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100039"/>
+						</entry>
+						<entry index="5" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100034"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="100 -2000 0"/>
@@ -549,6 +553,10 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100024"/>
 						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100000"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-100 -100 0"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
@@ -558,12 +566,12 @@
 			</entry>
 			<entry index="25" type="table">
 				<entry key="class" type="string" value="MissionScriptElement"/>
-				<entry key="editor_name" type="string" value="MATCH_BEGAN"/>
+				<entry key="editor_name" type="string" value="PLAYER_SPAWNED_DELAY"/>
 				<entry key="id" type="number" value="100024"/>
 				<entry key="module" type="string" value="CoreMissionScriptElement"/>
 				<entry key="script" type="string" value="default"/>
 				<entry key="values" type="table">
-					<entry key="base_delay" type="number" value="0"/>
+					<entry key="base_delay" type="number" value="1"/>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
@@ -584,12 +592,12 @@
 							<entry key="id" type="number" value="100021"/>
 						</entry>
 						<entry index="5" type="table">
-							<entry key="delay" type="number" value="1"/>
-							<entry key="id" type="number" value="100049"/>
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100022"/>
 						</entry>
 						<entry index="6" type="table">
-							<entry key="delay" type="number" value="3"/>
-							<entry key="id" type="number" value="100022"/>
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100049"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="0 -100 0"/>
@@ -822,7 +830,7 @@
 					<entry key="is_secondary" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="100 400 0"/>
+					<entry key="position" type="vector3" value="0 500 0"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="trigger_times" type="number" value="0"/>
 					<entry key="weapon_id" type="string" value="wpn_fps_pis_g22c_secondary"/>
@@ -983,8 +991,8 @@
 					<entry key="effect" type="string" value="custom"/>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
-					<entry key="fade_in" type="number" value="0.25"/>
-					<entry key="fade_out" type="number" value="0.25"/>
+					<entry key="fade_in" type="number" value="0.5"/>
+					<entry key="fade_out" type="number" value="0.5"/>
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="1"/>
@@ -1088,7 +1096,6 @@ return true"/>
 				<entry key="values" type="table">
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="elements" type="table">
-						<entry index="1" type="number" value="100050"/>
 					</entry>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
@@ -1103,7 +1110,7 @@ return true"/>
 			</entry>
 			<entry index="50" type="table">
 				<entry key="class" type="string" value="ElementAreaTrigger"/>
-				<entry key="editor_name" type="string" value="areaEnter"/>
+				<entry key="editor_name" type="string" value="areaEnterWorld"/>
 				<entry key="id" type="number" value="100050"/>
 				<entry key="module" type="string" value="CoreElementArea"/>
 				<entry key="script" type="string" value="default"/>
@@ -1115,7 +1122,7 @@ return true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="height" type="number" value="100000"/>
 					<entry key="instigator" type="string" value="player"/>
-					<entry key="interval" type="number" value="0.1"/>
+					<entry key="interval" type="number" value="1"/>
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="0"/>
@@ -1136,6 +1143,26 @@ return true"/>
 					<entry key="trigger_times" type="number" value="0"/>
 					<entry key="use_disabled_shapes" type="boolean" value="false"/>
 					<entry key="width" type="number" value="100000"/>
+				</entry>
+			</entry>
+			<entry index="51" type="table">
+				<entry key="class" type="string" value="ElementDebug"/>
+				<entry key="editor_name" type="string" value="debugWAVESTART"/>
+				<entry key="id" type="number" value="100034"/>
+				<entry key="module" type="string" value="CoreElementDebug"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="as_subtitle" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="debug_string" type="string" value="WAVE START"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="200 -2100 0"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="show_instigator" type="boolean" value="false"/>
+					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
 		</entry>
