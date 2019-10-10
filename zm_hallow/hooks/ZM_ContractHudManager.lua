@@ -2,7 +2,7 @@ Hooks:PostHook(ContractBrokerHeistItem, "init", "zm_init_contract_eeicon", funct
     local job_tweak = tweak_data.narrative:job_data(self._job_data.job_id)
 
 	--WIP EE GUI
-    if job_tweak.contact == "zombies_mode" then
+    if job_tweak.contact == "zombies_modeA" then
         if self._image_panel then
 		
 			local ee_completed = Global.mission_manager.saved_job_values[key] == 1

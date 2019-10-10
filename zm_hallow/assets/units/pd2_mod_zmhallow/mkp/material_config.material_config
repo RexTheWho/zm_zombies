@@ -24,4 +24,8 @@
 		<diffuse_texture		file="units/pd2_dlc_berry/nature/bry_terrain_rock/bry_terrain_rock_df"/>
 		<bump_normal_texture	file="units/pd2_dlc_berry/nature/bry_terrain_rock/bry_terrain_rock_nm"/>
 	</material>
+	<material name="mtl_bry_rock1" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture		file="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_rock_interior_01_df"/>
+        <bump_normal_texture	file="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_rock_interior_01_nm"/>
+	</material>
 </materials>
