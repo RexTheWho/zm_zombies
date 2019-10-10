@@ -692,7 +692,8 @@ function WeaponFactoryTweakData:_init_upgraded_multiplix()
         "wpn_fps_upg_m4_g_sniper",
         "wpn_fps_upg_vg_ass_smg_afg",
         "wpn_fps_upg_ns_ass_smg_tank",
-        "wpn_fps_upg_fl_ass_laser"
+        "wpn_fps_upg_fl_ass_laser",
+		"wpn_fps_upg_o_acog"
     }
 	
     self.wpn_fps_ass_scar_upg_secondary = deep_clone(self.wpn_fps_ass_scar_upg_primary)

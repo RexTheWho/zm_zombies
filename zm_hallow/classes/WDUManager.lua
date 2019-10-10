@@ -548,6 +548,7 @@ function WDUManager:_get_weapons_in_mystery_box()
 		"wpn_fps_smg_thompson",
         "wpn_fps_smg_tec9",
         "wpn_fps_smg_schakal",
+        "wpn_fps_smg_erma",
 		"wpn_fps_pis_lemming",
 		"wpn_fps_pis_deagle",
 		"wpn_fps_pis_rage",
