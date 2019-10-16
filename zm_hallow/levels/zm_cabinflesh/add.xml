@@ -21,6 +21,12 @@
 		<object				path="units/pd2_mod_zmhallow/architecture/ext_old_wood/platform/ext_oldwood_platform_4x12m_a" />
 		<model				path="units/pd2_mod_zmhallow/architecture/ext_old_wood/platform/ext_oldwood_platform_4x12m_a" />
 		
+		<unit				path="units/pd2_mod_zmhallow/pickups/zm_keycard_a/zm_keycard_a" />
+		<object				path="units/pd2_mod_zmhallow/pickups/zm_keycard_a/zm_keycard_a" />
+		<model				path="units/pd2_mod_zmhallow/pickups/zm_keycard_a/zm_keycard_a" />
+		<material_config	path="units/pd2_mod_zmhallow/pickups/zm_keycard_a/zm_keycard_a" />
+		<sequence_manager	path="units/pd2_mod_zmhallow/pickups/zm_keycard_a/zm_keycard_a" />
+		
 		
 		<material_config	path="units/pd2_mod_zmhallow/mkp/material_config" />
 		<unit				path="units/pd2_mod_zmhallow/mkp/mkp_001" />
@@ -32,6 +38,20 @@
 		<unit				path="units/pd2_mod_zmhallow/mkp/mkp_003" />
 		<object				path="units/pd2_mod_zmhallow/mkp/mkp_003" />
 		<model				path="units/pd2_mod_zmhallow/mkp/mkp_003" />
+		<texture			path="units/pd2_mod_zmhallow/nature/lava/lava_df" />
+		<effect				path="units/pd2_mod_zmhallow/effects/generic/ceiling_dust" force="true" />
+		
+		<material_config	path="units/pd2_mod_zmhallow/nature/zmh_boulders/zmh_boulders" />
+		<unit				path="units/pd2_mod_zmhallow/nature/zmh_boulders/zmh_boulders_01" />
+		<object				path="units/pd2_mod_zmhallow/nature/zmh_boulders/zmh_boulders_01" />
+		<model				path="units/pd2_mod_zmhallow/nature/zmh_boulders/zmh_boulders_01" />
+		<cooked_physics		path="units/pd2_mod_zmhallow/nature/zmh_boulders/zmh_boulders_01" />
+		<texture			path="units/pd2_mod_zmhallow/nature/zmh_boulders/zmh_boulders_01_df" />
+		<unit				path="units/pd2_mod_zmhallow/nature/zmh_boulders/zmh_boulders_02" />
+		<object				path="units/pd2_mod_zmhallow/nature/zmh_boulders/zmh_boulders_02" />
+		<model				path="units/pd2_mod_zmhallow/nature/zmh_boulders/zmh_boulders_02" />
+		<cooked_physics		path="units/pd2_mod_zmhallow/nature/zmh_boulders/zmh_boulders_02" />
+		<texture			path="units/pd2_mod_zmhallow/nature/zmh_boulders/zmh_boulders_02_df" />
 	</add>
 	
 	<add unload_on_restart="true">
