@@ -21,6 +21,7 @@
 			<object name="g_concrete"					enabled="true" 	shadow_caster="true"/>
 			<object name="g_bry_concrete_floor_01"		enabled="true" 	shadow_caster="true"/>
 			<object name="g_bry_cliff"					enabled="true" 	shadow_caster="true"/>
+			<object name="g_cable"						enabled="true" 	shadow_caster="true"/>
 		</graphic_group>
 	</graphics>
 </dynamic_object>

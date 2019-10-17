@@ -55,4 +55,7 @@
         <variable					value="reddot" type="scalar" name="il_multiplier"/>
         <variable					value="0 0.01 0" type="vector3" name="uv_speed"/>
     </material>
+    <material name="mtl_cable" render_template="generic:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture			file="units/payday2/props/com_prop_basement_cables_ceiling_ladder/com_prop_basement_cables_ceiling_ladder_df"/>
+    </material>
 </materials>
