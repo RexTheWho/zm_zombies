@@ -38,8 +38,19 @@
 		<unit				path="units/pd2_mod_zmhallow/mkp/mkp_003" />
 		<object				path="units/pd2_mod_zmhallow/mkp/mkp_003" />
 		<model				path="units/pd2_mod_zmhallow/mkp/mkp_003" />
+		
+		<material_config	path="units/pd2_mod_zmhallow/architecture/underground/material_config" />
+		<unit				path="units/pd2_mod_zmhallow/architecture/underground/zmh_und_hallway_01" />
+		<object				path="units/pd2_mod_zmhallow/architecture/underground/zmh_und_hallway_01" />
+		<model				path="units/pd2_mod_zmhallow/architecture/underground/zmh_und_hallway_01" />
+		<unit				path="units/pd2_mod_zmhallow/architecture/underground/zmh_und_hangar" />
+		<object				path="units/pd2_mod_zmhallow/architecture/underground/zmh_und_hangar" />
+		<model				path="units/pd2_mod_zmhallow/architecture/underground/zmh_und_hangar" />
+		
 		<texture			path="units/pd2_mod_zmhallow/nature/lava/lava_df" />
 		<effect				path="units/pd2_mod_zmhallow/effects/generic/ceiling_dust" force="true" />
+		<effect				path="units/pd2_mod_zmhallow/effects/generic/ceiling_waterdrop" force="true" />
+		<effect				path="units/pd2_mod_zmhallow/effects/generic/ceiling_waterdrop_ripple" force="true" />
 		
 		<material_config	path="units/pd2_mod_zmhallow/nature/zmh_boulders/zmh_boulders" />
 		<unit				path="units/pd2_mod_zmhallow/nature/zmh_boulders/zmh_boulders_01" />
@@ -52,6 +63,43 @@
 		<model				path="units/pd2_mod_zmhallow/nature/zmh_boulders/zmh_boulders_02" />
 		<cooked_physics		path="units/pd2_mod_zmhallow/nature/zmh_boulders/zmh_boulders_02" />
 		<texture			path="units/pd2_mod_zmhallow/nature/zmh_boulders/zmh_boulders_02_df" />
+		
+		<material_config	path="units/pd2_mod_zmhallow/props/prop_bloodsplatter/zmh_blood" />
+		<unit				path="units/pd2_mod_zmhallow/props/prop_bloodsplatter/bph_prop_blood_1" />
+		<object				path="units/pd2_mod_zmhallow/props/prop_bloodsplatter/bph_prop_blood_1" />
+		<model				path="units/pd2_mod_zmhallow/props/prop_bloodsplatter/bph_prop_blood_1" />
+		<unit				path="units/pd2_mod_zmhallow/props/prop_bloodsplatter/bph_prop_blood_2" />
+		<object				path="units/pd2_mod_zmhallow/props/prop_bloodsplatter/bph_prop_blood_2" />
+		<model				path="units/pd2_mod_zmhallow/props/prop_bloodsplatter/bph_prop_blood_2" />
+		<unit				path="units/pd2_mod_zmhallow/props/prop_bloodsplatter/bph_prop_blood_4" />
+		<object				path="units/pd2_mod_zmhallow/props/prop_bloodsplatter/bph_prop_blood_4" />
+		<model				path="units/pd2_mod_zmhallow/props/prop_bloodsplatter/bph_prop_blood_4" />
+		
+		<unit				path="units/pd2_mod_zmhallow/props/prop_bloodsplatter/bph_prop_blood_splat_01" />
+		<object				path="units/pd2_mod_zmhallow/props/prop_bloodsplatter/bph_prop_blood_splat_01" />
+		<model				path="units/pd2_mod_zmhallow/props/prop_bloodsplatter/bph_prop_blood_splat_01" />
+		<unit				path="units/pd2_mod_zmhallow/props/prop_bloodsplatter/bph_prop_blood_smear_02" />
+		<object				path="units/pd2_mod_zmhallow/props/prop_bloodsplatter/bph_prop_blood_smear_02" />
+		<model				path="units/pd2_mod_zmhallow/props/prop_bloodsplatter/bph_prop_blood_smear_02" />
+		
+		<unit				path="units/pd2_mod_zmhallow/props/prop_bloodsplatter/bph_prop_blood_handprint_11" />
+		<object				path="units/pd2_mod_zmhallow/props/prop_bloodsplatter/bph_prop_blood_handprint_11" />
+		<model				path="units/pd2_mod_zmhallow/props/prop_bloodsplatter/bph_prop_blood_handprint_11" />
+		<unit				path="units/pd2_mod_zmhallow/props/prop_bloodsplatter/bph_prop_blood_handprint_08" />
+		<object				path="units/pd2_mod_zmhallow/props/prop_bloodsplatter/bph_prop_blood_handprint_08" />
+		<model				path="units/pd2_mod_zmhallow/props/prop_bloodsplatter/bph_prop_blood_handprint_08" />
+		<unit				path="units/pd2_mod_zmhallow/props/prop_bloodsplatter/bph_prop_blood_handprint_06" />
+		<object				path="units/pd2_mod_zmhallow/props/prop_bloodsplatter/bph_prop_blood_handprint_06" />
+		<model				path="units/pd2_mod_zmhallow/props/prop_bloodsplatter/bph_prop_blood_handprint_06" />
+		<unit				path="units/pd2_mod_zmhallow/props/prop_bloodsplatter/bph_prop_blood_handprint_05" />
+		<object				path="units/pd2_mod_zmhallow/props/prop_bloodsplatter/bph_prop_blood_handprint_05" />
+		<model				path="units/pd2_mod_zmhallow/props/prop_bloodsplatter/bph_prop_blood_handprint_05" />
+		<unit				path="units/pd2_mod_zmhallow/props/prop_bloodsplatter/bph_prop_blood_handprint_02" />
+		<object				path="units/pd2_mod_zmhallow/props/prop_bloodsplatter/bph_prop_blood_handprint_02" />
+		<model				path="units/pd2_mod_zmhallow/props/prop_bloodsplatter/bph_prop_blood_handprint_02" />
+		<unit				path="units/pd2_mod_zmhallow/props/prop_bloodsplatter/bph_prop_blood_handprint_01" />
+		<object				path="units/pd2_mod_zmhallow/props/prop_bloodsplatter/bph_prop_blood_handprint_01" />
+		<model				path="units/pd2_mod_zmhallow/props/prop_bloodsplatter/bph_prop_blood_handprint_01" />
 	</add>
 	
 	<add unload_on_restart="true">
@@ -70,15 +118,6 @@
 	<!--REQUIRED-->
 	<!--Floating Textures-->
 	<add unload_on_restart="true">
-		<texture force="true" path="effects/textures/misc/lightning2"/>
-		<texture force="true" path="effects/textures/add_atlas_df"/>
-		<texture force="true" path="effects/textures/effects_atlas"/>
-		<texture force="true" path="effects/textures/opacity_atlas_df"/>
-		<texture force="true" path="effects/textures/bullet_hit/e_dist_heat"/>
-		<texture force="true" path="effects/textures/bullet_hit/e_muzzle_flash03_mgsj2"/>
-		<texture force="true" path="effects/textures/bullet_hit/glow_ball"/>
-		<texture force="true" path="effects/textures/smoke/e_smoke_04_6x6_seq"/>
-		
 		<texture path="units/pd2_mod_zombies/guis/hud/bloodtrail"/>
 		<texture path="units/pd2_mod_zombies/guis/hud/bloodtrail_other"/>
 		<texture path="units/pd2_mod_zombies/guis/assets/perk_mechanics" />

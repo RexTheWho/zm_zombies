@@ -2,15 +2,6 @@
 	<!--REQUIRED-->
 	<!--Floating Textures-->
 	<add unload_on_restart="true">
-		<texture force="true" path="effects/textures/misc/lightning2"/>
-		<texture force="true" path="effects/textures/add_atlas_df"/>
-		<texture force="true" path="effects/textures/effects_atlas"/>
-		<texture force="true" path="effects/textures/opacity_atlas_df"/>
-		<texture force="true" path="effects/textures/bullet_hit/e_dist_heat"/>
-		<texture force="true" path="effects/textures/bullet_hit/e_muzzle_flash03_mgsj2"/>
-		<texture force="true" path="effects/textures/bullet_hit/glow_ball"/>
-		<texture force="true" path="effects/textures/smoke/e_smoke_04_6x6_seq"/>
-		
 		<texture path="units/pd2_mod_zombies/guis/hud/bloodtrail"/>
 		<texture path="units/pd2_mod_zombies/guis/hud/bloodtrail_other"/>
 		<texture path="units/pd2_mod_zombies/guis/assets/perk_mechanics" />

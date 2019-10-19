@@ -272,7 +272,7 @@ function WeaponTweakData:_init_zm_new_weapons()
     self.roach_primary.can_shoot_through_enemy = true
     self.roach_primary.can_shoot_through_wall = true
     self.roach_primary.can_shoot_through_shield = true
-    self.roach_primary.muzzleflash = "units/pd2_mod_zombies/effects/payday2/particles/weapons/50cal_auto_fps"
+    self.roach_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle_main"
     self.roach_primary.stats.damage = 90
     self.roach_primary.stats.spread = 26
     self.roach_primary.stats.spread_moving = 25
@@ -482,7 +482,7 @@ end
 function WeaponTweakData:_init_upgraded_zm_weapons()
     self.new_m14_upg_primary = deep_clone(self.new_m14_primary)
     self.new_m14_upg_primary.name_id = "wpn_m308_upg_name"
-    self.new_m14_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle"
+    self.new_m14_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle_main"
     self.new_m14_upg_primary.CLIP_AMMO_MAX = 30
     self.new_m14_upg_primary.NR_CLIPS_MAX = 7
     self.new_m14_upg_primary.AMMO_MAX = self.new_m14_upg_primary.CLIP_AMMO_MAX * self.new_m14_upg_primary.NR_CLIPS_MAX
@@ -498,7 +498,7 @@ function WeaponTweakData:_init_upgraded_zm_weapons()
     self.m95_upg_primary.NR_CLIPS_MAX = 4
     self.m95_upg_primary.AMMO_MAX = self.m95_upg_primary.CLIP_AMMO_MAX * self.m95_upg_primary.NR_CLIPS_MAX
     self.m95_upg_primary.stats_modifiers = {damage = 100}
-    self.m95_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle"
+    self.m95_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle_main"
     self.m95_upg_secondary = deep_clone(self.m95_upg_primary)
     self.m95_upg_secondary.use_data = {selection_index = SECONDARY}
 
@@ -525,7 +525,7 @@ function WeaponTweakData:_init_upgraded_zm_weapons()
     self.colt_1911_upg_primary.NR_CLIPS_MAX = 4
     self.colt_1911_upg_primary.AMMO_MAX = self.colt_1911_upg_primary.CLIP_AMMO_MAX * self.colt_1911_upg_primary.NR_CLIPS_MAX
     self.colt_1911_upg_primary.stats_modifiers = {damage = 20}
-    self.colt_1911_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle"
+    self.colt_1911_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle_main"
     self.colt_1911_upg_primary.use_data = {selection_index = PRIMARY}
     self.colt_1911_upg_secondary = deep_clone(self.colt_1911_upg_primary)
     self.colt_1911_upg_secondary.use_data = {selection_index = SECONDARY}
@@ -533,7 +533,7 @@ function WeaponTweakData:_init_upgraded_zm_weapons()
 
     self.b682_upg_primary = deep_clone(self.b682_primary)
     self.b682_upg_primary.name_id = "wpn_jocy_upg_name"
-    self.b682_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle"
+    self.b682_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle_main"
     self.b682_upg_primary.stats_modifiers = {damage = 8}
     self.b682_upg_primary.CLIP_AMMO_MAX = 4
     self.b682_upg_primary.NR_CLIPS_MAX = 16
@@ -542,7 +542,7 @@ function WeaponTweakData:_init_upgraded_zm_weapons()
     self.b682_upg_secondary.use_data = {selection_index = SECONDARY, align_place = "right_hand"}
 
     self.mp9_upg_primary = deep_clone(self.mp9_primary)
-    self.mp9_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle"
+    self.mp9_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle_main"
     self.mp9_upg_primary.name_id = "wpn_mp9_upg_name"
     self.mp9_upg_primary.CLIP_AMMO_MAX = 64
     self.mp9_upg_primary.NR_CLIPS_MAX = 8
@@ -554,7 +554,7 @@ function WeaponTweakData:_init_upgraded_zm_weapons()
 
     self.rpg7_upg_primary = deep_clone(self.rpg7_primary)
     self.rpg7_upg_primary.name_id = "wpn_rpg7_upg_name"
-    self.rpg7_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle"
+    self.rpg7_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle_main"
     self.rpg7_upg_primary.stats_modifiers = {damage = 10}
     self.rpg7_upg_primary.fire_mode_data = {fire_rate = 0.11}
     self.rpg7_upg_primary.CLIP_AMMO_MAX = 5
@@ -564,7 +564,7 @@ function WeaponTweakData:_init_upgraded_zm_weapons()
     self.rpg7_upg_secondary.use_data = {selection_index = SECONDARY, align_place = "right_hand"}
 	
     self.amcar_upg_primary = deep_clone(self.amcar_primary)
-    self.amcar_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle"
+    self.amcar_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle_main"
     self.amcar_upg_primary.name_id = "wpn_amcar_upg_name"
     self.amcar_upg_primary.stats_modifiers = {damage = 10}
     self.amcar_upg_primary.CLIP_AMMO_MAX = 40
@@ -575,7 +575,7 @@ function WeaponTweakData:_init_upgraded_zm_weapons()
 
     self.aug_upg_primary = deep_clone(self.aug_primary)
     self.aug_upg_primary.name_id = "wpn_aug_upg_name"
-    self.aug_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle"
+    self.aug_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle_main"
     self.aug_upg_primary.stats_modifiers = {damage = 9}
     self.aug_upg_primary.CLIP_AMMO_MAX = 35
     self.aug_upg_primary.NR_CLIPS_MAX = 10
@@ -585,7 +585,7 @@ function WeaponTweakData:_init_upgraded_zm_weapons()
 
     self.fal_upg_primary = deep_clone(self.fal_primary)
     self.fal_upg_primary.name_id = "wpn_fal_upg_name"
-    self.fal_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle"
+    self.fal_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle_main"
     self.fal_upg_primary.stats_modifiers = {damage = 8}
     self.fal_upg_primary.CLIP_AMMO_MAX = 30
     self.fal_upg_primary.NR_CLIPS_MAX = 7
@@ -595,7 +595,7 @@ function WeaponTweakData:_init_upgraded_zm_weapons()
 
     self.flint_upg_primary = deep_clone(self.flint_primary)
     self.flint_upg_primary.name_id = "wpn_flint_upg_name"
-    self.flint_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle"
+    self.flint_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle_main"
     self.flint_upg_primary.stats_modifiers = {damage = 8}
     self.flint_upg_primary.CLIP_AMMO_MAX = 35
     self.flint_upg_primary.NR_CLIPS_MAX = 10
@@ -605,7 +605,7 @@ function WeaponTweakData:_init_upgraded_zm_weapons()
 
     self.m16_upg_primary = deep_clone(self.m16_primary)
     self.m16_upg_primary.name_id = "wpn_m16_upg_name"
-    self.m16_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle"
+    self.m16_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle_main"
     self.m16_upg_primary.stats_modifiers = {damage = 8}
     self.m16_upg_primary.CLIP_AMMO_MAX = 50
     self.m16_upg_primary.NR_CLIPS_MAX = 8
@@ -615,7 +615,7 @@ function WeaponTweakData:_init_upgraded_zm_weapons()
 
     self.scar_upg_primary = deep_clone(self.scar_primary)
     self.scar_upg_primary.name_id = "wpn_scar_upg_name"
-    self.scar_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle"
+    self.scar_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle_main"
     self.scar_upg_primary.stats_modifiers = {damage = 10}
     self.scar_upg_primary.CLIP_AMMO_MAX = 35
     self.scar_upg_primary.NR_CLIPS_MAX = 9
@@ -625,7 +625,7 @@ function WeaponTweakData:_init_upgraded_zm_weapons()
 
     self.hk21_upg_primary = deep_clone(self.hk21_primary)
     self.hk21_upg_primary.name_id = "wpn_hk21_upg_name"
-    self.hk21_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle"
+    self.hk21_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle_main"
     self.hk21_upg_primary.stats_modifiers = {damage = 8}
     self.hk21_upg_primary.CLIP_AMMO_MAX = 150
     self.hk21_upg_primary.NR_CLIPS_MAX = 6
@@ -635,7 +635,7 @@ function WeaponTweakData:_init_upgraded_zm_weapons()
 
     self.m249_upg_primary = deep_clone(self.m249_primary)
     self.m249_upg_primary.name_id = "wpn_m249_upg_name"
-    self.m249_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle"
+    self.m249_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle_main"
     self.m249_upg_primary.stats_modifiers = {damage = 10}
     self.m249_upg_primary.CLIP_AMMO_MAX = 125
     self.m249_upg_primary.NR_CLIPS_MAX = 5
@@ -645,7 +645,7 @@ function WeaponTweakData:_init_upgraded_zm_weapons()
 	
     self.breech_upg_primary = deep_clone(self.breech_primary)
     self.breech_upg_primary.name_id = "wpn_breech_upg_name"
-    self.breech_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle"
+    self.breech_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle_main"
     self.breech_upg_primary.stats_modifiers = {damage = 14}
     self.breech_upg_primary.use_data = {selection_index = PRIMARY}
     self.breech_upg_primary.CLIP_AMMO_MAX = 16
@@ -656,7 +656,7 @@ function WeaponTweakData:_init_upgraded_zm_weapons()
 	
     self.deagle_upg_primary = deep_clone(self.deagle_primary)
     self.deagle_upg_primary.name_id = "wpn_deagle_upg_name"
-    self.deagle_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle"
+    self.deagle_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle_main"
     self.deagle_upg_primary.stats_modifiers = {damage = 15}
     self.deagle_upg_primary.CLIP_AMMO_MAX = 10
     self.deagle_upg_primary.NR_CLIPS_MAX = 8
@@ -667,7 +667,7 @@ function WeaponTweakData:_init_upgraded_zm_weapons()
 	
     self.judge_upg_primary = deep_clone(self.judge_primary)
     self.judge_upg_primary.name_id = "wpn_judge_upg_name"
-    self.judge_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle"
+    self.judge_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle_main"
     self.judge_upg_primary.stats_modifiers = {damage = 10}
     self.judge_upg_primary.CLIP_AMMO_MAX = 5
     self.judge_upg_primary.NR_CLIPS_MAX = 12
@@ -678,7 +678,7 @@ function WeaponTweakData:_init_upgraded_zm_weapons()
 	
     self.peacemaker_upg_primary = deep_clone(self.peacemaker_primary)
     self.peacemaker_upg_primary.name_id = "wpn_peace_upg_name"
-    self.peacemaker_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle"
+    self.peacemaker_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle_main"
     self.peacemaker_upg_primary.stats_modifiers = {damage = 14}
     self.peacemaker_upg_primary.CLIP_AMMO_MAX = 6
     self.peacemaker_upg_primary.NR_CLIPS_MAX = 14
@@ -692,7 +692,7 @@ function WeaponTweakData:_init_upgraded_zm_weapons()
 
     self.new_raging_bull_upg_primary = deep_clone(self.new_raging_bull_primary)
     self.new_raging_bull_upg_primary.name_id = "wpn_rbull_upg_name"
-    self.new_raging_bull_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle"
+    self.new_raging_bull_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle_main"
     self.new_raging_bull_upg_primary.stats_modifiers = {damage = 16}
     self.new_raging_bull_upg_primary.CLIP_AMMO_MAX = 6
     self.new_raging_bull_upg_primary.NR_CLIPS_MAX = 10
@@ -706,7 +706,7 @@ function WeaponTweakData:_init_upgraded_zm_weapons()
 	
     self.striker_upg_primary = deep_clone(self.striker_primary)
     self.striker_upg_primary.name_id = "wpn_striker_upg_name"
-    self.striker_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle"
+    self.striker_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle_main"
     self.striker_upg_primary.stats_modifiers = {damage = 10}
     self.striker_upg_primary.CLIP_AMMO_MAX = 24
     self.striker_upg_primary.NR_CLIPS_MAX = 5
@@ -717,7 +717,7 @@ function WeaponTweakData:_init_upgraded_zm_weapons()
 	
     self.p90_upg_primary = deep_clone(self.p90_primary)
     self.p90_upg_primary.name_id = "wpn_p90_upg_name"
-    self.p90_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle"
+    self.p90_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle_main"
     self.p90_upg_primary.stats_modifiers = {damage = 10}
     self.p90_upg_primary.CLIP_AMMO_MAX = 50
     self.p90_upg_primary.NR_CLIPS_MAX = 9
@@ -728,7 +728,7 @@ function WeaponTweakData:_init_upgraded_zm_weapons()
 	
     self.m1928_upg_primary = deep_clone(self.m1928_primary)
     self.m1928_upg_primary.name_id = "wpn_m1928_upg_name"
-    self.m1928_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle"
+    self.m1928_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle_main"
     self.m1928_upg_primary.stats_modifiers = {damage = 10}
     self.m1928_upg_primary.CLIP_AMMO_MAX = 100
     self.m1928_upg_primary.NR_CLIPS_MAX = 4
@@ -739,7 +739,7 @@ function WeaponTweakData:_init_upgraded_zm_weapons()
 	
 	self.ak74_upg_primary = deep_clone(self.ak74_primary)
     self.ak74_upg_primary.name_id = "wpn_ak_upg_name"
-    self.ak74_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle"
+    self.ak74_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle_main"
     self.ak74_upg_primary.stats_modifiers = {damage = 10}
     self.ak74_upg_primary.CLIP_AMMO_MAX = 45
     self.ak74_upg_primary.NR_CLIPS_MAX = 8
@@ -750,7 +750,7 @@ function WeaponTweakData:_init_upgraded_zm_weapons()
 	
 	self.ching_upg_primary = deep_clone(self.ching_primary)
     self.ching_upg_primary.name_id = "wpn_garand_upg_name"
-    self.ching_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle"
+    self.ching_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle_main"
     self.ching_upg_primary.stats_modifiers = {damage = 8}
     self.ching_upg_primary.CLIP_AMMO_MAX = 20
     self.ching_upg_primary.NR_CLIPS_MAX = 7
@@ -762,7 +762,7 @@ function WeaponTweakData:_init_upgraded_zm_weapons()
 	
 	self.lemming_upg_primary = deep_clone(self.lemming_primary)
     self.lemming_upg_primary.name_id = "wpn_lemming_upg_name"
-    self.lemming_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle"
+    self.lemming_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle_main"
     self.lemming_upg_primary.stats_modifiers = {damage = 13}
     self.lemming_upg_primary.CLIP_AMMO_MAX = 20
     self.lemming_upg_primary.NR_CLIPS_MAX = 7
@@ -777,7 +777,7 @@ function WeaponTweakData:_init_upgraded_zm_weapons()
 	
 	self.m37_upg_primary = deep_clone(self.m37_primary)
     self.m37_upg_primary.name_id = "wpn_m37_upg_name"
-    self.m37_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle"
+    self.m37_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle_main"
     self.m37_upg_primary.stats_modifiers = {damage = 12}
     self.m37_upg_primary.CLIP_AMMO_MAX = 16
     self.m37_upg_primary.NR_CLIPS_MAX = 6
@@ -788,7 +788,7 @@ function WeaponTweakData:_init_upgraded_zm_weapons()
 	
     self.r870_upg_primary = deep_clone(self.r870_primary)
     self.r870_upg_primary.name_id = "wpn_r870_upg_name"
-    self.r870_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle"
+    self.r870_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle_main"
     self.r870_upg_primary.stats_modifiers = {damage = 10}
     self.r870_upg_primary.CLIP_AMMO_MAX = 12
     self.r870_upg_primary.NR_CLIPS_MAX = 9
@@ -799,7 +799,7 @@ function WeaponTweakData:_init_upgraded_zm_weapons()
 	
 	self.erma_upg_primary = deep_clone(self.erma_primary)
     self.erma_upg_primary.name_id = "wpn_mp40_upg_name"
-    self.erma_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle"
+    self.erma_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle_main"
     self.erma_upg_primary.stats_modifiers = {damage = 14}
     self.erma_upg_primary.CLIP_AMMO_MAX = 64
     self.erma_upg_primary.NR_CLIPS_MAX = 4
@@ -810,7 +810,7 @@ function WeaponTweakData:_init_upgraded_zm_weapons()
 	
 	self.schakal_upg_primary = deep_clone(self.schakal_primary)
     self.schakal_upg_primary.name_id = "wpn_ump45_upg_name"
-    self.schakal_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle"
+    self.schakal_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle_main"
     self.schakal_upg_primary.stats_modifiers = {damage = 10}
     self.schakal_upg_primary.CLIP_AMMO_MAX = 48
     self.schakal_upg_primary.NR_CLIPS_MAX = 6
@@ -821,7 +821,7 @@ function WeaponTweakData:_init_upgraded_zm_weapons()
 	
 	self.tec9_upg_primary = deep_clone(self.tec9_primary)
     self.tec9_upg_primary.name_id = "wpn_tec9_upg_name"
-    self.tec9_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle"
+    self.tec9_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle_main"
     self.tec9_upg_primary.stats_modifiers = {damage = 15}
     self.tec9_upg_primary.CLIP_AMMO_MAX = 25
     self.tec9_upg_primary.NR_CLIPS_MAX = 10
@@ -832,7 +832,7 @@ function WeaponTweakData:_init_upgraded_zm_weapons()
 
     self.mosin_upg_primary = deep_clone(self.mosin_primary)
     self.mosin_upg_primary.name_id = "wpn_mosin_upg_name"
-    self.mosin_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle"
+    self.mosin_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle_main"
     self.mosin_upg_primary.CLIP_AMMO_MAX = 10
     self.mosin_upg_primary.NR_CLIPS_MAX = 12
 	self.mosin_upg_primary.can_shoot_through_enemy = true 
@@ -853,14 +853,14 @@ function WeaponTweakData:_init_upgraded_zm_weapons()
     self.stryk_upg_primary.stats_modifiers = {damage = 12}
     self.stryk_upg_primary.stats.recoil = 99
     self.stryk_upg_primary.stats.spread = 99
-    self.stryk_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle"
+    self.stryk_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle_main"
 	self.stryk_upg_primary.use_data = {selection_index = PRIMARY}
     self.stryk_upg_secondary = deep_clone(self.stryk_upg_primary)
     self.stryk_upg_secondary.use_data = {selection_index = SECONDARY}
 	
     self.roach_upg_primary = deep_clone(self.roach_primary)
     self.roach_upg_primary.name_id = "wpn_roach_upg_name"
-    self.roach_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle"
+    self.roach_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle_main"
     self.roach_upg_primary.fire_mode_data = {fire_rate = 0.11}
     self.roach_upg_primary.CLIP_AMMO_MAX = 6
     self.roach_upg_primary.NR_CLIPS_MAX = 5
@@ -874,7 +874,7 @@ function WeaponTweakData:_init_upgraded_zm_weapons()
     self.vulcan_upg = deep_clone(self.shuno)
     self.vulcan_upg.name_id = "wpn_minigun_upg_name"
     self.vulcan_upg.animations.reload_name_id = "shuno"
-    self.vulcan_upg.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle"
+    self.vulcan_upg.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle_main"
     self.vulcan_upg.CLIP_AMMO_MAX = 999
     self.vulcan_upg.NR_CLIPS_MAX = 1
     self.vulcan_upg.AMMO_MAX = self.vulcan_upg.CLIP_AMMO_MAX * self.vulcan_upg.NR_CLIPS_MAX
@@ -888,7 +888,7 @@ function WeaponTweakData:_init_upgraded_zm_weapons()
     self.deamon_upg_primary.NR_CLIPS_MAX = 6
     self.deamon_upg_primary.AMMO_MAX = self.deamon_upg_primary.CLIP_AMMO_MAX * self.deamon_upg_primary.NR_CLIPS_MAX
     self.deamon_upg_primary.stats_modifiers = {damage = 14}
-    self.deamon_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle"
+    self.deamon_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle_main"
     self.deamon_upg_secondary = deep_clone(self.deamon_upg_primary)
     self.deamon_upg_secondary.use_data = {selection_index = SECONDARY, align_place = "right_hand"}
 
@@ -896,7 +896,7 @@ function WeaponTweakData:_init_upgraded_zm_weapons()
     -- self.elastic_upg_primary = deep_clone(self.elastic_primary)
     -- self.elastic_upg_primary.name_id = "wpn_elastic_upg_name"
     -- self.elastic_upg_primary.stats_modifiers = {damage = 16}
-    -- self.elastic_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle"
+    -- self.elastic_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle_main"
     -- self.elastic_upg_secondary = deep_clone(self.elastic_upg_primary)
     -- self.elastic_upg_secondary.use_data = {selection_index = SECONDARY, align_place = "left_hand"}
 
@@ -908,7 +908,7 @@ function WeaponTweakData:_init_upgraded_zm_weapons()
     self.g3_upg_primary.NR_CLIPS_MAX = 8
     self.g3_upg_primary.AMMO_MAX = self.g3_upg_primary.CLIP_AMMO_MAX * self.g3_upg_primary.NR_CLIPS_MAX
     self.g3_upg_primary.stats_modifiers = {damage = 10}
-    self.g3_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle"
+    self.g3_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle_main"
     self.g3_upg_secondary = deep_clone(self.g3_upg_primary)
     self.g3_upg_secondary.use_data = {selection_index = SECONDARY}
 
@@ -917,7 +917,7 @@ function WeaponTweakData:_init_upgraded_zm_weapons()
     self.tar21_upg_primary.CLIP_AMMO_MAX = 50
     self.tar21_upg_primary.NR_CLIPS_MAX = 10
     self.tar21_upg_primary.AMMO_MAX = self.tar21_upg_primary.CLIP_AMMO_MAX * self.tar21_upg_primary.NR_CLIPS_MAX
-    self.tar21_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle"
+    self.tar21_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle_main"
     self.tar21_upg_primary.stats_modifiers = {damage = 8}
     self.tar21_upg_primary.stats.recoil = 17
     self.tar21_upg_primary.stats.spread = 17
@@ -934,7 +934,7 @@ function WeaponTweakData:_init_upgraded_zm_weapons()
     self.par_upg_primary.stats.recoil = 19
     self.par_upg_primary.stats.spread = 18
     self.par_upg_primary.stats_modifiers = {damage = 14}
-    self.par_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle"
+    self.par_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle_main"
     self.par_upg_primary.use_data = {selection_index = PRIMARY}
     self.par_upg_secondary = deep_clone(self.par_upg_primary)
     self.par_upg_secondary.use_data = {selection_index = SECONDARY}
@@ -955,7 +955,7 @@ function WeaponTweakData:_init_upgraded_zm_weapons()
     self.packrat_upg_primary.NR_CLIPS_MAX = 8
     self.packrat_upg_primary.AMMO_MAX = self.packrat_upg_primary.CLIP_AMMO_MAX * self.packrat_upg_primary.NR_CLIPS_MAX
     self.packrat_upg_primary.stats_modifiers = {damage = 14}
-    self.packrat_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle"
+    self.packrat_upg_primary.muzzleflash = "units/pd2_mod_zombies/effects/zm_weapons/zm_pap_muzzle_main"
     self.packrat_upg_primary.use_data = {selection_index = PRIMARY}
     self.packrat_upg_secondary = deep_clone(self.packrat_upg_primary)
     self.packrat_upg_secondary.use_data = {selection_index = SECONDARY}
