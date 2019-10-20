@@ -9088,7 +9088,7 @@
 					<entry key="path_style" type="string" value="destination"/>
 					<entry key="patrol_path" type="string" value="none"/>
 					<entry key="pose" type="string" value="stand"/>
-					<entry key="position" type="vector3" value="-2900 -950 600"/>
+					<entry key="position" type="vector3" value="-2900 -900 600"/>
 					<entry key="rotation" type="quaternion" value="0 0 -8.74228e-008 -1"/>
 					<entry key="scan" type="boolean" value="true"/>
 					<entry key="search_distance" type="number" value="0"/>
@@ -9134,7 +9134,7 @@
 					<entry key="path_style" type="string" value="destination"/>
 					<entry key="patrol_path" type="string" value="none"/>
 					<entry key="pose" type="string" value="stand"/>
-					<entry key="position" type="vector3" value="-3000 -950 600"/>
+					<entry key="position" type="vector3" value="-3000 -900 600"/>
 					<entry key="rotation" type="quaternion" value="0 0 -8.74228e-008 -1"/>
 					<entry key="scan" type="boolean" value="true"/>
 					<entry key="search_distance" type="number" value="0"/>
@@ -9180,7 +9180,7 @@
 					<entry key="path_style" type="string" value="destination"/>
 					<entry key="patrol_path" type="string" value="none"/>
 					<entry key="pose" type="string" value="stand"/>
-					<entry key="position" type="vector3" value="-3100 -950 600"/>
+					<entry key="position" type="vector3" value="-3100 -900 600"/>
 					<entry key="rotation" type="quaternion" value="0 0 -8.74228e-008 -1"/>
 					<entry key="scan" type="boolean" value="true"/>
 					<entry key="search_distance" type="number" value="0"/>
@@ -10921,7 +10921,7 @@
 				<entry key="id" type="number" value="100375"/>
 				<entry key="script" type="string" value="default"/>
 				<entry key="values" type="table">
-					<entry key="amount" type="number" value="0"/>
+					<entry key="amount" type="number" value="5"/>
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="elements" type="table">
 						<entry index="1" type="number" value="100376"/>
@@ -10938,14 +10938,11 @@
 					</entry>
 					<entry key="position" type="vector3" value="-400 4000 200"/>
 					<entry key="preferred_spawn_groups" type="table">
-						<entry index="1" type="string" value="tac_shield_wall_charge"/>
-						<entry index="2" type="string" value="FBI_spoocs"/>
-						<entry index="3" type="string" value="tac_tazer_charge"/>
-						<entry index="4" type="string" value="tac_tazer_flanking"/>
-						<entry index="5" type="string" value="tac_shield_wall"/>
-						<entry index="6" type="string" value="tac_swat_rifle_flank"/>
-						<entry index="7" type="string" value="tac_shield_wall_ranged"/>
-						<entry index="8" type="string" value="tac_bull_rush"/>
+						<entry index="1" type="string" value="FBI_spoocs"/>
+						<entry index="2" type="string" value="tac_tazer_charge"/>
+						<entry index="3" type="string" value="tac_tazer_flanking"/>
+						<entry index="4" type="string" value="tac_swat_rifle_flank"/>
+						<entry index="5" type="string" value="tac_bull_rush"/>
 					</entry>
 					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
 					<entry key="spawn_type" type="string" value="ordered"/>
@@ -11084,7 +11081,7 @@
 				<entry key="id" type="number" value="100381"/>
 				<entry key="script" type="string" value="default"/>
 				<entry key="values" type="table">
-					<entry key="amount" type="number" value="0"/>
+					<entry key="amount" type="number" value="5"/>
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="elements" type="table">
 						<entry index="1" type="number" value="100382"/>
@@ -11101,14 +11098,11 @@
 					</entry>
 					<entry key="position" type="vector3" value="-300 4000 200"/>
 					<entry key="preferred_spawn_groups" type="table">
-						<entry index="1" type="string" value="tac_shield_wall_charge"/>
-						<entry index="2" type="string" value="FBI_spoocs"/>
-						<entry index="3" type="string" value="tac_tazer_charge"/>
-						<entry index="4" type="string" value="tac_tazer_flanking"/>
-						<entry index="5" type="string" value="tac_shield_wall"/>
-						<entry index="6" type="string" value="tac_swat_rifle_flank"/>
-						<entry index="7" type="string" value="tac_shield_wall_ranged"/>
-						<entry index="8" type="string" value="tac_bull_rush"/>
+						<entry index="1" type="string" value="FBI_spoocs"/>
+						<entry index="2" type="string" value="tac_tazer_charge"/>
+						<entry index="3" type="string" value="tac_tazer_flanking"/>
+						<entry index="4" type="string" value="tac_swat_rifle_flank"/>
+						<entry index="5" type="string" value="tac_bull_rush"/>
 					</entry>
 					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
 					<entry key="spawn_type" type="string" value="ordered"/>
@@ -11265,6 +11259,7 @@
 					<entry key="interrupt_dis" type="number" value="0"/>
 					<entry key="interrupt_dmg" type="number" value="0"/>
 					<entry key="interval" type="number" value="3"/>
+					<entry key="is_navigation_link" type="boolean" value="true"/>
 					<entry key="needs_pos_rsrv" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
 					</entry>
@@ -11310,6 +11305,7 @@
 					<entry key="interrupt_dis" type="number" value="0"/>
 					<entry key="interrupt_dmg" type="number" value="0"/>
 					<entry key="interval" type="number" value="3"/>
+					<entry key="is_navigation_link" type="boolean" value="true"/>
 					<entry key="needs_pos_rsrv" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
 					</entry>
@@ -11355,6 +11351,7 @@
 					<entry key="interrupt_dis" type="number" value="0"/>
 					<entry key="interrupt_dmg" type="number" value="0"/>
 					<entry key="interval" type="number" value="3"/>
+					<entry key="is_navigation_link" type="boolean" value="true"/>
 					<entry key="needs_pos_rsrv" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
 					</entry>
@@ -11400,6 +11397,7 @@
 					<entry key="interrupt_dis" type="number" value="0"/>
 					<entry key="interrupt_dmg" type="number" value="0"/>
 					<entry key="interval" type="number" value="3"/>
+					<entry key="is_navigation_link" type="boolean" value="true"/>
 					<entry key="needs_pos_rsrv" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
 					</entry>
@@ -11445,6 +11443,7 @@
 					<entry key="interrupt_dis" type="number" value="0"/>
 					<entry key="interrupt_dmg" type="number" value="0"/>
 					<entry key="interval" type="number" value="3"/>
+					<entry key="is_navigation_link" type="boolean" value="true"/>
 					<entry key="needs_pos_rsrv" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
 					</entry>
@@ -11490,6 +11489,7 @@
 					<entry key="interrupt_dis" type="number" value="0"/>
 					<entry key="interrupt_dmg" type="number" value="0"/>
 					<entry key="interval" type="number" value="3"/>
+					<entry key="is_navigation_link" type="boolean" value="true"/>
 					<entry key="needs_pos_rsrv" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
 					</entry>
@@ -11535,6 +11535,7 @@
 					<entry key="interrupt_dis" type="number" value="0"/>
 					<entry key="interrupt_dmg" type="number" value="0"/>
 					<entry key="interval" type="number" value="3"/>
+					<entry key="is_navigation_link" type="boolean" value="true"/>
 					<entry key="needs_pos_rsrv" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
 					</entry>
@@ -11580,6 +11581,7 @@
 					<entry key="interrupt_dis" type="number" value="0"/>
 					<entry key="interrupt_dmg" type="number" value="0"/>
 					<entry key="interval" type="number" value="3"/>
+					<entry key="is_navigation_link" type="boolean" value="true"/>
 					<entry key="needs_pos_rsrv" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
 					</entry>
@@ -11625,6 +11627,7 @@
 					<entry key="interrupt_dis" type="number" value="0"/>
 					<entry key="interrupt_dmg" type="number" value="0"/>
 					<entry key="interval" type="number" value="3"/>
+					<entry key="is_navigation_link" type="boolean" value="true"/>
 					<entry key="needs_pos_rsrv" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
 					</entry>
@@ -11670,6 +11673,7 @@
 					<entry key="interrupt_dis" type="number" value="0"/>
 					<entry key="interrupt_dmg" type="number" value="0"/>
 					<entry key="interval" type="number" value="3"/>
+					<entry key="is_navigation_link" type="boolean" value="true"/>
 					<entry key="needs_pos_rsrv" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
 					</entry>
@@ -11715,6 +11719,7 @@
 					<entry key="interrupt_dis" type="number" value="0"/>
 					<entry key="interrupt_dmg" type="number" value="0"/>
 					<entry key="interval" type="number" value="3"/>
+					<entry key="is_navigation_link" type="boolean" value="true"/>
 					<entry key="needs_pos_rsrv" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
 					</entry>
@@ -11760,6 +11765,7 @@
 					<entry key="interrupt_dis" type="number" value="0"/>
 					<entry key="interrupt_dmg" type="number" value="0"/>
 					<entry key="interval" type="number" value="3"/>
+					<entry key="is_navigation_link" type="boolean" value="true"/>
 					<entry key="needs_pos_rsrv" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
 					</entry>
@@ -11805,6 +11811,7 @@
 					<entry key="interrupt_dis" type="number" value="0"/>
 					<entry key="interrupt_dmg" type="number" value="0"/>
 					<entry key="interval" type="number" value="3"/>
+					<entry key="is_navigation_link" type="boolean" value="true"/>
 					<entry key="needs_pos_rsrv" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
 					</entry>
@@ -11850,6 +11857,7 @@
 					<entry key="interrupt_dis" type="number" value="0"/>
 					<entry key="interrupt_dmg" type="number" value="0"/>
 					<entry key="interval" type="number" value="3"/>
+					<entry key="is_navigation_link" type="boolean" value="true"/>
 					<entry key="needs_pos_rsrv" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
 					</entry>
@@ -11895,6 +11903,7 @@
 					<entry key="interrupt_dis" type="number" value="0"/>
 					<entry key="interrupt_dmg" type="number" value="0"/>
 					<entry key="interval" type="number" value="3"/>
+					<entry key="is_navigation_link" type="boolean" value="true"/>
 					<entry key="needs_pos_rsrv" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
 					</entry>
@@ -11940,6 +11949,7 @@
 					<entry key="interrupt_dis" type="number" value="0"/>
 					<entry key="interrupt_dmg" type="number" value="0"/>
 					<entry key="interval" type="number" value="3"/>
+					<entry key="is_navigation_link" type="boolean" value="true"/>
 					<entry key="needs_pos_rsrv" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
 					</entry>
@@ -11985,6 +11995,7 @@
 					<entry key="interrupt_dis" type="number" value="0"/>
 					<entry key="interrupt_dmg" type="number" value="0"/>
 					<entry key="interval" type="number" value="3"/>
+					<entry key="is_navigation_link" type="boolean" value="true"/>
 					<entry key="needs_pos_rsrv" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
 					</entry>
@@ -12057,7 +12068,7 @@
 				<entry key="id" type="number" value="100406"/>
 				<entry key="script" type="string" value="default"/>
 				<entry key="values" type="table">
-					<entry key="amount" type="number" value="0"/>
+					<entry key="amount" type="number" value="5"/>
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="elements" type="table">
 						<entry index="1" type="number" value="100407"/>
@@ -12074,14 +12085,11 @@
 					</entry>
 					<entry key="position" type="vector3" value="-200 4000 200"/>
 					<entry key="preferred_spawn_groups" type="table">
-						<entry index="1" type="string" value="tac_shield_wall_charge"/>
-						<entry index="2" type="string" value="FBI_spoocs"/>
-						<entry index="3" type="string" value="tac_tazer_charge"/>
-						<entry index="4" type="string" value="tac_tazer_flanking"/>
-						<entry index="5" type="string" value="tac_shield_wall"/>
-						<entry index="6" type="string" value="tac_swat_rifle_flank"/>
-						<entry index="7" type="string" value="tac_shield_wall_ranged"/>
-						<entry index="8" type="string" value="tac_bull_rush"/>
+						<entry index="1" type="string" value="FBI_spoocs"/>
+						<entry index="2" type="string" value="tac_tazer_charge"/>
+						<entry index="3" type="string" value="tac_tazer_flanking"/>
+						<entry index="4" type="string" value="tac_swat_rifle_flank"/>
+						<entry index="5" type="string" value="tac_bull_rush"/>
 					</entry>
 					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
 					<entry key="spawn_type" type="string" value="ordered"/>
@@ -12238,6 +12246,7 @@
 					<entry key="interrupt_dis" type="number" value="0"/>
 					<entry key="interrupt_dmg" type="number" value="0"/>
 					<entry key="interval" type="number" value="3"/>
+					<entry key="is_navigation_link" type="boolean" value="true"/>
 					<entry key="needs_pos_rsrv" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
 					</entry>
@@ -12283,6 +12292,7 @@
 					<entry key="interrupt_dis" type="number" value="0"/>
 					<entry key="interrupt_dmg" type="number" value="0"/>
 					<entry key="interval" type="number" value="3"/>
+					<entry key="is_navigation_link" type="boolean" value="true"/>
 					<entry key="needs_pos_rsrv" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
 					</entry>
@@ -12373,6 +12383,7 @@
 					<entry key="interrupt_dis" type="number" value="0"/>
 					<entry key="interrupt_dmg" type="number" value="0"/>
 					<entry key="interval" type="number" value="3"/>
+					<entry key="is_navigation_link" type="boolean" value="true"/>
 					<entry key="needs_pos_rsrv" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
 					</entry>
@@ -12418,6 +12429,7 @@
 					<entry key="interrupt_dis" type="number" value="0"/>
 					<entry key="interrupt_dmg" type="number" value="0"/>
 					<entry key="interval" type="number" value="3"/>
+					<entry key="is_navigation_link" type="boolean" value="true"/>
 					<entry key="needs_pos_rsrv" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
 					</entry>
@@ -12463,6 +12475,7 @@
 					<entry key="interrupt_dis" type="number" value="0"/>
 					<entry key="interrupt_dmg" type="number" value="0"/>
 					<entry key="interval" type="number" value="3"/>
+					<entry key="is_navigation_link" type="boolean" value="true"/>
 					<entry key="needs_pos_rsrv" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
 					</entry>
@@ -12508,6 +12521,7 @@
 					<entry key="interrupt_dis" type="number" value="0"/>
 					<entry key="interrupt_dmg" type="number" value="0"/>
 					<entry key="interval" type="number" value="3"/>
+					<entry key="is_navigation_link" type="boolean" value="true"/>
 					<entry key="needs_pos_rsrv" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
 					</entry>
@@ -12553,6 +12567,7 @@
 					<entry key="interrupt_dis" type="number" value="0"/>
 					<entry key="interrupt_dmg" type="number" value="0"/>
 					<entry key="interval" type="number" value="3"/>
+					<entry key="is_navigation_link" type="boolean" value="true"/>
 					<entry key="needs_pos_rsrv" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
 					</entry>
@@ -12598,6 +12613,7 @@
 					<entry key="interrupt_dis" type="number" value="0"/>
 					<entry key="interrupt_dmg" type="number" value="0"/>
 					<entry key="interval" type="number" value="3"/>
+					<entry key="is_navigation_link" type="boolean" value="true"/>
 					<entry key="needs_pos_rsrv" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
 					</entry>
@@ -12643,6 +12659,7 @@
 					<entry key="interrupt_dis" type="number" value="0"/>
 					<entry key="interrupt_dmg" type="number" value="0"/>
 					<entry key="interval" type="number" value="3"/>
+					<entry key="is_navigation_link" type="boolean" value="true"/>
 					<entry key="needs_pos_rsrv" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
 					</entry>
@@ -12688,6 +12705,7 @@
 					<entry key="interrupt_dis" type="number" value="0"/>
 					<entry key="interrupt_dmg" type="number" value="0"/>
 					<entry key="interval" type="number" value="3"/>
+					<entry key="is_navigation_link" type="boolean" value="true"/>
 					<entry key="needs_pos_rsrv" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
 					</entry>
@@ -12733,6 +12751,7 @@
 					<entry key="interrupt_dis" type="number" value="0"/>
 					<entry key="interrupt_dmg" type="number" value="0"/>
 					<entry key="interval" type="number" value="3"/>
+					<entry key="is_navigation_link" type="boolean" value="true"/>
 					<entry key="needs_pos_rsrv" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
 					</entry>
@@ -12778,6 +12797,7 @@
 					<entry key="interrupt_dis" type="number" value="0"/>
 					<entry key="interrupt_dmg" type="number" value="0"/>
 					<entry key="interval" type="number" value="3"/>
+					<entry key="is_navigation_link" type="boolean" value="true"/>
 					<entry key="needs_pos_rsrv" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
 					</entry>
@@ -12823,6 +12843,7 @@
 					<entry key="interrupt_dis" type="number" value="0"/>
 					<entry key="interrupt_dmg" type="number" value="0"/>
 					<entry key="interval" type="number" value="3"/>
+					<entry key="is_navigation_link" type="boolean" value="true"/>
 					<entry key="needs_pos_rsrv" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
 					</entry>
@@ -12913,6 +12934,7 @@
 					<entry key="interrupt_dis" type="number" value="0"/>
 					<entry key="interrupt_dmg" type="number" value="0"/>
 					<entry key="interval" type="number" value="3"/>
+					<entry key="is_navigation_link" type="boolean" value="true"/>
 					<entry key="needs_pos_rsrv" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
 					</entry>
@@ -12958,6 +12980,7 @@
 					<entry key="interrupt_dis" type="number" value="0"/>
 					<entry key="interrupt_dmg" type="number" value="0"/>
 					<entry key="interval" type="number" value="3"/>
+					<entry key="is_navigation_link" type="boolean" value="true"/>
 					<entry key="needs_pos_rsrv" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
 					</entry>
@@ -13003,6 +13026,7 @@
 					<entry key="interrupt_dis" type="number" value="0"/>
 					<entry key="interrupt_dmg" type="number" value="0"/>
 					<entry key="interval" type="number" value="3"/>
+					<entry key="is_navigation_link" type="boolean" value="true"/>
 					<entry key="needs_pos_rsrv" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
 					</entry>
@@ -13120,7 +13144,7 @@
 					<entry key="test_unit" type="string" value="default"/>
 					<entry key="trigger_on" type="string" value="none"/>
 					<entry key="trigger_times" type="number" value="0"/>
-					<entry key="use_instigator" type="boolean" value="true"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
 				</entry>
 			</entry>
 			<entry index="423" type="table">
@@ -13167,7 +13191,7 @@
 					<entry key="test_unit" type="string" value="default"/>
 					<entry key="trigger_on" type="string" value="none"/>
 					<entry key="trigger_times" type="number" value="0"/>
-					<entry key="use_instigator" type="boolean" value="true"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
 				</entry>
 			</entry>
 			<entry index="424" type="table">
@@ -13261,7 +13285,7 @@
 				<entry key="id" type="number" value="100002"/>
 				<entry key="script" type="string" value="default"/>
 				<entry key="values" type="table">
-					<entry key="amount" type="number" value="0"/>
+					<entry key="amount" type="number" value="5"/>
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="elements" type="table">
 						<entry index="1" type="number" value="100003"/>
@@ -13278,14 +13302,11 @@
 					</entry>
 					<entry key="position" type="vector3" value="-100 4000 200"/>
 					<entry key="preferred_spawn_groups" type="table">
-						<entry index="1" type="string" value="tac_shield_wall_charge"/>
-						<entry index="2" type="string" value="FBI_spoocs"/>
-						<entry index="3" type="string" value="tac_tazer_charge"/>
-						<entry index="4" type="string" value="tac_tazer_flanking"/>
-						<entry index="5" type="string" value="tac_shield_wall"/>
-						<entry index="6" type="string" value="tac_swat_rifle_flank"/>
-						<entry index="7" type="string" value="tac_shield_wall_ranged"/>
-						<entry index="8" type="string" value="tac_bull_rush"/>
+						<entry index="1" type="string" value="FBI_spoocs"/>
+						<entry index="2" type="string" value="tac_tazer_charge"/>
+						<entry index="3" type="string" value="tac_tazer_flanking"/>
+						<entry index="4" type="string" value="tac_swat_rifle_flank"/>
+						<entry index="5" type="string" value="tac_bull_rush"/>
 					</entry>
 					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
 					<entry key="spawn_type" type="string" value="ordered"/>
@@ -13491,8 +13512,8 @@
 				<entry key="module" type="string" value="CoreMissionScriptElement"/>
 				<entry key="script" type="string" value="default"/>
 				<entry key="values" type="table">
-					<entry key="base_delay" type="number" value="0"/>
-					<entry key="enabled" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="1"/>
+					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
@@ -13719,8 +13740,8 @@
 				<entry key="module" type="string" value="CoreMissionScriptElement"/>
 				<entry key="script" type="string" value="default"/>
 				<entry key="values" type="table">
-					<entry key="base_delay" type="number" value="0"/>
-					<entry key="enabled" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="1"/>
+					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
@@ -13847,10 +13868,10 @@
 					<entry key="position" type="vector3" value="0 2400 650"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="spawn_groups" type="table">
-						<entry index="1" type="number" value="100002"/>
-						<entry index="2" type="number" value="100406"/>
-						<entry index="3" type="number" value="100381"/>
-						<entry index="4" type="number" value="100375"/>
+						<entry index="1" type="number" value="100375"/>
+						<entry index="2" type="number" value="100381"/>
+						<entry index="3" type="number" value="100406"/>
+						<entry index="4" type="number" value="100002"/>
 					</entry>
 					<entry key="spawn_points" type="table">
 					</entry>
@@ -14158,51 +14179,6 @@
 				</entry>
 			</entry>
 			<entry index="457" type="table">
-				<entry key="class" type="string" value="ElementAIArea"/>
-				<entry key="editor_name" type="string" value="ai_area_hangar"/>
-				<entry key="id" type="number" value="100459"/>
-				<entry key="script" type="string" value="default"/>
-				<entry key="values" type="table">
-					<entry key="base_delay" type="number" value="0"/>
-					<entry key="enabled" type="boolean" value="true"/>
-					<entry key="execute_on_startup" type="boolean" value="true"/>
-					<entry key="nav_segs" type="table">
-						<entry index="1" type="number" value="19"/>
-						<entry index="2" type="number" value="20"/>
-						<entry index="3" type="number" value="21"/>
-						<entry index="4" type="number" value="23"/>
-						<entry index="5" type="number" value="40"/>
-						<entry index="6" type="number" value="39"/>
-					</entry>
-					<entry key="on_executed" type="table">
-					</entry>
-					<entry key="position" type="vector3" value="-200 3500 0"/>
-					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
-					<entry key="trigger_times" type="number" value="0"/>
-				</entry>
-			</entry>
-			<entry index="458" type="table">
-				<entry key="class" type="string" value="ElementAIArea"/>
-				<entry key="editor_name" type="string" value="ai_area_hallway01"/>
-				<entry key="id" type="number" value="100067"/>
-				<entry key="script" type="string" value="default"/>
-				<entry key="values" type="table">
-					<entry key="base_delay" type="number" value="0"/>
-					<entry key="enabled" type="boolean" value="true"/>
-					<entry key="execute_on_startup" type="boolean" value="true"/>
-					<entry key="nav_segs" type="table">
-						<entry index="1" type="number" value="15"/>
-						<entry index="2" type="number" value="16"/>
-						<entry index="3" type="number" value="17"/>
-					</entry>
-					<entry key="on_executed" type="table">
-					</entry>
-					<entry key="position" type="vector3" value="-2800 2800 0"/>
-					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
-					<entry key="trigger_times" type="number" value="0"/>
-				</entry>
-			</entry>
-			<entry index="459" type="table">
 				<entry key="class" type="string" value="ElementAIGraph"/>
 				<entry key="editor_name" type="string" value="ai_graph_spawnToHallway01_a"/>
 				<entry key="id" type="number" value="100172"/>
@@ -14222,7 +14198,7 @@
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
-			<entry index="460" type="table">
+			<entry index="458" type="table">
 				<entry key="class" type="string" value="ElementAIGraph"/>
 				<entry key="editor_name" type="string" value="ai_graph_spawnToHallway01_b"/>
 				<entry key="id" type="number" value="100446"/>
@@ -14242,7 +14218,7 @@
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
-			<entry index="461" type="table">
+			<entry index="459" type="table">
 				<entry key="class" type="string" value="ElementExplosion"/>
 				<entry key="editor_name" type="string" value="explosion"/>
 				<entry key="id" type="number" value="100460"/>
@@ -14279,7 +14255,7 @@
 					<entry key="use_rumble" type="boolean" value="true"/>
 				</entry>
 			</entry>
-			<entry index="462" type="table">
+			<entry index="460" type="table">
 				<entry key="class" type="string" value="ElementSpecialObjective"/>
 				<entry key="editor_name" type="string" value="nl_doorwindow_003"/>
 				<entry key="id" type="number" value="100461"/>
@@ -14323,38 +14299,90 @@
 					<entry key="test_unit" type="string" value="default"/>
 					<entry key="trigger_on" type="string" value="none"/>
 					<entry key="trigger_times" type="number" value="0"/>
-					<entry key="use_instigator" type="boolean" value="true"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
 				</entry>
 			</entry>
-			<entry index="463" type="table">
-				<entry key="class" type="string" value="ElementEnemyDummyTrigger"/>
-				<entry key="editor_name" type="string" value="getTheHellOutOfTheBasementDammit"/>
-				<entry key="id" type="number" value="100462"/>
+			<entry index="461" type="table">
+				<entry key="class" type="string" value="ElementGlobalEventTrigger"/>
+				<entry key="editor_name" type="string" value="global_event_trigger"/>
+				<entry key="id" type="number" value="100067"/>
+				<entry key="module" type="string" value="CoreElementGlobalEventTrigger"/>
 				<entry key="script" type="string" value="default"/>
 				<entry key="values" type="table">
 					<entry key="base_delay" type="number" value="0"/>
-					<entry key="elements" type="table">
-						<entry index="1" type="number" value="100406"/>
-					</entry>
 					<entry key="enabled" type="boolean" value="true"/>
-					<entry key="event" type="string" value="spawn"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="global_event" type="string" value="start_assault"/>
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100432"/>
-						</entry>
-						<entry index="2" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100433"/>
-						</entry>
-						<entry index="3" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100461"/>
+							<entry key="id" type="number" value="100459"/>
 						</entry>
 					</entry>
-					<entry key="position" type="vector3" value="-1837.5 1878.94 0"/>
+					<entry key="position" type="vector3" value="-3179.8 697.183 0"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="462" type="table">
+				<entry key="class" type="string" value="ElementDebug"/>
+				<entry key="editor_name" type="string" value="debugass start"/>
+				<entry key="id" type="number" value="100459"/>
+				<entry key="module" type="string" value="CoreElementDebug"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="as_subtitle" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="debug_string" type="string" value="ass start"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-3163.36 729.476 0"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
+					<entry key="show_instigator" type="boolean" value="false"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="463" type="table">
+				<entry key="class" type="string" value="ElementGlobalEventTrigger"/>
+				<entry key="editor_name" type="string" value="global_event_trigger"/>
+				<entry key="id" type="number" value="100463"/>
+				<entry key="module" type="string" value="CoreElementGlobalEventTrigger"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="global_event" type="string" value="end_assault"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100464"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="-3125.8 697.183 0"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="464" type="table">
+				<entry key="class" type="string" value="ElementDebug"/>
+				<entry key="editor_name" type="string" value="debugass end"/>
+				<entry key="id" type="number" value="100464"/>
+				<entry key="module" type="string" value="CoreElementDebug"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="as_subtitle" type="boolean" value="false"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="debug_string" type="string" value="ass end"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-3109.36 729.476 0"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="show_instigator" type="boolean" value="false"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
