@@ -1,0 +1,31 @@
+<table>
+	<unit>
+		<sequence name=" 'interact' " triggable="true">
+			<run_sequence name="'hide'"/>
+		</sequence>
+		
+		
+		<sequence editable_state="true" name="'hide'">
+			<graphic_group name="'g_group'" visibility="false"/>
+			<interaction enabled="false"/>
+		</sequence>
+		<sequence editable_state="true" name="'show_and_enable'">
+			<graphic_group name="'g_group'" visibility="true"/>
+			<interaction enabled="true"/>
+		</sequence>
+		
+		
+		<sequence editable_state="true" name="'set_cost_750'" >
+			<function extension="'interaction'" function="'set_tweak_data'" param1="'zm_open_path_750'" />
+		</sequence>
+		<sequence editable_state="true" name="'set_cost_1000'" >
+			<function extension="'interaction'" function="'set_tweak_data'" param1="'zm_open_path_1000'" />
+		</sequence>
+		<sequence editable_state="true" name="'set_cost_1250'" >
+			<function extension="'interaction'" function="'set_tweak_data'" param1="'zm_open_path_1250'" />
+		</sequence>
+		<sequence editable_state="true" name="'set_cost_1500'" >
+			<function extension="'interaction'" function="'set_tweak_data'" param1="'zm_open_path_1500'" />
+		</sequence>
+	</unit>
+</table>

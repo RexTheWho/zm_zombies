@@ -281,7 +281,7 @@ Hooks:PostHook(InteractionTweakData, "init", "zm_init_new_interactions", functio
 		start_active = false,
 		sound_done = "bar_bag_money_cancel",
 		axis = "y",
-		timer = 0.5,
+		timer = 0.5
 	}
 
 	self.zm_pack_a_punch = {
@@ -292,7 +292,7 @@ Hooks:PostHook(InteractionTweakData, "init", "zm_init_new_interactions", functio
 		start_active = false,
 		sound_done = "bar_bag_money_cancel",
 		axis = "y",
-		timer = 4,
+		timer = 2
 	}
 	
 	self.zm_open_path_1500 = {
@@ -300,9 +300,16 @@ Hooks:PostHook(InteractionTweakData, "init", "zm_init_new_interactions", functio
 		path = true,
 		points_cost = 1500,
 		action_text_id = "zm_opening_path",
-		start_active = false,
-		sound_done = "cft_hose_cancel",
-		timer = 1.5,
+		start_active = true,
+		timer = 0.5
+	}
+	self.zm_open_path_1000 = {
+		zm_interaction = true,
+		path = true,
+		points_cost = 1000,
+		action_text_id = "zm_opening_path",
+		start_active = true,
+		timer = 0.5
 	}
 	
 	self.zm_open_path_1250 = {
@@ -310,9 +317,8 @@ Hooks:PostHook(InteractionTweakData, "init", "zm_init_new_interactions", functio
 		path = true,
 		points_cost = 1250,
 		action_text_id = "zm_opening_path",
-		start_active = false,
-		sound_done = "bar_bag_money",
-		timer = 1.5,
+		start_active = true,
+		timer = 0.5
 	}
 	
 	self.zm_open_path_750 = {
@@ -320,9 +326,8 @@ Hooks:PostHook(InteractionTweakData, "init", "zm_init_new_interactions", functio
 		path = true,
 		points_cost = 750,
 		action_text_id = "zm_opening_path",
-		start_active = false,
-		sound_done = "bar_bag_money_cancel",
-		timer = 1.5,
+		start_active = true,
+		timer = 0.5
 	}
 	
 	self.zm_open_path_750_car = {
@@ -330,10 +335,9 @@ Hooks:PostHook(InteractionTweakData, "init", "zm_init_new_interactions", functio
 		path = true,
 		points_cost = 750,
 		action_text_id = "zm_opening_path",
-		start_active = false,
+		start_active = true,
 		interact_distance = 500,
-		sound_done = "cft_hose_cancel",
-		timer = 1.5,
+		timer = 0.5
 	}
 	
 	self.zm_secret_bunker = {
