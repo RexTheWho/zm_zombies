@@ -49,15 +49,11 @@
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
-						<entry index="1" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100051"/>
-						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="400 -100 0"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="trigger_times" type="number" value="0"/>
-					<entry key="wave_mode" type="string" value="besiege"/>
+					<entry key="wave_mode" type="string" value="hunt"/>
 				</entry>
 			</entry>
 			<entry index="4" type="table">
@@ -1170,23 +1166,6 @@ return true"/>
 					<entry key="position" type="vector3" value="200 -2100 0"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="show_instigator" type="boolean" value="false"/>
-					<entry key="trigger_times" type="number" value="0"/>
-				</entry>
-			</entry>
-			<entry index="52" type="table">
-				<entry key="class" type="string" value="ElementFakeAssaultState"/>
-				<entry key="editor_name" type="string" value="fake_assault_state"/>
-				<entry key="id" type="number" value="100051"/>
-				<entry key="script" type="string" value="default"/>
-				<entry key="values" type="table">
-					<entry key="base_delay" type="number" value="0"/>
-					<entry key="enabled" type="boolean" value="true"/>
-					<entry key="execute_on_startup" type="boolean" value="false"/>
-					<entry key="on_executed" type="table">
-					</entry>
-					<entry key="position" type="vector3" value="450 -100 0"/>
-					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
-					<entry key="state" type="boolean" value="true"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>

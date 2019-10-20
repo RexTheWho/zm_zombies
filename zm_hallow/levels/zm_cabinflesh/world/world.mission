@@ -7704,7 +7704,7 @@
 					<entry key="as_subtitle" type="boolean" value="false"/>
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="debug_string" type="string" value="enabled fall damage"/>
-					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="enabled" type="boolean" value="false"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
@@ -9384,14 +9384,11 @@
 					</entry>
 					<entry key="position" type="vector3" value="-2100 -1000 600"/>
 					<entry key="preferred_spawn_groups" type="table">
-						<entry index="1" type="string" value="tac_shield_wall_charge"/>
-						<entry index="2" type="string" value="FBI_spoocs"/>
-						<entry index="3" type="string" value="tac_tazer_charge"/>
-						<entry index="4" type="string" value="tac_tazer_flanking"/>
-						<entry index="5" type="string" value="tac_shield_wall"/>
-						<entry index="6" type="string" value="tac_swat_rifle_flank"/>
-						<entry index="7" type="string" value="tac_shield_wall_ranged"/>
-						<entry index="8" type="string" value="tac_bull_rush"/>
+						<entry index="1" type="string" value="FBI_spoocs"/>
+						<entry index="2" type="string" value="tac_tazer_charge"/>
+						<entry index="3" type="string" value="tac_tazer_flanking"/>
+						<entry index="4" type="string" value="tac_swat_rifle_flank"/>
+						<entry index="5" type="string" value="tac_bull_rush"/>
 					</entry>
 					<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
 					<entry key="spawn_type" type="string" value="ordered"/>
@@ -9547,14 +9544,11 @@
 					</entry>
 					<entry key="position" type="vector3" value="-3900 -1000 600"/>
 					<entry key="preferred_spawn_groups" type="table">
-						<entry index="1" type="string" value="tac_shield_wall_charge"/>
-						<entry index="2" type="string" value="FBI_spoocs"/>
-						<entry index="3" type="string" value="tac_tazer_charge"/>
-						<entry index="4" type="string" value="tac_tazer_flanking"/>
-						<entry index="5" type="string" value="tac_shield_wall"/>
-						<entry index="6" type="string" value="tac_swat_rifle_flank"/>
-						<entry index="7" type="string" value="tac_shield_wall_ranged"/>
-						<entry index="8" type="string" value="tac_bull_rush"/>
+						<entry index="1" type="string" value="FBI_spoocs"/>
+						<entry index="2" type="string" value="tac_tazer_charge"/>
+						<entry index="3" type="string" value="tac_tazer_flanking"/>
+						<entry index="4" type="string" value="tac_swat_rifle_flank"/>
+						<entry index="5" type="string" value="tac_bull_rush"/>
 					</entry>
 					<entry key="rotation" type="quaternion" value="-0 -0 0.707107 -0.707107"/>
 					<entry key="spawn_type" type="string" value="ordered"/>
@@ -9710,14 +9704,11 @@
 					</entry>
 					<entry key="position" type="vector3" value="-2100 1800 600"/>
 					<entry key="preferred_spawn_groups" type="table">
-						<entry index="1" type="string" value="tac_shield_wall_charge"/>
-						<entry index="2" type="string" value="FBI_spoocs"/>
-						<entry index="3" type="string" value="tac_tazer_charge"/>
-						<entry index="4" type="string" value="tac_tazer_flanking"/>
-						<entry index="5" type="string" value="tac_shield_wall"/>
-						<entry index="6" type="string" value="tac_swat_rifle_flank"/>
-						<entry index="7" type="string" value="tac_shield_wall_ranged"/>
-						<entry index="8" type="string" value="tac_bull_rush"/>
+						<entry index="1" type="string" value="FBI_spoocs"/>
+						<entry index="2" type="string" value="tac_tazer_charge"/>
+						<entry index="3" type="string" value="tac_tazer_flanking"/>
+						<entry index="4" type="string" value="tac_swat_rifle_flank"/>
+						<entry index="5" type="string" value="tac_bull_rush"/>
 					</entry>
 					<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
 					<entry key="spawn_type" type="string" value="ordered"/>
@@ -9873,14 +9864,11 @@
 					</entry>
 					<entry key="position" type="vector3" value="-3900 1800 600"/>
 					<entry key="preferred_spawn_groups" type="table">
-						<entry index="1" type="string" value="tac_shield_wall_charge"/>
-						<entry index="2" type="string" value="FBI_spoocs"/>
-						<entry index="3" type="string" value="tac_tazer_charge"/>
-						<entry index="4" type="string" value="tac_tazer_flanking"/>
-						<entry index="5" type="string" value="tac_shield_wall"/>
-						<entry index="6" type="string" value="tac_swat_rifle_flank"/>
-						<entry index="7" type="string" value="tac_shield_wall_ranged"/>
-						<entry index="8" type="string" value="tac_bull_rush"/>
+						<entry index="1" type="string" value="FBI_spoocs"/>
+						<entry index="2" type="string" value="tac_tazer_charge"/>
+						<entry index="3" type="string" value="tac_tazer_flanking"/>
+						<entry index="4" type="string" value="tac_swat_rifle_flank"/>
+						<entry index="5" type="string" value="tac_bull_rush"/>
 					</entry>
 					<entry key="rotation" type="quaternion" value="0 0 0.707107 -0.707107"/>
 					<entry key="spawn_type" type="string" value="ordered"/>
@@ -10081,6 +10069,7 @@
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="elements" type="table">
 						<entry index="1" type="number" value="100336"/>
+						<entry index="2" type="number" value="100222"/>
 					</entry>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
@@ -10089,7 +10078,7 @@
 					<entry key="position" type="vector3" value="-6295.94 -1227.23 3502.5"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="set_trigger_times" type="number" value="-1"/>
-					<entry key="toggle" type="string" value="on"/>
+					<entry key="toggle" type="string" value="toggle"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -11030,7 +11019,7 @@
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="ignore_disabled" type="boolean" value="false"/>
-					<entry key="interval" type="number" value="0"/>
+					<entry key="interval" type="number" value="5"/>
 					<entry key="on_executed" type="table">
 					</entry>
 					<entry key="position" type="vector3" value="-300 4200 200"/>
@@ -11193,7 +11182,7 @@
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="ignore_disabled" type="boolean" value="false"/>
-					<entry key="interval" type="number" value="0"/>
+					<entry key="interval" type="number" value="5"/>
 					<entry key="on_executed" type="table">
 					</entry>
 					<entry key="position" type="vector3" value="800 3100 200"/>
@@ -12166,7 +12155,7 @@
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="ignore_disabled" type="boolean" value="false"/>
-					<entry key="interval" type="number" value="0"/>
+					<entry key="interval" type="number" value="5"/>
 					<entry key="on_executed" type="table">
 					</entry>
 					<entry key="position" type="vector3" value="-1400 1900 0"/>
@@ -13413,7 +13402,7 @@
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="ignore_disabled" type="boolean" value="false"/>
-					<entry key="interval" type="number" value="0"/>
+					<entry key="interval" type="number" value="5"/>
 					<entry key="on_executed" type="table">
 					</entry>
 					<entry key="position" type="vector3" value="1200 4500 600"/>
@@ -13769,6 +13758,29 @@
 					</entry>
 					<entry key="spawn_points" type="table">
 					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="447" type="table">
+				<entry key="class" type="string" value="ElementInstanceOutputEvent"/>
+				<entry key="editor_name" type="string" value="isSolo"/>
+				<entry key="id" type="number" value="100434"/>
+				<entry key="module" type="string" value="CoreElementInstance"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event_list" type="table">
+						<entry index="1" type="table">
+							<entry key="event" type="string" value="none"/>
+							<entry key="instance" type="string" value="zm_gameplay_controller_001"/>
+						</entry>
+					</entry>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-3700 -1700 1000"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
