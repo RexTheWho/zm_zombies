@@ -61,6 +61,12 @@ Hooks:PostHook(UpgradesTweakData, "_init_pd2_values", "init_zm_upgrades", functi
 		}
 	}
 	
+	self.values.doctor_bag.amount_increase = {
+		20
+	}
+	self.values.ammo_bag.ammo_increase = {
+		20
+	}
 end)
 
 

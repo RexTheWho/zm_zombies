@@ -2,6 +2,7 @@
 	<unit>
 		<sequence name=" 'interact' " triggable="true">
 			<run_sequence name="'hide'"/>
+			<sound action="'play'" event="'zm_gen_door_bought'..pick('1','2','3')" object="'rp_root'"/>
 		</sequence>
 		
 		
@@ -15,6 +16,12 @@
 		</sequence>
 		
 		
+		<sequence editable_state="true" name="'set_cost_0'" >
+			<function extension="'interaction'" function="'set_tweak_data'" param1="'zm_open_path'" />
+		</sequence>
+		<sequence editable_state="true" name="'set_cost_500'" >
+			<function extension="'interaction'" function="'set_tweak_data'" param1="'zm_open_path_500'" />
+		</sequence>
 		<sequence editable_state="true" name="'set_cost_750'" >
 			<function extension="'interaction'" function="'set_tweak_data'" param1="'zm_open_path_750'" />
 		</sequence>
@@ -26,6 +33,12 @@
 		</sequence>
 		<sequence editable_state="true" name="'set_cost_1500'" >
 			<function extension="'interaction'" function="'set_tweak_data'" param1="'zm_open_path_1500'" />
+		</sequence>
+		<sequence editable_state="true" name="'set_cost_1750'" >
+			<function extension="'interaction'" function="'set_tweak_data'" param1="'zm_open_path_1750'" />
+		</sequence>
+		<sequence editable_state="true" name="'set_cost_2000'" >
+			<function extension="'interaction'" function="'set_tweak_data'" param1="'zm_open_path_2000'" />
 		</sequence>
 	</unit>
 </table>

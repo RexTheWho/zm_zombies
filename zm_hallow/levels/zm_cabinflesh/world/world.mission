@@ -11090,7 +11090,7 @@
 						<entry index="4" type="number" value="100385"/>
 						<entry index="5" type="number" value="100386"/>
 					</entry>
-					<entry key="enabled" type="boolean" value="false"/>
+					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="ignore_disabled" type="boolean" value="false"/>
 					<entry key="interval" type="number" value="0"/>
