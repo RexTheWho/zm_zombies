@@ -38,6 +38,20 @@
 		<material_texture		file="units/pd2_dlc_des/tiling_textures/cliffwall_02/des_cliffwall_02_gsma" />
 		<reflection_texture		file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap" />
 	</material>
+	
+    <material name="mtl_floor_tiles" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture		file="units/pd2_dlc_des/tiling_textures/floor_tiles_01/des_floor_tiles_01_df"/>
+        <bump_normal_texture	file="units/pd2_dlc_des/tiling_textures/floor_tiles_01/des_floor_tiles_01_nm"/>
+        <material_texture		file="units/pd2_dlc_des/tiling_textures/floor_tiles_01/des_floor_tiles_01_gsma"/>
+        <reflection_texture		file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight" type="cubemap"/>
+    </material>
+    <material name="mtl_des_panels" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture		file="units/pd2_dlc_des/tiling_textures/concrete_tiles/des_concrete_tiels_df"/>
+        <bump_normal_texture	file="units/pd2_dlc_des/tiling_textures/concrete_tiles/des_concrete_tiels_nm"/>
+        <material_texture		file="units/pd2_dlc_des/tiling_textures/concrete_tiles/des_concrete_tiels_gsma"/>
+        <reflection_texture		file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+    </material>
+	
     <material name="mtl_mul" render_template="effect:BLEND_MUL:DIFFUSE0_TEXTURE" version="2">
         <variable value="streetlight" type="scalar" name="intensity"/>
         <diffuse_texture file="units/payday2_cash/safes/cop/pattern_gradient/gradient_cop_blurred_df"/>
@@ -57,5 +71,13 @@
     </material>
     <material name="mtl_cable" render_template="generic:DIFFUSE_TEXTURE" version="2">
         <diffuse_texture			file="units/payday2/props/com_prop_basement_cables_ceiling_ladder/com_prop_basement_cables_ceiling_ladder_df"/>
+    </material>
+    <material name="mtl_window_bulletproof" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:NORMALMAP:OPACITY_FADE" decal_material="glass_breakable" version="2">
+        <variable value="2 1 1" type="vector3" name="fresnel_settings"/>
+        <opacity_texture file="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_window_01_op"/>
+        <diffuse_texture file="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_window_01_df"/>
+        <reflection_texture file="units/payday2/cubemaps/cubemap_silver_df" type="cubemap"/>
+        <variable value="10 4000 0" type="vector3" name="opacity_fade"/>
+        <bump_normal_texture file="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_window_01_nm"/>
     </material>
 </materials>

@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<modelscript>
+    <object3d name="rp_rootpoint" mode="add">
+		<parent root="true" />
+    </object3d>
+	
+	
+    <object3d name="a_top_holder" mode="add">
+        <parent name="rp_rootpoint" />
+        <position x="0" y="0" z="100" />
+        <rotation w="0" x="0" y="0" z="0" />
+    </object3d>
+    <object3d name="a_top" mode="add">
+        <parent name="a_top_holder" />
+        <position x="0" y="0" z="0" />
+        <rotation w="0" x="0" y="0" z="0" />
+    </object3d>
+	
+    <import file="zm_pwrup_nuke.obj" type="obj" create_objects="true">
+	
+        <rootpoint name="rp_rootpoint">
+            <default/>
+			<object name="co_culling" />
+        </rootpoint>
+		
+		<rootpoint name="a_top">
+			<object name="g_g" />
+		</rootpoint>
+    </import>
+</modelscript>

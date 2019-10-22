@@ -46,6 +46,9 @@
 		<unit				path="units/pd2_mod_zmhallow/architecture/underground/zmh_und_hangar" />
 		<object				path="units/pd2_mod_zmhallow/architecture/underground/zmh_und_hangar" />
 		<model				path="units/pd2_mod_zmhallow/architecture/underground/zmh_und_hangar" />
+		<unit				path="units/pd2_mod_zmhallow/architecture/underground/zmh_und_lab" />
+		<object				path="units/pd2_mod_zmhallow/architecture/underground/zmh_und_lab" />
+		<model				path="units/pd2_mod_zmhallow/architecture/underground/zmh_und_lab" />
 		
 		<texture			path="units/pd2_mod_zmhallow/nature/lava/lava_df" />
 		<effect				path="units/pd2_mod_zmhallow/effects/generic/ceiling_dust" force="true" />
@@ -100,6 +103,13 @@
 		<unit				path="units/pd2_mod_zmhallow/props/prop_bloodsplatter/bph_prop_blood_handprint_01" />
 		<object				path="units/pd2_mod_zmhallow/props/prop_bloodsplatter/bph_prop_blood_handprint_01" />
 		<model				path="units/pd2_mod_zmhallow/props/prop_bloodsplatter/bph_prop_blood_handprint_01" />
+		
+		<material_config	path="units/pd2_mod_zmhallow/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling" />
+		<sequence_manager	path="units/pd2_mod_zmhallow/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling" />
+		<unit				path="units/pd2_mod_zmhallow/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" />
+		<object				path="units/pd2_mod_zmhallow/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" />
+		<model				path="units/pd2_mod_zmhallow/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" />
+		<cooked_physics		path="units/pd2_mod_zmhallow/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" />
 		
 		
 		<unit				path="units/pd2_mod_zmhallow/occluders/occluder_plane_16x16" />

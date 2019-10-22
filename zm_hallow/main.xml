@@ -78,6 +78,7 @@
 			<file file="cover_data.cover_data" type="custom_xml"/>
 			<file file="environments/default.environment" type="custom_xml"/>
 			<file file="environments/zm_underground_ext.environment" type="custom_xml"/>
+			<file file="environments/zm_undergroundfoggy_ext.environment" type="custom_xml"/>
 			<file file="environments/zm_aboveground_ext.environment" type="custom_xml"/>
 		</include>
 		<packages>
