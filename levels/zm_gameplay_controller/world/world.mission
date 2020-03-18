@@ -91,6 +91,14 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100034"/>
 						</entry>
+						<entry index="6" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100020"/>
+						</entry>
+						<entry index="7" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100053"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="100 -2000 0"/>
 					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
@@ -1202,6 +1210,41 @@ return true"/>
 					<entry key="position" type="vector3" value="400 -1400 0"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="54" type="table">
+				<entry key="class" type="string" value="ElementAiGlobalEvent"/>
+				<entry key="editor_name" type="string" value="assault_start"/>
+				<entry key="id" type="number" value="100020"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="blame" type="string" value="none"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="200 -1900 0"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="wave_mode" type="string" value="assault"/>
+				</entry>
+			</entry>
+			<entry index="55" type="table">
+				<entry key="class" type="string" value="ElementFakeAssaultState"/>
+				<entry key="editor_name" type="string" value="fake_assault_state"/>
+				<entry key="id" type="number" value="100053"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="200 -1800 0"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
+					<entry key="state" type="boolean" value="false"/>
+					<entry key="trigger_times" type="number" value="1"/>
 				</entry>
 			</entry>
 		</entry>

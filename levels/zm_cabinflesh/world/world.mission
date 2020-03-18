@@ -15596,6 +15596,51 @@
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
+			<entry index="503" type="table">
+				<entry key="class" type="string" value="ElementWeaponSwitch"/>
+				<entry key="editor_name" type="string" value="weapon_switch_lemming"/>
+				<entry key="id" type="number" value="100023"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="instigator_only" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="-5667.04 -370.02 3500"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="weapon_id" type="string" value="wpn_fps_pis_lemming"/>
+				</entry>
+			</entry>
+			<entry index="504" type="table">
+				<entry key="class" type="string" value="ElementUnitSequenceTrigger"/>
+				<entry key="editor_name" type="string" value="weapon_switch_lemming"/>
+				<entry key="id" type="number" value="100031"/>
+				<entry key="module" type="string" value="CoreElementUnitSequenceTrigger"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100023"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="-5742.18 -368.384 3500"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="sequence_list" type="table">
+						<entry index="1" type="table">
+							<entry key="sequence" type="string" value="interact"/>
+							<entry key="unit_id" type="number" value="100170"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="1"/>
+				</entry>
+			</entry>
 		</entry>
 		<entry key="instances" type="table">
 			<entry index="1" type="string" value="zm_gameplay_controller_001"/>
