@@ -7756,9 +7756,6 @@
 			<unit_data _prev_pos="-4488.09 968.639 395.015" _prev_rot="0.0154503 -0.10338 0.983598 -0.147" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_off" name="units/pd2_dlc2/props/gen_prop_security_console/gen_prop_security_monitor_hanging_02" name_id="gen_prop_security_monitor_hanging_02_002" position="-4488.09 968.639 395.015" rotation="0.0925749 -0.0915282 0.979354 -0.154658" unit_id="102250"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-3840 700 600" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_power_off" name="units/pd2_dlc_des/props/des_prop_control_screen/des_prop_control_screen" name_id="des_prop_control_screen_002" position="-3840 700 600" rotation="0 0 -0.707107 -0.707107" unit_id="102254"/>
-		</table>
-		<table>
 			<unit_data _prev_pos="-3840 700 375" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_power_off" name="units/pd2_dlc_des/props/des_prop_control_screen/des_prop_control_screen" name_id="des_prop_control_screen_003" position="-3840 700 375" rotation="0 0 -0.707107 -0.707107" unit_id="102255"/>
 		</table>
 		<table>
@@ -8556,6 +8553,18 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="-4080.75 12.234 800" _prev_rot="1 -1.91069e-015 -4.37114e-008 3.55271e-015" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="big_damage_01" name="units/pd2_dlc_des/architecture/des_decals/des_concrete_decals" name_id="des_concrete_decals_019" position="-4080.75 12.234 800" rotation="1 -1.91069e-015 -4.37114e-008 3.55271e-015" unit_id="102497"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3500 1599 224.773" _prev_rot="-0.707107 0 0 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_berry/props/editable_text_euro_stencil/editable_text_euro_stencil" name_id="editable_text_euro_stencil_012" position="-3500 1599 224.773" rotation="-0.707107 0 0 -0.707107" unit_id="102254">
+				<editable_gui align="center" alpha="0.5" blend_mode="normal" font="fonts/font_euro_stencil" font_color="1 1 1" font_size="1" render_template="diffuse_vc_decal" text="AIRLOCK" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
 		</table>
 	</statics>
 	<values>
