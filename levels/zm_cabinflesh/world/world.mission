@@ -71,7 +71,7 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-10516 53 3568"/>
+					<entry key="position" type="vector3" value="-10681 203.879 3568"/>
 					<entry key="rotation" type="quaternion" value="0 0 0.566406 -0.824126"/>
 					<entry key="state" type="string" value="standard"/>
 					<entry key="trigger_times" type="number" value="0"/>
@@ -2744,7 +2744,7 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-10436 -15 3575"/>
+					<entry key="position" type="vector3" value="-10436 85 3575"/>
 					<entry key="rotation" type="quaternion" value="0 0 0.707107 -0.707107"/>
 					<entry key="state" type="string" value="standard"/>
 					<entry key="trigger_times" type="number" value="0"/>
@@ -2761,7 +2761,7 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-10512 -86 3568"/>
+					<entry key="position" type="vector3" value="-10611 -72.0826 3568"/>
 					<entry key="rotation" type="quaternion" value="0 0 0.75471 -0.656059"/>
 					<entry key="state" type="string" value="standard"/>
 					<entry key="trigger_times" type="number" value="0"/>
@@ -2778,7 +2778,7 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="-10604 -21 3568"/>
+					<entry key="position" type="vector3" value="-10804 -121 3568"/>
 					<entry key="rotation" type="quaternion" value="0 0 0.707107 -0.707107"/>
 					<entry key="state" type="string" value="standard"/>
 					<entry key="trigger_times" type="number" value="0"/>

@@ -1243,7 +1243,7 @@ return true"/>
 					</entry>
 					<entry key="position" type="vector3" value="200 -1800 0"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
-					<entry key="state" type="boolean" value="false"/>
+					<entry key="state" type="boolean" value="true"/>
 					<entry key="trigger_times" type="number" value="1"/>
 				</entry>
 			</entry>
