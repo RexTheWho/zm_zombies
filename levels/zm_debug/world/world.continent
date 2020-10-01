@@ -184,6 +184,9 @@
 		<table>
 			<unit_data _prev_pos="0 1000 125" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="set_cost_2000" name="units/pd2_mod_zombies/props/zm_buy_marker/zm_buy_marker" name_id="zm_buy_marker_007" position="0 1100 125" rotation="0 0 -0.707107 -0.707107" unit_id="100059"/>
 		</table>
+		<table>
+			<unit_data _prev_pos="1600 1525 0" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="enable_interaction" name="units/pd2_mod_zombies/equipment/zom_pack_a_punch/zom_pack_a_punch" name_id="zom_pack_a_punch_001" position="1600 1525 0" rotation="-0 0 -0 -1" unit_id="100060"/>
+		</table>
 	</statics>
 	<values>
 		<workviews/>
