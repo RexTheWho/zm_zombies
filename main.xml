@@ -182,7 +182,7 @@
 				<options merge_mode="add" mode="add"/>
 			</mod>
 		</script_data_mods>
-		<sounds directory="assets" volume="0.99">
+		<sounds directory="assets">
 			<sounds directory="units/pd2_mod_zombies/sounds">
 				<sounds directory="zm_generic">
 					<sound id="zm_gen_wave_new" path="zm_gen_wave_new.ogg"/>
