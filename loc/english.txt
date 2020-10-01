@@ -1,17 +1,8 @@
 {
 	"zombies_mode_name":			"Zombies Mode",
-	"heist_zm_instances_name":		"Facility-Z",
-	"heist_zm_instances_brief":		"DEMO MAP",
-	"heist_zm_cabinflesh_name":		"Crash Zone",
-	"heist_zm_cabinflesh_brief":	"(DEMO FIRST ROOM)\n\n*TRAIN CRASHES*\n...",
-	
-	
-	"zm_perk_mechanics":"Perks",
-	
-	
-	
-	
-	
-	
-	"a":"a"
+	"heist_zm_instances_name":		"ZOMBIES DEV",
+	"heist_zm_instances_brief":		"DEV",
+	"zm_survive":					"Survive the wave",
+	"zm_survive_desc":				"Survive the onslaught of zombies.",
+	"zm_perk_mechanics":			"Perks"
 }

@@ -1,7 +1,0 @@
-<unit type="dah" slot="1">
-	<object file="units/pd2_dlc_dah/props/dah_prop_fan_table/dah_prop_fan_table" />
-	<extensions>
-		<extension name="unit_data" class="ScriptUnitData" />
-		<extension name="damage" class="UnitDamage" />
-	</extensions>
-</unit>

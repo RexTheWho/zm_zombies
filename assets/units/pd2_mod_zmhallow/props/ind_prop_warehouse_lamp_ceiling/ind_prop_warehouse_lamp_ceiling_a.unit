@@ -1,9 +1,0 @@
-<unit type="ind" slot="1" >
-    <object file="units/pd2_mod_zmhallow/props/ind_prop_warehouse_lamp_ceiling/ind_prop_warehouse_lamp_ceiling_a" />
-	<network sync="spawn"/>
-    <extensions>
-        <extension class="ScriptUnitData" name="unit_data" />
-		<extension class="UnitDamage" name="damage" />
-        <extension name="sync_unit_data" class="SyncUnitData" />			
-    </extensions>
-</unit>

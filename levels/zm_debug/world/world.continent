@@ -1,7 +1,7 @@
 <table>
 	<editor_groups/>
 	<instances>
-		<table continent="world" folder="levels/instances/mods/zm_gameplay_controller/world" index_size="2000" name="zm_gameplay_controller_001" position="0 0 0" rotation="-0 0 -0 -1" script="default" start_index="0"/>
+		<table continent="world" folder="levels/instances/mods/zm_gameplay_controller/world" index_size="200" name="zm_gameplay_controller_001" position="300 -400 0" rotation="0 0 0 1" script="default" start_index="0"/>
 	</instances>
 	<statics>
 		<table>
@@ -122,13 +122,67 @@
 			<unit_data _prev_pos="900 1550 0" _prev_rot="-0 0 -0 -1" continent="world" delayed_load="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="enable_interaction" name="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_quickrevive/zm_perk_machine_quickrevive" name_id="zm_perk_machine_quickrevive_001" position="900 1550 0" rotation="-0 0 -0 -1" unit_id="100038"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="1000 1550 0" _prev_rot="0 0 0 -1" continent="world" editable_gui="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="enable_interaction" name="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_doubletap/zm_perk_machine_doubletap" name_id="zm_perk_machine_quickrevive_002" position="1100 1550 0" rotation="0 0 0 -1" unit_id="100039"/>
+			<unit_data _prev_pos="1000 1550 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="enable_interaction" name="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_doubletap/zm_perk_machine_doubletap" name_id="zm_perk_machine_quickrevive_002" position="1100 1550 0" rotation="0 0 0 -1" unit_id="100039"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="1300 1550 0" _prev_rot="0 0 0 -1" continent="world" editable_gui="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="enable_interaction" name="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_juggernog/zm_perk_machine_juggernog" name_id="zm_perk_machine_quickrevive_003" position="1250 1550 0" rotation="0 0 0 -1" unit_id="100040"/>
+			<unit_data _prev_pos="1300 1550 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="enable_interaction" name="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_juggernog/zm_perk_machine_juggernog" name_id="zm_perk_machine_quickrevive_003" position="1250 1550 0" rotation="0 0 0 -1" unit_id="100040"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="1500 1550 0" _prev_rot="0 0 0 -1" continent="world" editable_gui="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="enable_interaction" name="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_speedcola/zm_perk_machine_speedcola" name_id="zm_perk_machine_quickrevive_004" position="1400 1550 0" rotation="0 0 0 -1" unit_id="100041"/>
+			<unit_data _prev_pos="1500 1550 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="enable_interaction" name="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_speedcola/zm_perk_machine_speedcola" name_id="zm_perk_machine_quickrevive_004" position="1400 1550 0" rotation="0 0 0 -1" unit_id="100041"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="800 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_zombies/power_ups/zm_pwrup_max_ammo/zm_pwrup_max_ammo_infinite" name_id="zm_pwrup_max_ammo_infinite_001" position="800 100 0" rotation="0 0 0 -1" unit_id="100042"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1000 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_zombies/power_ups/zm_pwrup_blood_money/zm_pwrup_blood_money_infinite" name_id="zm_pwrup_blood_money_infinite_001" position="1000 100 0" rotation="0 0 0 -1" unit_id="100043"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1200 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_zombies/power_ups/zm_pwrup_double_points/zm_pwrup_double_points_infinite" name_id="zm_pwrup_double_points_infinite_001" position="1200 100 0" rotation="0 0 0 -1" unit_id="100044"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1400 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_zombies/power_ups/zm_pwrup_firesale/zm_pwrup_firesale_infinite" name_id="zm_pwrup_firesale_infinite_001" position="1400 100 0" rotation="0 0 0 -1" unit_id="100045"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1600 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_zombies/power_ups/zm_pwrup_instakill/zm_pwrup_instakill_infinite" name_id="zm_pwrup_instakill_infinite_001" position="1600 100 0" rotation="0 0 0 -1" unit_id="100046"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1800 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_zombies/power_ups/zm_pwrup_nuke/zm_pwrup_nuke_infinite" name_id="zm_pwrup_nuke_infinite_001" position="1800 100 0" rotation="0 0 0 -1" unit_id="100047"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2000 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_zombies/power_ups/zm_pwrup_zombie_blood/zm_pwrup_zombie_blood_infinite" name_id="zm_pwrup_zombie_blood_infinite_001" position="2000 100 0" rotation="0 0 0 -1" unit_id="100048"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 600 125" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="set_cost_750" name="units/pd2_mod_zombies/props/zm_buy_marker/zm_buy_marker" name_id="zm_buy_marker_001" position="0 600 125" rotation="0 0 -0.707107 -0.707107" unit_id="100049"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="-0.5 -0.5 -0.5 -0.5" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" name_id="mkp_int_floor_4x4m_a_036" position="0 0 0" rotation="0.5 0.5 0.5 0.5" unit_id="100050"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5.96046e-005 400 5.36442e-005" _prev_rot="0.5 0.5 0.5 0.5" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" name_id="mkp_int_floor_4x4m_a_037" position="5.96046e-005 400 5.36442e-005" rotation="0.5 0.5 0.5 0.5" unit_id="100051"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4.29749e-005 0 0" _prev_rot="-0.5 -0.5 -0.5 -0.5" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" name_id="mkp_int_floor_4x4m_a_038" position="0 800 4.76837e-005" rotation="0.5 0.5 0.5 0.5" unit_id="100052"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-0.000112772 400 6.10352e-005" _prev_rot="0.5 0.5 0.5 0.5" continent="world" local_pos="400 1.33514e-005 -9.36389e-005" local_rot="-2.98023e-008 2.98023e-008 -2.98023e-008 1" name="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" name_id="mkp_int_floor_4x4m_a_039" position="-4.59552e-005 1200 0.000108719" rotation="0.5 0.5 0.5 0.5" unit_id="100053"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 600 125" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="set_cost_0" name="units/pd2_mod_zombies/props/zm_buy_marker/zm_buy_marker" name_id="zm_buy_marker_002" position="0 500 125" rotation="0 0 -0.707107 -0.707107" unit_id="100054"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 700 125" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="set_cost_1000" name="units/pd2_mod_zombies/props/zm_buy_marker/zm_buy_marker" name_id="zm_buy_marker_003" position="0 700 125" rotation="0 0 -0.707107 -0.707107" unit_id="100055"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 700 125" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="set_cost_1250" name="units/pd2_mod_zombies/props/zm_buy_marker/zm_buy_marker" name_id="zm_buy_marker_004" position="0 800 125" rotation="0 0 -0.707107 -0.707107" unit_id="100056"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 900 125" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="set_cost_1500" name="units/pd2_mod_zombies/props/zm_buy_marker/zm_buy_marker" name_id="zm_buy_marker_005" position="0 900 125" rotation="0 0 -0.707107 -0.707107" unit_id="100057"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 900 125" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="set_cost_1750" name="units/pd2_mod_zombies/props/zm_buy_marker/zm_buy_marker" name_id="zm_buy_marker_006" position="0 1000 125" rotation="0 0 -0.707107 -0.707107" unit_id="100058"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 1000 125" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="set_cost_2000" name="units/pd2_mod_zombies/props/zm_buy_marker/zm_buy_marker" name_id="zm_buy_marker_007" position="0 1100 125" rotation="0 0 -0.707107 -0.707107" unit_id="100059"/>
 		</table>
 	</statics>
 	<values>

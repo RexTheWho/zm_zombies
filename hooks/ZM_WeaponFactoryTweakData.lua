@@ -1127,8 +1127,8 @@ function WeaponFactoryTweakData:_init_upgraded_multiplix()
 			"wpn_fps_ass_g3_m_mag",
 			"wpn_fps_ass_g3_s_sniper",
 			"wpn_fps_upg_fl_ass_laser",
-			"wpn_fps_upg_i_singlefire",
-			self:_choose_random_optics(opticname)
+			"wpn_fps_upg_i_singlefire"
+			-- self:_choose_random_optics(opticname)
     }
     self.wpn_fps_ass_g3_upg_primary_npc = deep_clone(self.wpn_fps_ass_g3_upg_primary)
     self.wpn_fps_ass_g3_upg_primary_npc.unit = "units/pd2_dlc_gage_assault/weapons/wpn_fps_ass_g3/wpn_fps_ass_g3_npc"
