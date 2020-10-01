@@ -1,10 +1,10 @@
 {
     "failed_summary_name" : "You died. No one survived. The entire world is full of zombies and humanity has come to a bitter end.",
-    "hud_custody_in" : "Dead in",
+    "hud_custody_in" : "Death in",
     "menu_resume_game" : "Resume Carnage",
-    "menu_resume_game_help" : "Get back to hell.",
+    "menu_resume_game_help" : "Return to the nightmare.",
     "menu_restart_game" : "Restart Carnage",
-    "hud_assault_zombie" : "Zombie Assault In Progress",
+    "hud_assault_zombie" : "Zombie Hoard In Progress",
 	
 	
     "wpn_m308_upg_name" :		"Mangler 3008",
