@@ -443,7 +443,7 @@ function WDUManager:_destroy_source(id)
 end
 
 function WDUManager:_get_mod_path()
-    return zm_testing.ModPath
+    return zm_zombies.ModPath
 end
 
 function WDUManager:_setup_video_panel()

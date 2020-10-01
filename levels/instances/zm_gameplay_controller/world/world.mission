@@ -405,6 +405,10 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100056"/>
 						</entry>
+						<entry index="6" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100059"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="100 -1300 0"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
@@ -586,23 +590,23 @@
 						</entry>
 						<entry index="2" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100002"/>
+							<entry key="id" type="number" value="100019"/>
 						</entry>
 						<entry index="3" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100019"/>
+							<entry key="id" type="number" value="100021"/>
 						</entry>
 						<entry index="4" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100021"/>
+							<entry key="id" type="number" value="100022"/>
 						</entry>
 						<entry index="5" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100022"/>
+							<entry key="id" type="number" value="100049"/>
 						</entry>
 						<entry index="6" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100049"/>
+							<entry key="id" type="number" value="100002"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="0 -100 0"/>
@@ -1234,6 +1238,7 @@ return true"/>
 				<entry key="id" type="number" value="100020"/>
 				<entry key="script" type="string" value="default"/>
 				<entry key="values" type="table">
+					<entry key="AI_event" type="string" value="none"/>
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="blame" type="string" value="none"/>
 					<entry key="enabled" type="boolean" value="true"/>
@@ -1243,7 +1248,7 @@ return true"/>
 					<entry key="position" type="vector3" value="200 -1900 0"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
 					<entry key="trigger_times" type="number" value="0"/>
-					<entry key="wave_mode" type="string" value="assault"/>
+					<entry key="wave_mode" type="string" value="hunt"/>
 				</entry>
 			</entry>
 			<entry index="55" type="table">
@@ -1337,6 +1342,22 @@ return true"/>
 					<entry key="on_executed" type="table">
 					</entry>
 					<entry key="position" type="vector3" value="300 -400 0"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="60" type="table">
+				<entry key="class" type="string" value="ElementTerminateAssault"/>
+				<entry key="editor_name" type="string" value="terminate_assault_001"/>
+				<entry key="id" type="number" value="100059"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="false"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="300 -1200 0"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
