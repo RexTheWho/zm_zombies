@@ -6,9 +6,9 @@ Hooks:PostHook(BlackMarketTweakData, "_init_weapon_skins", "zm_init_new_weapon_c
 		rarity = "common",
 		bonus = "spread_p1",
 		reserve_quality = true,
-		base_gradient =		"units/pd2_mod_zombies/skins/pap_1/base_gradient/base_pack-a-punch",
-		pattern_gradient =	"units/pd2_mod_zombies/skins/pap_1/pattern_gradient/patgra_pack-a-punch",
-		pattern =			"units/pd2_mod_zombies/skins/pap_1/pattern/pat_pack-a-punch",
+		base_gradient =		"units/pd2_mod_zombies/skins/pap_1/base_gradient/base_pap1",
+		pattern =			"units/pd2_mod_zombies/skins/pap_1/pattern/pat_pap1",
+		pattern_gradient =	"units/pd2_mod_zombies/skins/pap_1/pattern_gradient/patgra_pap1",
 		cubemap_pattern_control = Vector3(1, 1, 1)
 	}
     self.weapon_skins.pap_moon = {
@@ -18,9 +18,9 @@ Hooks:PostHook(BlackMarketTweakData, "_init_weapon_skins", "zm_init_new_weapon_c
 		rarity = "common",
 		bonus = "spread_p1",
 		reserve_quality = true,
-		base_gradient =		"units/pd2_mod_zombies/skins/pap_1/base_gradient/base_pack-a-punch",
-		pattern_gradient =	"units/pd2_mod_zombies/skins/pap_1/pattern_gradient/patgra_pack-a-punch",
-		pattern =			"units/pd2_mod_zombies/skins/pap_1/pattern/pat_pack-a-punch",
+		base_gradient =		"units/pd2_mod_zombies/skins/pap_1/base_gradient/base_pap1",
+		pattern =			"units/pd2_mod_zombies/skins/pap_1/pattern/pat_pap1",
+		pattern_gradient =	"units/pd2_mod_zombies/skins/pap_1/pattern_gradient/patgra_pap1",
 		cubemap_pattern_control = Vector3(1, 1, 1)
 	}
 end)

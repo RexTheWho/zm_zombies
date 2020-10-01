@@ -187,6 +187,9 @@
 		<table>
 			<unit_data _prev_pos="1600 1525 0" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="enable_interaction" name="units/pd2_mod_zombies/equipment/zom_pack_a_punch/zom_pack_a_punch" name_id="zom_pack_a_punch_001" position="1600 1525 0" rotation="-0 0 -0 -1" unit_id="100060"/>
 		</table>
+		<table>
+			<unit_data _prev_pos="1900 1550 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="enable_interaction" name="units/pd2_mod_zombies/equipment/mystery_box/zm_random_weapon_box" name_id="zm_random_weapon_box_001" position="1900 1550 0" rotation="-0 0 -0 -1" unit_id="100061"/>
+		</table>
 	</statics>
 	<values>
 		<workviews/>

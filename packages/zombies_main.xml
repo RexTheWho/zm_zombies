@@ -16,11 +16,11 @@
 	
 	<!--PAP Camo-->
 	<add unload_on_restart="false">
-		<texture path="units/pd2_mod_zombies/skins/pap_1/base_gradient/base_pack-a-punch"/>
-		<texture path="units/pd2_mod_zombies/skins/pap_1/base_gradient/base_pack-a-punch_2"/>
-		<texture path="units/pd2_mod_zombies/skins/pap_1/base_gradient/base_pack-a-punch_3"/>
-		<texture path="units/pd2_mod_zombies/skins/pap_1/pattern/pat_pack-a-punch"/>
-		<texture path="units/pd2_mod_zombies/skins/pap_1/pattern_gradient/patgra_pack-a-punch"/>
+		<texture path="units/pd2_mod_zombies/skins/pap_1/base_gradient/base_pap1"/>
+		<texture path="units/pd2_mod_zombies/skins/pap_1/base_gradient/base_pap2"/>
+		<texture path="units/pd2_mod_zombies/skins/pap_1/base_gradient/base_pap3"/>
+		<texture path="units/pd2_mod_zombies/skins/pap_1/pattern/pat_pap1"/>
+		<texture path="units/pd2_mod_zombies/skins/pap_1/pattern_gradient/patgra_pap1"/>
 	</add>
 	
 	<!--BUY INTERACTIONS-->
