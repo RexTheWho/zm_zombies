@@ -1,0 +1,11 @@
+        <!--Custom Elements-->
+        <value_node value="ElementSoraCinematicCamera"/>
+        <value_node value="ElementReviveInstigator"/>
+        <value_node value="ElementWeaponSwitch"/>
+        <value_node value="ElementGunship"/>
+        <value_node value="ElementAnnouncerGift"/>
+        <value_node value="ElementDynamicEnvironment"/>
+        <value_node value="ElementSpawnSafeEnemyDummy"/>
+        <value_node value="ElementPlayVideo"/>
+		<value_node value="ElementPlayEnd"/>
+        <value_node value="ElementWave"/>

@@ -1399,6 +1399,19 @@ function WeaponFactoryTweakData:_choose_random_optics(opticname)
 	return opticname
 end
 
+function WeaponFactoryTweakData:get_weapon_ids()
+	local t = {}
+
+	for id, _ in pairs(tweak_data.weapon.factory) do
+		if type(tweak_data.weapon.factory[id]) == "table" and tweak_data.weapon.factory[id].type then
+			table.insert(t, id)
+		end
+	end
+
+	table.sort(t)
+
+	return t
+end
 
 
 

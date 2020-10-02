@@ -518,7 +518,7 @@
 					</entry>
 					<entry key="override_timer" type="number" value="-1"/>
 					<entry key="position" type="vector3" value="512.419 1583 123.884"/>
-					<entry key="rotation" type="quaternion" value="0 0 0.92388 -0.382683"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
 					<entry key="trigger_times" type="number" value="0"/>
 					<entry key="tweak_data_id" type="string" value="zm_free_points_dev"/>
 				</entry>
