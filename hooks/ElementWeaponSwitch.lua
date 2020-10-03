@@ -62,7 +62,13 @@ function ElementWeaponSwitch:on_executed(instigator)
 
     -- Then we init the blueprint, depending if it's a string or table
     local blueprint_vals
-    local blueprint_table = managers.weapon_factory:get_default_blueprint_by_factory_id(factory_id)
+    local blueprint_table
+    if self._values.is_pap_engine then
+        local primary_category = instigator:inventory():equipped_unit():base():weapon_tweak_data().categories and instigator:inventory():equipped_unit():base():weapon_tweak_data().categories[1]
+        blueprint_table = tweak_data.weapon.factory:_assemble_random_blueprint(factory_id, primary_category)
+    else
+        blueprint_table = managers.weapon_factory:get_default_blueprint_by_factory_id(factory_id)
+    end
     local blueprint_to_string = managers.weapon_factory:blueprint_to_string(factory_id, blueprint_table)
 
 	
