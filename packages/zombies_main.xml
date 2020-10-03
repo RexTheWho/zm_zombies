@@ -46,6 +46,16 @@
 		<effect				path="units/pd2_mod_zombies/effects/zm_enemy_effects/zm_eyes"/>
 	</add>
 	
+	<!--Mysterybox Safe-->
+<!-- 	<add unload_on_restart="false">
+		<unit load="true"	path="units/pd2_mod_zombies/equipment/weapon_buy_safe/weapon_buy_safe"/>
+		<object				path="units/pd2_mod_zombies/equipment/weapon_buy_safe/weapon_buy_safe"/>
+		<model				path="units/pd2_mod_zombies/equipment/weapon_buy_safe/weapon_buy_safe"/>
+		<material_config	path="units/pd2_mod_zombies/equipment/weapon_buy_safe/weapon_buy_safe"/>
+		<sequence_manager	path="units/pd2_mod_zombies/equipment/weapon_buy_safe/weapon_buy_safe"/>
+		<texture			path="units/pd2_mod_zombies/equipment/weapon_buy_safe/weapon_buy_safe_df"/>
+	</add> -->
+	
 	<!--POWERUPS-->
 	<add unload_on_restart="false">
 		<unit load="true"	path="units/pd2_mod_zombies/power_ups/zm_pwrup_blood_money/zm_pwrup_blood_money"/>

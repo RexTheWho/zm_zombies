@@ -1,2 +1,11 @@
 <table directory="assets">
+	<!--Mysterybox Safe-->
+	<add unload_on_restart="true">
+		<unit load="true"	path="units/pd2_mod_zombies/equipment/weapon_buy_safe/weapon_buy_safe"/>
+		<object				path="units/pd2_mod_zombies/equipment/weapon_buy_safe/weapon_buy_safe"/>
+		<model				path="units/pd2_mod_zombies/equipment/weapon_buy_safe/weapon_buy_safe"/>
+		<material_config	path="units/pd2_mod_zombies/equipment/weapon_buy_safe/weapon_buy_safe"/>
+		<sequence_manager	path="units/pd2_mod_zombies/equipment/weapon_buy_safe/weapon_buy_safe"/>
+		<texture			path="units/pd2_mod_zombies/equipment/weapon_buy_safe/weapon_buy_safe_df"/>
+	</add>
 </table>
