@@ -3,7 +3,6 @@
 	<unit>
 		<sequence editable_state="true" name="'interact'" triggable="true" >
 			<run_sequence name="'anim_open_door'" />
-			<run_sequence name="'anim_close_door'"	start_time="10" />
 		</sequence>
 		
 		<sequence editable_state="true" name="'anim_open_door'" triggable="true" >
@@ -12,12 +11,19 @@
 			<sound action="'play'" event="'small_safe_open'" object="'anim_door'"/>
 			<body enabled="true" name="'body_main_safe_door_nomover'"	start_time="120/60" />
 			<body enabled="false" name="'body_main_safe_door'"			start_time="120/60" />
+			<animation_group enabled="true" from="0/60" to="20/60" speed="0.5" name="'anim_weaponfloat'" start_time="120/60"/>
+			<run_sequence name="'anim_slow_return_gun'"	start_time="135/60" />
+		</sequence>
+		<sequence editable_state="true" name="'anim_slow_return_gun'" triggable="true" >
+			<animation_group enabled="true" from="20/60" to="40/60" speed="0.05" name="'anim_weaponfloat'" start_time="120/60"/>
+			<run_sequence name="'anim_close_door'" start_time="520/60"/>
 		</sequence>
 		<sequence editable_state="true" name="'anim_close_door'" triggable="true" >
 			<animation_group enabled="true" from="150/60" to="210/60" name="'anim_door'" />
 			<interaction enabled="true" start_time="60/60" />
 			<body enabled="false" name="'body_main_safe_door_nomover'"	start_time="60/60" />
 			<body enabled="true" name="'body_main_safe_door'"			start_time="60/60" />
+			<animation_group enabled="true" from="40/60" to="60/60" speed="0.5" name="'anim_weaponfloat'" />
 		</sequence>
 		<sequence editable_state="true" name="'anim_leave'" triggable="true" >
 			<interaction enabled="false" />

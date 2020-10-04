@@ -10,6 +10,9 @@
 		<animation_group name="anim_spawn" enabled="false" >
 			<object name="anim_spawn" />
 		</animation_group>
+		<animation_group name="anim_weaponfloat" enabled="false" >
+			<object name="anim_weaponfloat" />
+		</animation_group>
 		<animation_group name="anim_funpolice" enabled="false" >
 			<object name="anim_funpolice" />
 		</animation_group>
@@ -38,6 +41,7 @@
 	</decal_surfaces>
 	<graphics>
 		<graphic_group name="grp_graphics" enabled="true" >
+			<!-- <object name="Plane"			enabled="true" shadow_caster="true"/> -->
 			<object name="g_g"				enabled="true" shadow_caster="true"/>
 			<object name="g_door"			enabled="true" shadow_caster="true"/>
 			<object name="g_door_combo"		enabled="true" shadow_caster="true"/>
