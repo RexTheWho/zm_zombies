@@ -2,6 +2,7 @@
 --Managers
 dofile(ModPath .. "classes/WDUManager.lua")
 dofile(ModPath .. "classes/WDUPowerUps.lua")
+dofile(ModPath .. "classes/MisterySafeBase.lua")
 -- dofile(ModPath .. "classes/ZMMenuManager.lua")
 
 --Elements

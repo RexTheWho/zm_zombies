@@ -3,8 +3,9 @@
 	<network sync="spawn"/>
 	<extensions>
 		<extension class="ScriptUnitData" name="unit_data" />
+		<extension name="base" class="MisterySafeBase" />
 		<extension name="damage" class="UnitDamage" />
-		<extension name="interaction" class="UseInteractionExt">
+		<extension name="interaction" class="MisterySafeInteractionExt">
 			<var name="tweak_data" value="zm_mystery_box" />
 			<var name="_interact_object" value="interact"/>
 		</extension>
