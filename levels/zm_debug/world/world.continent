@@ -191,7 +191,7 @@
 			<unit_data _prev_pos="1900 1550 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="enable_interaction" name="units/pd2_mod_zombies/equipment/mystery_box/zm_random_weapon_box" name_id="zm_random_weapon_box_001" position="1900 1550 0" rotation="-0 0 -0 -1" unit_id="100061"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="2150 1550 0" _prev_rot="0 0 0 -1" continent="world" disable_on_ai_graph="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_zombies/equipment/weapon_buy_safe/weapon_buy_safe" name_id="weapon_buy_safe_001" position="2150 1550 0" rotation="-0 0 -0 -1" unit_id="100062"/>
+			<unit_data _prev_pos="2150 1550 0" _prev_rot="-0 0 -0 -1" continent="world" disable_on_ai_graph="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="show_safe" name="units/pd2_mod_zombies/equipment/weapon_buy_safe/weapon_buy_safe" name_id="weapon_buy_safe_001" position="2150 1550 0" rotation="-0 0 -0 -1" unit_id="100062"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="2107.76 1444.7 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="editable_text_short_001" position="2107.76 1444.7 1" rotation="-0 0 -0 -1" unit_id="100063">

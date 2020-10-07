@@ -2,18 +2,14 @@
 	<diesel materials="units/pd2_mod_zombies/equipment/weapon_buy_safe/weapon_buy_safe" orientation_object="rp_rootpoint" />
 	<sequence_manager file="units/pd2_mod_zombies/equipment/weapon_buy_safe/weapon_buy_safe" />
 	<animations>
-		<animation_group name="anim_door" enabled="false" >
+		<animation_group name="anim_group_door" enabled="false" >
 			<object name="anim_door" />
 			<object name="anim_door_combo" />
 			<object name="anim_door_handle" />
-		</animation_group>
-		<animation_group name="anim_spawn" enabled="false" >
-			<object name="anim_spawn" />
-		</animation_group>
-		<animation_group name="anim_weaponfloat" enabled="false" >
 			<object name="anim_weaponfloat" />
 		</animation_group>
-		<animation_group name="anim_funpolice" enabled="false" >
+		<animation_group name="anim_group_spawn" enabled="false" >
+			<object name="anim_spawn" />
 			<object name="anim_funpolice" />
 		</animation_group>
 	</animations>

@@ -62,6 +62,11 @@ Hooks:PostHook(InteractionTweakData, "init", "zm_init_new_interactions", functio
 	--WEAPON BUY INTERACTIONS
 	
 	
+	--Take Box Weapon
+	self.zm_take_weapon = deep_clone(self.take_weapons)
+	self.zm_take_weapon.text_id = "hud_int_take_box_weapon"
+	self.zm_take_weapon.timer = 0.5
+	
 	--Starter Rifle
     self.zm_wall_buy_m14 = {
 		zm_interaction = true,
